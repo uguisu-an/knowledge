@@ -1,18 +1,18 @@
 # Command
 
-Commandの役割は引数をなくすこと。
+Command の役割は引数をなくすこと。
 実行時はタイミングだけを伝える形になる。
 
 実行時の引数はない方がいい。
 
-ServiceとCommandの比較
+Service と Command の比較
 
-Serviceの場合
+Service の場合
 
     $service = new AddXxxService(new XxxRepository);
     $service->addXxx($xxxId);
 
-Commandの場合
+Command の場合
 
     $command = new AddXxxCommand(new XxxRepository, $xxxId);
     $command->exec();
@@ -23,4 +23,4 @@ Commandの場合
     $command = new AddXxxCommand($service, $xxxId);
     $command->exec();
 
-Commandに戻り値があってもいい。
+Command に戻り値があってもいい。
