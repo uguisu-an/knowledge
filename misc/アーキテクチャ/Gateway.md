@@ -2,3 +2,854 @@
 
 ゲートウェイは API と完全に同じではない。
 あくまでもこちらのアプリケーションから見て必要な情報を扱うものになる。
+
+Gatewayから、サービスごとのClient SDKを用いてデータソースにアクセスすることが多い。
+SDKがない場合は自前でClientの層を作るのもよし。
+
+RepositoryもGatewayの一種として実装される。
+
+Cache前提で単体を取得するGatewayを持っとくと扱いやすいかも。
+丸ごとのデータを受け渡すのではなくて、idだけ渡してCacheから取り出す。
+
+Gatewayモデル名の重複をなくしたい。
+
+sliceはfeatures、apiはgatewaysに整理したい。
+
+一つの機能で使うGatewayの数はできるだけ絞りたい。機能を分離したり、Gatewayをうまいことまとめたりして減らす。
+
+ゼータみたいにいくつもAPIを叩く機能はテストがめんどいけど、ハッピーパスだけはGatewayだけのモックで上から全部通したい。大きなテストがないと不便。
+その上で、細かいところは各クラスのテストで確かめればいい。クラスが要らなくなったらテストごと捨てることもある。
+
+ClientはResponseで扱うか、そのサービスの特殊なレスポンスを用意する。
+Gatewayで内部のモデルに変換する。
+
+Shopifyの場合、GatewayやRepositoryでは save(shopId, product) みたいに作るけど、ClientではshopIdをClientが持って、productRetrieve(productId) にする。こういうときはClientFactory.create(shopId) を挟んで、GatewayやRepositoryではClientFactoryをDIするとうまく実装できる。
+
+キャッシュで無理やり高速化するの限界があるし、汚いけど、Gatewayに閉じ込めるとまだ少しマシな方か。でも保存するとこはどうしても見せないといけない。
+
+データのキャッシュはGatewayで。
+
+実装が難しくても、Gatewayは分けて手動でテストしつつ、大きなテストをちまちま作っていくとうまくいく。
+
+GatewayでBrandNameからBrandIdを取ってくる場合、どこでキャッシュするか。それぞれ別々にキャッシュすると面倒な気がする。とはいえ、クライアントで制御するのも変だし、そもそも共通化したらいけないのかも。
+
+統合テストを先に書くと、Gatewaysをどのくらいの単位で分けるのか決めやすい。
+
+CommandsやControllersから一気に正常系のテスト通すのよさそう。Gatewaysだけ置き換える。
+
+アプリケーションサービスでRepositoryやGatewayを操作する部分と、引数として与える部分をどうやって分けるか。
+
+外部サービスはGatewaysにまとめて、アプリケーションサービスから呼び出す。実装はアダプターの層で行う。
+
+Gatewaysにするメソッドが多すぎると置き換えるのが大変。
+
+できるだけ共通化したGatewaysを、用途に応じて、最低限の数で作る。
+
+ClientをモックしてGatewaysをテストすると、クライアントからどういう値が返ってくる想定になっているか明示できる。
+
+SDKがあって、Clientが十分にテストされていて、型が定義されているなら、Gatewaysのテストは省略して静的解析に任せるだけでもいい。
+
+GatewaysもClientをモックにしてテストする。
+
+APIクライアントはresponseをarrayにして、dataの抽出まではしない方がgatewayで扱いやすいかも。特にページネーションとかある場合。
+
+throwsもインタフェースの一種なので、Gatewaysの定義側に例外を置いた方がいいのかも。
+
+TranslateText周りはアプリケーションサービスよりも前に処理するか、アプリケーションサービスの中で独自にGateway用意して、ドメインモデルの前に処理した方がいいか。
+こういうピンポイントで外部サービスにアクセスして、ドメインモデルには関係ないパターンもアプリケーションサービスで扱って良さそう。
+
+外部サービスに接続するClientやGatewayも使い回しが効く。
+ただ、Clientは完全に作り切らないで使っていることが多いとか、マイナーなAPIなら使うこと少ないし、メジャーなAPIなら初めからSDKがあるのでそっちを使えばいい。
+
+Gateways自体もClientをモックにしてテストした方がいい。
+
+Clientは通信のための最低限の実装、Gatewaysはテストのために切り離しやすい単位のインタフェースにする。
+
+外部サービスは切り離しやすい接点をGatewaysにして、通信の本体をClientにまとめる。
+
+Gatewaysとか多いとどうしてもカバレッジが下がりがち。
+
+Gatewayで複数のAPIにアクセスして、使いやすい単位にまとめるのはなかなかいい。接点を減らせばそれだけ依存関係の解決も簡単になる。テストしやすい。
+
+LaravelならClientを置き換えるのが手っ取り早いかも。
+ただ、Clientをそのまま使うよりは、Gatewayを中間層として置いた方が変換とか便利。GatewayもClientを置き換えればテストできる。
+あと、shopIdみたいにClientのaccessTokenが違うパターンもGatewayで吸収できる。
+
+CollectionByNameGatewayがあれば、アプリケーションサービスから叩いてもいいけど、できるだけこういうのはコントローラーで処理したほうが綺麗だし、サービスを小さくできる。
+
+CollectionByNameGatewayみたいなのをアプリケーションサービスから叩くのもなくはないけど、これはアプリケーション層にインタフェースを置くことになる。これもありなのかな。
+
+GatewaysもClientをモックにしたらさらに書けるんだけど、どこまで書いたらいいかなぁ。
+
+RepositoryよりもGatewayで素直に扱った方がいい気もする。
+
+ProductTagsGatewayとProductUpdateTagsGatewayはよくできてると思う。
+
+DBから取ってきたデータを使ってFactoryでオブジェクトを構築したいなら、Repositoryも使った方がいいかも。あくまでもデータベースアクセスするのはRepositoryやGatewayの仕事で、Factoryの仕事は構築だけ。
+
+APIクライアントはシンプルに、APIをそのまま扱う形がいい。Gatewayで細かいところを吸収するか、別のメソッドを用意して拡張する。
+
+ShopifyのAPIを叩きたいだけの部分は、Shopify/Application/UseCases/MerchantCreateProductUseCaseとして扱うより、Main/Application/Gateways/ProductCreateGatewayとしておいて、Main/Application/UseCases/MerchantImportProductUseCaseから呼び出した方がいいかな。
+
+GraphQLはSDKとか使わずに、GraphQLでガリガリ書いていくのが使いやすいのかも。
+必要に応じて自分でGatewayとかClientとか作ればそれでいい。
+
+Repositoryの実装にGatewayを使うのはどうだろうか。
+その場合、Gatewayはアプリケーション層というよりもインフラ層で完結する形になるから、単にRepositoryをモックにせずにGatewayをモックにしたいというだけの目的になるか。
+
+Gatewaysは置くとこが微妙なんだよな。
+アプリケーション層に置いてもいいと思うけど、そもそもLaravelとかに任せるなら直接実装してしまってもいい気もする。
+
+テストで切り出した関数はどれくらいまとめたらいいかな。
+モックとかは関数にまとめにくい気がしてるけど、Gateway一つに関数一つなら切り出してもいいかも。
+
+Gatewaysは一つのインタフェースに一つのメソッドを徹底した方がいいかも。あるいはスタブにする時にワンセットで扱うなら別に構わないか？
+
+SDKがある場合でも組み込み型の入出力のGatewaysを用意しておくことで置き換えやすくなる。
+
+通信のテストはHttp::fake()もありかも。
+ただ、Gateways自体はどういうサービスのどういうリソースにアクセスするのか明確になるので作って損はない。
+
+Laravelなら手間のかかるドメインモデルを用意するよりは、Gateways, Services, UseCasesだけ分けて、ガリガリ書いた方がいいかも。
+外部サービスだけはGatewaysに分けたいけど、リポジトリはServicesからModelsを直接呼び出してしまっていい。
+GatewaysとUseCasesは入出力をリテラルにして、ServicesはModelsもありにしようか。
+
+Gatewayは外部サービスのアプリケーションサービスに近い。
+入出力もリテラルにするといい。
+
+存在確認してcreateまたはupdateするのはRepositoryに任せてしまってもいいかも。
+Gatewayの場合もUpdateOrCreateXxxGatewayみたいにするとか。
+
+UseCasesとServicesとGatewaysにざっくり分けて、できるだけServicesに移す方法なかなか良さそう。逆に今のsrc/が足手まといになってきた。
+
+Gatewaysの役割はアプリケーションサービスに近い。
+外部のアプリケーションサービスを叩くイメージで、入出力もリテラルがいい。
+
+funtreみたいにqueryの機能が足りなくてfindOrCreateしにくい場合、Gatewayを重くしてsaveを持たせるパターンもある。
+これはどちらかというと、{name, categoryName}をidのように扱っているのと同じ。{name,categoryName}でfind/saveするRepositoryにすればいいけど、実装的にはRepositoryのsaveでlistを取得して、手元で検索かけて、createとupdateを分ける。
+
+LaravelだったらGatewayのインタフェースいちいち用意しなくても別にいいか。
+ServicesからGatewaysを直接見て、モックにすればいいし。
+
+RepositoryもGatewaysの一種である。
+
+Gatewaysのテストはシステムテストにする。
+実際にモックサーバーなり検証サーバーなりに接続してテストを実行する。手動でもいい。
+
+HttpファサードはDIで受け取れないし、実行するならGatewaysの実装の中でベタ書きでいい。まぁ、そもそもファサード自体がDIみたいなものだし。
+
+テストの基本はコントローラーかサービス単位で、Gatewaysはモックにする。
+
+Gatewaysはtinkerで実際にアクセスして試すのがいいかも。
+或いはシステムテストを分けて、実際にアクセスして試すテストを書いてもいいか。
+
+モックはGatewaysだけにして、Servicesはモックにしない。
+サービスやコントローラーのテストでも全ての前提条件を書く。
+
+LaravelのHttpファサードをfakeにしてもリクエストしかテストできない。
+どういうレスポンスが返ってきて、内部でどういう型にして、といった部分はまた別のところでやらないといけないかも。
+そうなると、Stubにするときは初めからGateway単位でいいか。Http::fake()を使うのはGateway自体のリクエストを確かめるとき。Query Parametersとか。
+
+とりあえずGatewaysを置き換えて、外部サービスをテストできればそれでいいか。
+Repositoryみたいにするのか、一つ一つ外部サービスのユースケースごとにGatewayとするのかは都度考えればいいけど。
+
+機能テストの方針
+
+- Laravelではアーキテクチャを凝りすぎない
+- 機能テストではGatewaysをスタブにする
+- 外部サービスはGatewaysを挟む
+- 内部サービスはモックしない
+- 複数のサービスを扱うアクションでは各サービスのアサーションを省略する
+- アクションでアサーションを省略したサービスは個別にテストする
+
+アプリケーションやドメインモデルとしてはGatewaysを意識しなくてもいいと思う。
+基本的にはRepositoryでいい。ただ、直接別のコンテキストをアプリケーションから操作する場合はGatewaysを挟む感じ。Repositoryで済むならRepositoryでいい。
+
+機能テストでモックにするのはGatewaysで、Gateways本体の動作確認は手動のシステムテストでもいい。
+
+SDKがあってもなくてもGatewaysは用意する。
+
+GatewaysやServicesは簡単な分け方なので維持したいけど・・
+SDKとか外部のAPIを扱いつつ、テストするパターンがあんま見えてない。
+単にテストを省略するだけならStubでいいんだけど。
+
+Http::fake()を使ってテストする場合、Gatewayの先までテストすることになるのでどっちみち機能レベルになる。
+ただ、Gatewayなしで何度も同じHttp::fake()を書くのも面倒か？いや、そもそもHttp::fake()だけでGatewayの先は全部送らなくなるから、GatewayはGatewayで個別に送信テストするとか。
+
+QueryGatewayとかApplication層に持った方がいい。
+Repositoryとは分ける。Repositoryはあくまでも更新用なので。
+
+メールの送信とかはCommandパターンというよりも単なるServiceとして、Gatewayから外に投げればいい。
+
+外部サービスに依存する場合、Gatewayなどの層を置いて、他のサービスにも切り替えられるようにしないとテストもしづらいし、サービス自体が廃止されたときに困る。
+
+Gatewayはできるだけ型つけて、UseCaseでarrayからGatewayに渡す複雑な型に変換するといい。
+
+Gatewaysはサービスごとにフォルダを区切って、どういうサービスのどういう機能を使っているか一目でわかるようにしたい。
+
+Gatewaysがまとまっていると依存しているサービスが一目でわかる。
+
+インタフェースをきっちり用意するかどうかはともかく、Gatewaysが一ヶ所にまとまっているのはわかりやすい。
+
+Gatewayの層はSDK以外のFakeにも置き換えられる。
+一覧の場合はQueryServiceとQueryGatewayで扱ってみる？どっちみちインタフェースの層を置くためにはQueryGatewayが必要。QueryGatewayの時点では単にarrayで扱う？それともSDKの型があればそれで？
+
+やっぱりSDKがあってもGatewayの層は用意するべきか。
+
+SDKは直接Gatewayであるべき？
+Gatewayの扱いはUseCaseで規定する？
+でも、それだとUseCaseがインフラに依存することもありうる。
+
+LINEのSDKだとResponseが返ってくる。
+SDKでResponseを取得→Gatewayで入出力を扱いやすい形に整形→ServiceからGatewayを呼び出し、の流れにしてる。
+
+通信をテストするときはHttp::fake()を使えばいい。
+FacadeはFeatureでないと動かないので、Gatewayのテストとして実装するかな。
+
+QueryServiceの場合、インフラへのアクセスをGatewayに任せて、QueryServiceはQueryModelへの変換が重要。
+ただ、そもそもGatewayからQueryModelを取ってくるのはどうなんだろう？
+
+QueryServiceであっても、Gatewayは挟んだ方がいいと思う。
+
+外部サービスを叩くだけのGatewayはやっぱりUseCaseに近い気がする。
+いっそUseCaseで実装しといて、内部的にはSDK使って、UseCaseを置き換えられるとか、外で実装するとかした方が綺麗かも。
+
+GatewayやRepositoryになっていると一番いいけど、とりあえず `app/Services` だけ切り出すのもありかな。
+
+UseCaseをモックするよりも、できるだけGatewayをモックしたいところ。
+ただ、めんどくさがってUseCase丸ごとモックすることもある。
+UseCaseをモックした場合、UseCaseもそれはそれでテストした方がいい。
+
+laravelの`app/`からはドメインのGatewaysが直接見えないようにして、UseCaseを介して扱った方がいい。応用しやすい。
+
+Gatewaysの層は必ず作る。
+
+Gatewaysの層があると、そのアプリケーションではどのサービスを使っているか分かり易い。
+SDKをLaravelでモックできるとしても、どのエンドポイントを使っているか一目でわかる利点がある。
+
+テストでGatewayのFakeを使うのは避ける。
+余計な依存関係ができてしまう。
+
+Gatewaysや三層コンポーネントの設計方針なんかもチームが慣れるまではREADMEに書いといた方がいいかも。合意を得てなければ自分の作り方でしかないから。
+
+UseCaseをテストするときは、Gatewaysをモックして、あとは仕様通りにテストする。
+
+Gatewaysの層はUseCaseのテストの時にモックするので、安定してないといけない。
+その下はSDKを作ったり、フェイクしたり、自由に書き換えられるけど、Gatewaysは外部に接続するテストが必要なのでシステムテストも欲しい。
+
+Gatewayを用意する場合、Gatewayのためのドメインモデルも必要。
+Responseでやり取りするだけの簡単なSDKを用意して、そっちのUseCaseを置き換えるのもありか？
+
+LaravelとしてはGatewayがなくてもUseCaseを置き換えられるけど、手動のテストまで考えるとGatewayでFakeに置き換えられる方が楽だと思う。
+
+Gatewaysではドメインモデルでやりとりした方がいい。
+SDKはResponseでもいいし、独自のドメインモデルを持つこともある。
+
+外部サービスのAPIを自前で用意する場合、
+
+- src/Crm/Client.php
+- src/Crm/Models/Response.php
+- src/Marketing/Application/Services/UserCreateCustomerUseCase.php
+- src/Marketing/Domain/Models/Customer.php
+- src/Marketing/Domain/Models/CustomerRepository.php
+
+みたいになるかな。
+`src/Crm`以下にSDKを用意して、Gatewaysの実装からそれを使う。
+
+Gatewayはアプリケーションのために特化したもので、SDKやORMは一般的なところを抑える。
+
+SDKやORMはGatewayそのものではない。
+Gatewayの中でSDKやORMなどを使って実装する。
+
+Gatewayとは別に、独自のSDKを用意するのはありかも。
+
+ゲートウェイのモックはサービスごとにtraitにして、mockXxxGateway()みたいにする。
+
+外部サービスとのアダプタを `app/Gateways` にまとめと、どういうサービスを使っているのか一目でわかるのがいい。
+
+UseCaseは処理の本体なので、単体テストよりも機能テストの方がいいかな？
+まぁ、単体テストの場合はGatewayに渡された集約をチェックするので、そっちの方が仕様のテストとしてはいいのかも。単体テストになるようにしてみる？
+
+UseCaseのテストはGatewayをモックにしたら単体でも実施できるはず。
+ただ、そのためにはデータベース操作なんかをGatewayにしておく必要がある。
+`app/Services` 側はそのまま機能テストでいいとして、`src/Xxx/Application/Services` 側は単体テストにするのがいいか？
+
+機能テストで大事なのはデータベースとプレゼンテーションへの出力だけど、プレゼンテーションは表示項目とかざっくり確かめるくらいだし、ほとんどはデータベースかな。
+あとは外部サービスへの出力もGatewayをモックして確かめるといいか。リクエストそのものじゃなくて、Gatewayの引数を確かめる。
+
+Gatewayは、UseCaseを挟んで、Controllerから直接見ないようにしたい。
+
+phpunitの実行時に `--exclude-group` オプションで一部のテストを除外することはできる。
+gatewayのテストとかこれ使って実行しないようにする？
+或いは、もうgatewayとかはduskとかのシステムテストに任せるべきか。
+
+FunTreのコンテキストは今のところMarketingとSettingsだけでよかったかも。
+外部サービスはコンテキスト分ける必要なくて、単にGatewayにすればいい。
+
+lineのgetAllFollowerIds()のように、一部のアカウントでしか試せないものはFakeに置き換えてとりあえず使えるようにしておく。
+そのためにもGatewayは挟んだ方がよくて、今回の場合はGetだからQueryServiceを置き換えてもいいかも。まぁ、基本的にはGatewayを置き換える。
+
+Gatewaysはテストしやすいようにログを残しておくべきか？
+
+Gatewaysが想定通りに動作するのを簡単に確かめたい。
+
+Bulk系のUseCaseでまとめて取得するGatewayを使うこともあるかも。
+ただ、Bulk系はUseCaseじゃなくてControllerで制御した方が二重管理にならなくていいか。
+
+QueryServiceのGatewayは、アプリケーション層に特別なものを用意してもいいかも。
+
+Repositoryのようにドメインレベルで使うGatewayはドメイン層に、それ以外はアプリケーション層に置いていい。
+
+GatewaysはUseCaseから使われるものなので、UseCase単位でない方がいいかも。
+
+Gatewaysを連想配列で妥協しているところが扱いづらい。どの値が入ってるかわかりづらいし。
+
+Gatewayのcreateの戻り値は完全な状態よりもidだけ返す形がいいかも。
+それか、voidにして、オブジェクトを引数にして、idをセットする。
+APIによっては完全な形で返ってこないこともあるし。
+
+外部サービスを叩くところはUseCaseよりもGatewayをきっちり内部向けのトランザクションで扱う方がいいかも。
+
+APIは一つのファイルに全部まとめちゃってもいいかも。
+Gatewayとしては分けておいて、全てを取り込む？
+いや、そこも微妙なとこかな？RepositoryでないAPIなら一つのファイルにして、UseCaseで分けるだけでもいいかも。
+今回は外部サービスを叩くところにUseCaseを用意していないのと、Repositoryとして扱ってないところが多いのでごちゃっとしてる。
+
+まずは `app/Services` と `app/Gateways` を作っていくところから始めよう。
+特に外部サービスはGateways必須で、内部もできるだけGatewaysを用意するとトランザクションの区切りが明確になる。
+
+Laravelでレイヤー分けるならこんな感じ。
+あとは `app/Controllers` から切り出した `app/Services` とかあってもいい。
+
+app/Gateways/
+- EloquentArticleRepository
+
+src/Blog/Application/Services/
+- UserPostArticleUseCase
+- UserEditArticleUseCase
+
+src/Blog/Domain/Models/
+- Article
+- ArticleId
+- ArticleRepository (interface)
+
+CampaignRetrieveCustomerUseCaseの場合、その中で使うCustomerGatewayやCustomerTagListGatewayは同じコンテキストであるべき。
+専用のCustomerGatewayを、CRMの通常ルートとは別に作ることも考えられる。その場合もコンテキストは同じ。
+
+LaravelならUseCaseはModelも絡めてテストする。
+外部サービスを扱う部分はGatewayを用意してして、モックする。
+
+外部サービスにアクセスするときは、専用のUseCaseとAPIに合わせたGatewayをそれぞれApplication層に用意するのが良さそう。
+場合によってはAPIアクセスもRepositoryの形にして、Domain層に置いてもいいかも。
+
+外部サービスごとにコンテキストを分けても、Serviceに直接Gatewayを置くのは違う気がする。
+ServiceはあくまでもUseCaseを置いて、APIとしての部分をGatewayにする。
+
+Gatewayのコンテキスト分けるのもなんか違う気がする。
+
+Gatewayの先の仕様が変わるときはこの手順がいいかな。
+
+1. GatewayFakeを修正する
+2. GatewayFakeに切り替える
+3. 内部の実装を進める
+4. 本来のGatewayを修正する
+5. 本来のGatewayに切り替える
+
+APIの仕様が決まるまではGatewayFakeで実装を進めるといい。
+
+GatewayやRepositoryからさらにSDKやORMを使って実装する。
+
+メールのとこは CampaignSendMailUseCase.send(campaignId, contactId, customerData) みたいにして、内部でCampaignRepositoryとかCampaignVariableRepositoryとかを叩くようなイメージがいいかも。
+顧客情報は別のコンテキストなので、外から丸ごと渡した上で、埋め込みように整形する。
+メールの送信もGatewayになるかも。ただ、そこまでする場合はもうLaravelのapp/Servicesでまとめてやっちゃう方が楽か？一応、UseCaseがあると単体は楽になるけど。
+
+外部設計で考えるアダプタはControllerとGatewayがあればいいかな。Presenterは形式を決めるくらいでいいか。HTMLなのかJSONなのか、あるいはPDFやCSVの出力があるのか。それはストーリーとしても分けた方がいいし。
+
+Controllerはサービスに対する入力を、Gatewayは外部サービスの操作を規定する。
+
+ControllerやGatewayは外部設計の時点で作ってしまうといいかも。
+
+Queryでは、QueryServiceからGatewayのインタフェースにアクセスして、QueryModelを直通で返すのがいいと思う。
+
+ドメインとアプリケーションは以下のような構成が良さそう。
+
+- Domain/
+    - Models/ ... EntityやRepositoryなど
+- Application/
+    - Models/ ... CommandやTransformerなど
+    - Services/ ... UseCaseやApplicationServiceなど
+- Query/
+    - Models/
+    - Services/
+    - Gateways/ ... QueryServiceから呼び出すアダプタ
+
+クエリサービスでデータを取得する部分はGatewayなどに委譲する。
+
+処理をAPIに持ってClientを切り離す利点として、API Gatewayのようにサービスを隠蔽する層を置ける点が考えられる。
+
+Webアプリのフレームワークは、クリーンアーキテクチャでいう External interface adaptors = Controllers + Presenters + Gateways を書くためにある。
+Laravelで言うと、
+Controllers = ControllersやCommands、Requests、Routes、など
+Presenters = ControllersやResponses、Viewを呼び出す関数、など
+Gateways = Models
+また、External interfaceとしてのHTMLやSQLを内部で扱ってくれるのでそちらも書きやすくなっている。
+
+他のサービスのAPIの中継だけでも、ゲートウェイがないとコントローラーでベタ書きすることになるので、基本的にはあった方がいい。
+
+例えば、Eventの一覧を取ってくるAPIの中継をLaravelでやるなら・・
+
+- app/
+  - Gateways/
+    - EventApi.php
+- src/
+  - XxxContext
+    - Application/
+      - Gateways/
+        - EventQueryGateway.php
+      - Query/
+        - Models/
+          - Event.php
+        - Services/
+          - EventQueryService.php
+
+一覧のGatewayは、XxxListGatewayが好み。
+XxxRetrieveGateway, XxxCreateGateway, のように動詞を後にする方がわかりやすいかも。
+ただ、ListXxxsGatewayの形も捨てがたい。この場合、リソースごとにフォルダ切った方が良いかも。
+
+認証してアクセストークンを持つのはClientでいいけど、FUNTREのgroupIdみたいなのはClientというよりもAPI自体の制限という感じ。
+根本的にアクセス先が一つではないので、GatewayをDIするのが無理あるかも。どのグループの顧客か判断したいので、メソッドに渡すのが妥協点か。
+
+Gatewayを抽象化するなら、やっぱり引数に渡したclientを直接いじる方法だけど、暗黙的すぎてそれはそれでわかりづらい。
+
+クライアントはシングルトンじゃなくして、gateway.client.setGroup()するのは？
+gatewayをアップキャストしないといけないから意味ないか。それなら初めからDIなしで扱えばいい。
+
+アクセストークンやユーザーをGatewayのメソッドに直接渡すと、API以外の実装では必要ない引数になってしまう。
+なので、APIの実装で auth(User $user): XxxApi のように特別なメソッドを定義して、APIだけで使う変数を設定した方がいい。コンストラクタにオプションで渡せてもいい。
+
+Gatewaysを明示的に作っておけば、どういうサービスに依存しているかはコードを見ればわかる。
+
+AddTagGateway, RemoveTagGateway, ... のようにインタフェースとしては分けつつ、APIとしてはTagApiとして統合してもいい気がしてる。
+
+Gatewaysも外部設計の段階で明らかにしておきたい。
+こちらのUIやAPIだけじゃなくて、こちらから外部のAPIを叩くパターンね。
+
+クリーンアーキテクチャのモデルだとGatewaysはアダプターの層にあるけど、レイヤードアーキテクチャとして実装するならApplication層にインタフェースを置いて、Infrastructure層に実装を置くことになるだろう。
+
+SDKがあってもGatewaysを用意すると、そのアプリケーションでどのAPIを使っているか一目でわかる。
+
+ApplicationではServiceを公開して、Gatewayは表に出さない。
+
+Gatewayのレスポンスは置き換えやすいオブジェクトになってるとMockにしやすい。
+
+GatewaysはSDKなどをラップして、アプリケーションに特化した窓口を用意するためにある。
+
+アプリケーション層にGatewaysを置くのはいいと思う。
+ただ、コンテキストをどこにするかは微妙なところだけど。
+いっそパッケージごと分けてしまってもいいのかも。
+
+Gatewayをユースケース単位で作るのは、APIごとに入出力のモデルが違う場合もあるため。
+また、細かく分けた方がテストなどで置き換えやすい利点もある。
+
+Controllerは内向き、Presenterは外向きの一方通行で、Gatewayは相互に通信する。
+また、ControllerはApplicationを呼び出すのに対し、GatewayはApplication側から外部にアクセスするためのものだ。
+
+環境に依存する情報にアクセスする機能もGatewayとして考える。
+
+Storeに対するGatewayがあれば、mutationsはいらないかも。
+
+APIからデータを取ってきて、Storeに置くようなときはアプリケーションの都合なので、保存だけドメイン層のRepositoryを使って、APIから取ってくる部分はアプリケーション層でGatewayとして定義したほうがわかりやすいかも。
+
+Controller, Presenter, GatewayはInterface Adaptersで、レイヤードアーキテクチャだとプレゼンテーションやインフラの層に置く。
+
+Vue のプロジェクトフォルダなら { views, components, models, usecases, gateways } みたいな感じでいいかな。
+
+ActiveRecordを採用するなら、Gateways や Application Services は Models を直接扱っても良さそう。
+その上で、複雑なドメインだけを切り離して細かいテストを素早く回せるようにすると便利かも。
+
+Gatewayとは別に、API Clientを用意するのもありか。
+
+Gatewaysを分けるのは「外部サービスに何を使っているか」をコードで明示する意味もある。
+
+Controllers はルートから呼び出すだけなので invokable でも問題ない。
+しかし、DI する Services や Gateways は `($this->service)()` みたいな書き方になってしまうので、普通の関数を定義した方が読みやすい。
+
+Gatewayはインタフェースとして扱うので、APIをそのまま叩くよりはアプリケーションに合わせて「動画を変換する」とか一つの機能単位でServiceのようにまとめるといい。
+それがそのままAPIと一致することもあれば、こちらで多少作業することもある。あるいはこちらでの作業はアプリケーションサービス側に書くこともある。
+
+外部サービスを使っているところは、Gatewaysの下に、その名前でまとめるとどのサービスを使っているかわかりやすい。
+
+Gatewaysの戻りにModelを返すのは密だけど、Laravelならなくはない。
+
+Squareの実装でGatewayの作り方は慣れてきた。
+SDKがあったらそれ使うだけで簡単だな。APIを直に叩いてもべつにいいかも。
+
+App直下のGatewayはModelを直接返してもいいかも。
+ちょっと接続が密だけど、その分簡単に扱える。
+ちゃんとやりたい場合はコンテキスト区切ってやればいいし。
+Modelと一致しないとか、バリデーションが必要なときだけ適当なValueObjectを用意すればいいだろう。
+
+Laravelから外部サービスを扱う場合はそれぞれに Service Provider を用意して、Gateway や config を取り込む。
+
+Gatewaysは外部サービスをインフラに取り込む部分。
+SDKはともかく、なんらかのインタフェースはドメインやアプリケーションの層で定義するべきか。
+
+Gatewayの内部ではSDKを使う。
+ただし、SDKがない場合は、SDKを作るかAPIをそのまま使うかするしかない。
+SDK自体はFacadeCSSは。
+
+Gatewayで接続先との通信が失敗した時は単に例外として扱う。
+専用の例外を定義して、あとはアプリケーション側で拾えば良い。
+
+SDKがある時は "Gateways" だけでもいいけど、なかったらコンテキスト丸ごと実装する必要がありそう。
+
+LaravelでDDDを活かすためのファイル構成案
+
+App/{Context}/Domain/Models ドメインルール、リポジトリの定義
+App/{Context}/Application/Services (or UseCases) ユースケース
+App/{Context}/Application/Gateways ゲートウェイの定義
+App/{Context}/Presentation/Models プレゼンテーションモデル
+App/{Context}/Infrastructure/Gateways ゲートウェイの実装
+App/{Context}/Infrastructure/Repositories リポジトリの実装
+
+アプリケーションレベルのオブジェクトは1クラス1メソッドで1つの目的に特化させることが多い。
+逆に、ドメインレベルのオブジェクトはある程度処理をまとめる。あんまり分かれているとそれはそれで扱いづらい。ただ、GatewayやRepositoryなどのインタフェース系は分けてもいいかも。
+
+DBの機能に検索を任せる場合、外部サービスを利用するのと同じようにGatewayを用意すればいい。
+
+DIでGatewayを取り込むようにすれば、外部サービスを参照している部分だけテストで切り替えられる。
+ただし、Gatewayの動作は外部サービスに依存しているので、最終的に全てを統合したシステムテストもする必要はある。
+
+Serviceはいちいちmockにしなくていいかも。
+Gatewayは外部サービスだけど、Serviceはローカルで実行できるし。
+
+RepositoryやGatewayなどの状態を持ったサービスとやりとりする部分も、モックにすれば不変になる。
+だから、それを使う内部のサービスも不変性を持たせられる。
+不変性は実装の問題なので、規格さえ決まっていれば不変性のあるオブジェクトも、ないオブジェクトも自由に作れる。
+
+Storageは共通化するための規格なので、temporaryUrlは例外的なインタフェースになる。
+となると、Storage経由じゃなくてAmazon S3のクライアントとかで扱った方がいいんだろうか？Gatewayを用意する？
+
+UIをCQRSにするのはいいかも。
+ほとんどUIではAPIに処理を任せてるから、GatewayにCommandを投げるなり、QueryServiceでAPIとほとんど同じQueryModelを得るなりするだけで十分だし。
+
+CQRSの場合、RepositoryというよりはCommandをどこかで処理するGatewayとかServiceがあればいい。Repositoryを特別扱いしない。
+
+CQRSにおけるQueryModelとCommandはどちらも不変になれる。
+変更する情報そのものをCommandとして一塊にしているので、あとはGatewayとかに投げて処理するだけだ。変更された結果は必ずQueryModelを介して取得する。
+もちろん、EntityをCommandとして扱うこともできる。その場合でもQueryModelはEntityと別に用意して、単に可変のCommandという扱いだ。
+
+データベースに保存するかどうかはアプリケーションレベルで制御したいと思ってるけど、そもそもモデルはDTOなのでインフラストラクチャを直接いじってるとも考えられる。
+ある種のGatewayとして考えた方がいいのかもしれない。Controllerがアプリケーション層の役割も担っていて、そこからGatewayとそのモデルを叩いている。
+細かいドメインロジックを書きたい場合は明示的にAgregate-Repository構成を取った方がいいのかも。
+
+設計ではドメインモデルとユースケースがまずあって、それからUIやDBの設計が入る。
+APIはどうだろ。外部サービスとのやり取りということで、Gatewayにあたる部分だけど、まぁプレゼンやインフラと同様かな。
+細かいところまで仕様を決めて、プロトタイプなりMVPなりの実装に進める。
+
+axiosからのレスポンスをモックにして、Gateway自体をテストすることもできる。
+ただ、そこまでしなくても、ドメインオブジェクトでアサーションして、変な値だけ落としておけばいい気もする。
+
+RequestにValidationやFormDataを持たせてもいいかも。
+あとは薄いApplicationServiceからGateway経由でAPIを叩く。
+その前処理として、Requestでいろいろできるように。
+ただし、ValidatorやFormDataBuilderなどは委譲しよう。
+
+ドメインモデルにプロパティを書き換える機能がなくても、Gatewayで編集の動きをなぞれば必要なオブジェクトは得られるか。
+ただ、別口で入力できるようにする方が簡単だよね。nullのときだけ書き換えられるようにするとか。
+逆に、イベントソーシングだと必ず編集の動きをなぞってオブジェクトを構築する。
+
+CRUDのモデルは、entitiesを作らずにusecasesで直接扱う。
+usecasesにReadModelやWriteModelを定義して、単にデータモデルとしてのResponseやRequestとしてそのまま使う。
+場合によってはPresentationModelも作らずにそのまま画面上で使えばいい。Gatewayでインピーダンスミスマッチを解消しつつ、PresentationModelで使う計算を行う。
+ReadModelとWriteModelは、WriteModelをベースにしつつも分けたほうがいいと思う。ReadModelがWriteModelに従って、描画にだけ使うプロパティをつけた感じに。
+ReadModelとWriteModelの形が一致しない場合はControllerで変換しよう。
+
+RepositoryはDomainService、GatewayはApplicationServiceの層に近い。
+少しだけ立ち位置が違って、でもGatewayの一部としてRepositoryがある感じ。
+
+GatewayをVuexやFluxに向けて、Storeを参照すればいいのかも。
+Presenterで処理しようと思ってたけど、単にAPIとかから取ってきたものを別のGatewayでStoreに流したり、Storeから取ってきたものをAPIに流したり、アプリケーションの中でやってしまっていいのかも。
+
+Gatewayの基本形はfind, save, destroyで、とりあえずCRUDを揃えた感じ。
+単にAPIを叩くだけならfind, create, update, destroyにする手もある。
+
+SPAにしてもサーバー担当の負荷はあまり変わらないか、むしろ増えたように思える。
+いちいちAPIにして、クライアント側でもGateway用意しないといけないし、やりとりも面倒だ。
+
+Repository以外のGatewayも存在する。
+LoggerはRepositoryの一種と考えることもできるけど、例えばDialogとか、外部の機能を内側から扱うためにはGatewayを介する。
+まあ、Dialogとかは単にPresenterに任せてもいいと思うけど。
+
+Vueのフォルダ構成はどうしようか？
+
+Appやstore, routerはsrcの直下でいいと思う。
+あとはui, api, それに各コンテキストで区切って、uiにはcomponentsやviews、コンテキストにはusecases, entities, gateways, presenters, controllersといったところか。
+apiはそれぞれのコンテキストの中に直接置いた方がいいかもしれないけど、ApiAccessだけは外に置くか？
+
+InteractorはPresenterに合わせる。
+先にPresenterの出力があって、次に変換がある、という感じ。
+
+だから、画面にフォームがあったら、フォームのPresenterを用意して、次にフォームの初期化、入力に対するアクション、保存、キャンセルなどを扱うInteractorを作る。
+出力が入れ子になるような場合は別の入出力として改めて分けたほうがいいかも。どっちにしても詳細はEntityやGatewayに任せるべきで、Interactorは薄くする。
+
+Interactorを置くと、GatewayでフィルタリングしてもServiceでフィルタリングしても外から見たら同じ。
+Interactorによって、ローカルで処理してもリモートで処理してもController側のインタフェースを変えなくて済む。
+
+HTMLのViewは比較的テストしやすい。
+なので、Viewまで含めてテストしてしまうのもありっちゃあり。
+どっちみちGatewayは分けないといけないけど、それ以外はなんとかなる。
+
+別のアプリケーションで同じGatewayが必要になることはあるのか？
+統合する際にAdaptersのオブジェクトを別のUseCasesで使い回すことは別に構わないはず。たまたま一時的に同じものだったとしても。必要になってから分ければいい。
+
+PresenterとGatewayのインタフェースはInterface Adaptersより先にUse Casesで定義する。
+Interactorもそうだけど、Interactorは実装もUse Casesだし。
+Use CasesにはInteractor (Input Port)、Presenter (Output Port)、Gatewayの3種のインタフェースが必要。
+その上で、詳細だけをInterface Adaptersで定義する。
+
+まずはアプリケーションとしてのコンテキストを分けるのが大事。
+「認証・認可サブドメイン」とか「プロジェクト管理サブドメイン」とかでまず分けて、その中でさらに「認証ドメイン」とかに分ける。
+それぞれのアプリケーションは独立しているべきで、それぞれにアダプタがあって、Mainだったり、Gateway経由だったりで統合される。
+逆に言えば、疎結合にするための工夫が必要。特に認証・認可のように共通で影響するような機能は疎結合にするのも難しい。
+
+Active RecordはEntityよりもApplicationServiceに近い。
+FactoryとRepositoryの機能にValidatorを加えたような感じで、細かいロジックは持ちにくい。
+細かいロジックが必要ならValueを用意してマッピングに手を加えるなり、そこだけActiveRecordをGatewayとして切り離して、DDDのApplicationServiceにするべきかも。
+
+DBはGatewayで隠す。
+GatewayからはEntityが返ってくるので、小テストでは単にEntityを扱ったりGatewayでの変換をStubでテストしたりして、中テストでGatewayがDBに接続するテストをしよう。
+
+APIのラッパーは、APIからのレスポンスをどう解釈するのか、テストする。
+例えば、今回の場合はstatusCodeがなくて、dataに{data, message, status}が入っているので、この仕様に合わせてラッパーを用意し、テストコードを残す。
+その上で、それぞれのGatewayとそのテストを作っていこう。こちらはレスポンスをさらにエンティティへと変換する。また、エンティティをリクエストに変換する。
+
+APIクライアントのテストはレスポンスをモックにする。
+ステータスコードとか、データを取り出せるようにして、それに対する処理が正しいことを確かめる。
+とくに、Gatewayとして実装した場合はEntityへの変換も入っているのでしっかりテストしておこう。
+
+そもそも単なるCRUDだと、GatewayもCRUDにしてしまった方が楽かも。
+もうEntityを介さずに、Interactorから直接Gatewayを叩くだけ。
+
+RepositoryはCommandのためにあるので、Queryは分けてしまってもいい。
+QueryはRepositoryを通さないけど、Gatewayの一種として、外部のサービスからデータを取得する。
+
+PresenterはInteractorやGatewayを知らない。
+ただ、Interactorの方からPresenterのインタフェースを叩いて、データを渡すだけ。
+
+データをキャッシュするために取ってくるのは、Interactorの都合と考えていいのかも。
+つまり、init()とかで持ってきて、Interactorの中に状態を持ってしまってもいい？
+いや、Interactorにそういう状態を持ってしまうと同期するのが大変なので、やはりそこはリポジトリに任せたい。
+Gatewayとそれに被せるProxy持って、Proxyの機能はControllerとか具体的なとこで叩くのはありか？
+
+オンメモリのGatewayは序盤で作ってそのままテスト用に残しておいたほうがいいかも。
+api/gatewaysを置き換えつつ、test/gatewaysにでも移していけばいいだろう。
+
+そもそもCRUDだとドメインが貧しくて、アプリケーション層を作る旨味がない。
+これがただクリーンアーキテクチャを採用してもダメな理由だと思う。
+あと、APIを叩くだけのSPAでも同じことが言える。SPAのドメインは「APIを叩く」くらいで、ほとんどGatewayにまとめられる。
+まあ、画面で複雑な描画処理をする場合はそれが一つのドメインとして考えられるかもしれないけど。
+
+イベント駆動のフレームワークだとPHPのようなバッチ型よりは処理の単位が小さくなるので、Interactorも小さくなると思う。
+それこそControllerからGatewayを叩いても変わらないくらいに。
+でも、途中で入力を受け付けるようなCUIもあるよね。ああいうのはどう捉えたらいいのかな？一旦Interactorで処理して、Presenterでさらに質問を出力するのか？
+
+Storeにフィルタを置くのは変。
+ただ、Gatewayでフィルタしたものを取ってきて置き換えるのはある。
+
+Gatewayの仕様はInteractorの要求によって決まる。
+例えば、InteractorでフィルタリングするならGatewayはall()だけでもいいし、DBやAPIでフィルタリングするならGatewayにつけたらいい。
+
+フィルターは単にヘルパーとかサービスにしたらいいと思う。
+外部サービスに任せられるならGatewayに載せてもいいけど、細かい処理をしないといけないようなら分けたほうが柔軟。
+
+UseCasesとGatewaysを用意するのはあり。
+とりあえず、簡単な構造体とRequest/Responseの定義。
+ただ、ControllersやPresentersはVueだとPageにまとめてしまうのが手っ取り早い気がする。
+
+「内側だけに依存する」
+
+これがクリーンアーキテクチャの柱。
+逆に、データベースやAPIが先にあって、そちらを変えられないようなら、どうしても内部が外部に依存してしまう。
+無理やりGatewayで吸収するのか、諦めて別の方法を取るのか、あるいはその折衷案も考えられるが、簡単な正解はないと思う。
+
+Entitiesだとヘルパーは汎用サブドメインになると思う。
+UseCasesでも基本的にはEntitiesを扱うことになるので、ヘルパーが必要な処理はだいたいEntitiesかGatewaysにまとまりそうだし。
+となると、ヘルパーが必要なのはインフラ側かな。ViewModelを構築する際には特にDateの変換とか、ヘルパーにまとめられる処理がたくさんある。
+
+Clean Architectureを読んで良かったのは、語彙が増えたこと。
+Interactor (Input Port), Presenter (Output Port), Request, Response, Gatewayあたりは特に便利だし。
+
+Vue + Clean Architectureでやるなら、とりあえずビジネスルールとゲートウェイの実装はフォルダを区切った方がいい。
+
+以下のような構成になるだろう。
+```
+- src/
+- - lib/ → ビジネスルール
+- - - entties/
+- - - usecases/
+- - - gateways/
+- - api/ → ゲートウェイの実装
+- - controllers/
+- - presenters/
+- - views/
+- - components/
+- - models/
+- - App.vue
+```
+
+lib;/はモバイルなどに移植する場合でもそのまま流用する。
+api/も移植で使えるけど、モバイルならdb/とか、他の実装も追加するかも。
+それ以外は、Vue側で使うのが中心なので、src/直下に展開していいと思う。まあ、直接的に触るのはAppとPageで、Templateとかは逆にuiとして分離できるかもしれない。
+
+VuexやVueRouterも「外」なので、Gatewaysを経由するといい。
+Gatewaysを挟んでおけば、実装がVuexなのか、LocalStorageなのか、Apiなのか、ということはUseCasesから切り離せる。
+
+Interactorの実装に@Injectとか書いてDIするのはDIのフレームワークに依存してるけどいいのかな？
+Controllerのプロパティに一旦注入して、そこからInteractorとかGatewayを注入しても大丈夫？
+
+CleanArchitectureのデータフローはざっと以下のような感じ。
+
+Input → (Controller) → Request → (Interactor) → Response → (Presenter) → ViewModel → (View) → Output
+
+さらに、Business RulesはGatewayを用いて、Entityベースで外部のシステムとやり取りする。
+ControllerとPresenterはこのシステムを外から使うためのインタフェース、Gatewayは外のシステムをこのシステムから使うためのインタフェースになっているわけだ。
+
+アプリの内部でEntityがidを持たない場合、Gateway/Repositoryでもsaveにまとめるよりはcreateとupdateで分けた方がいいかも。
+結局、idを送ったり送らなかったり、場合によっては全然違うデータを扱ったりもするので、Gateway/Repositoryの段階で分けておいた方がいい。
+
+Controller/PresenterはInteractorとのやりとりを扱うけど、GatewayはEntityを扱う。
+外部のサービスをEntityとして取り込んだり、逆にEntityを外部のサービスに送り出したりするのがGatewayである。
+だから、外部のサービスのAPIのためにEntityを変換する処理も含まれる。
+
+RepositoryはGatewayの一種として実装する。
+永続化という処理がEntityだけでは賄えなくて、インメモリであれデータベースであれ、外部との接続を必要としている。
+
+GatewayのインタフェースはUseCaseの方にある。
+しかし、実装はAdopterなのでその外。
+
+永続化する必要がなかったら、Repositoryはいらない。
+APIサーバーと通信するだけが目的なら、InteractorからいきなりGatewayを呼び出しても構わない。
+その上で、内側でも永続化したいのはキャッシュとか。そのときはRepositoryを作ればいい。
+
+同じデータを色んな扱いにするときは、ドメインまで同じで、アプリケーションから分けるのか？
+いや、それだとドメインの集約が変な気もするし。
+ドメインの時点でもう分けてしまって、別のエンティティとして扱いながら、Gatewayの先では同じデータとして永続化するでもいいのかな？できるだけ合わせる？
+
+境界を越えるデータは、シンプルでなければならない。
+エンティティは境界を越えるべきではない。複雑すぎる。
+そのために、GatewayやPresenterに渡すデータを変換する必要がある。
+
+シンプルなデータは、テストしにくい領域に渡ってもテストする部分が少ない。
+例えば、ViewがViewModelを単純に描画するだけなら、Viewをテストする代わりにViewModelをテストすることで置き換えられる。
+
+Gatewayで扱うサービスとEntityの粒度が異なっていると、Gatewayでその差を吸収することになってめんどくさい。
+特に、保存用のAPIサーバーやDBサーバーの影響は大きいので、できるだけDBの構造を確定させるのは遅らせたい。
+先にEntityを詰めていくのが大事。そうすれば、それに合わせてサーバーを用意して、Gatewayも単純になる。
+
+Gatewayには、API固有のオプションなんかもある。
+Gatewayはアプリケーション層にインタフェースがあるけど、内容を決めるのはアプリケーション層で何が必要か、そして、接続するサービスにどんなオプションを渡せるか、だ。
+元々の仕様は接続するサービス自体にあって、アプリケーション層の要件に合わせて必要最低限のインタフェースだけ決める。
+
+アプリケーション層のファイルはusecases/にまとめてみた。
+interactors, requests, responses, gatewaysと、UseCaseの実装としてcommands, queriesも。
+entitiesと一緒にcoreとするのはなんか綺麗じゃなかったし、まとめないと数が多くてごちゃっとしてたから。
+
+InteractorでGatewayを使って、そのままEntityを扱うのはありだと思う。
+元々、Repositoryを被せるとクドいことがある。Repositoryの代わりに、永続化する外部のサービスを使うイメージ。
+
+RepositoryをそのままGatewayの実装にするのは違う。
+Gatewayはアプリケーション層、Repositoryはドメイン層なので、依存関係が逆。
+逆に、Repositoryの実装としてGatewayをそのまま実装するのはどうなんだろう？でも、Gatewayのインタフェースは集約と一致しないこともある気がする。
+
+RepositoryがGatewayを使うかどうかは、永続化に関係ない。
+単に変数で持つだけならGateway使わないし。
+だから、RepositoryはGatewayではない。
+むしろ、Repositoryはドメイン層に置くことになるだろう。
+
+Vueのエンティティは、jsonをDateにしたりするとこ。Gatewayがやる。
+そんで、Repositoryに保存する。
+UseCaseで覆うことで、ControllerからはAPIで処理してるのか、自前で処理してるのかは関係ない。
+
+APIと通信するだけのクライアントでも、GatewayとEntityは存在するので、単純なビジネスルールはある、と考えられる。
+いや、むしろ「APIと通信する」というビジネスルールで捉えて、いきなりResponseで扱うのもあり？アプリ自体がGatewayとして機能する…
+
+インフラはドメインに依存してもいいのか？
+
+Gatewayの実装はドメインのEntityに依存してるけど、ControllerやPresenterはあくまでもRequestやResponseのみに依存するべきなのかも。
+となると、EntityをそのままResponseに入れて渡すよりも展開して渡したほうがいいのか？必要な情報だけ渡せる利点はあるものの、やりすぎかもしれない。悩ましいところだし、ケースバイケースで使い分けることも考えられる。
+
+Repositoryによる記録の単位は、集約の単位と一致する。
+だから、Gatewayの実装によって記録の単位が変わったりはしない。むしろGatewayで吸収する。
+まぁ、吸収しなくてもいいようなシステムを使う、あるいは作るのが理想だけど。
+
+Gatewayは外部のシステムとやり取りして、Entityで結果を返す。
+つまり、外部のシステムの使い方はGatewayの中に隠されている。HTTPでもSQLでもRPCでもファイルシステムでもなんでもいい。
+よくあるのはデータの読み書きだけど、それ以外のシステムを使うことも考えられる。まぁ、それも大体は何らかの書き込みと捉えていいかも。
+
+「記録する」というビジネスルールを実装したのがRepositoryだ。
+アプリケーション層にあるGatewayと似ているけど、Repositoryはドメイン層にあるべきだと思う。
+Entiryを生成するFactoryと対になっていて、そちらも「生成する」というビジネスルールを実装している。
+
+Vueだと、Storeをmain代わりにして、ApplicationServiceやGatewayを初期化するのも考えてる。
+Componentの中で初期化すると、uiがcoreだけでなくapiも知っている必要があるし、apiへの参照をStoreにまとめたい。
+それに、ComponentのController部分も綺麗になるし、実質的にはControllerがStoreに移ったような構成になる。ComponentはPresenterとしての役割に集中できる。
+
+Gatewayは、Applicationが他のApplicationにアクセスするためのControllerとして振る舞ってる、と考えてる。
+アプリケーション層にインタフェースを置いて、インフラ側で実装する。アプリ側はGatewayとか、あるいは簡単なものなら直接Repositoryとして、インフラ側はApiかな。
+
+Repositoryも外部ストレージにアクセスする場合はGatewayとして実装されるべきかも。いや、もう少し複雑なら、Gatewayは別に置いて、それをRepositoryでラップするのもありか。
+この時、アプリケーション層でGatewayのインスタンスを作ったら意味がないので、mainでまとめて注入する。アプリケーション層でインスタンスを作ってしまうと、それは依存になる。
+
+DDDだとFactoryはアグリゲートを構築するためのもの。
+データ形式の変換に使うのはちょっと変か。
+ドメインモデルの境界を繋ぐためには？
+クリーンアーキテクチャだとPresenter/ControllerやGatewayだよな。
+
+モックが多いと修正がめんどい。
+ゲートウェイは仕方ないけど、サービスはモックにしたくない。
+
+場当たり的にゲートウェイを作っておいて、後から置き換えてもそれはそれで成立しそう。
+
+ゲートウェイの出力はエンティティの方がいいかも。
+
+ゲートウェイの出力がエンティティになってないと、restructを別途叩かないといけない。
+
+ゲートウェイとエンティティの形式が正しいかどうか、どうしたら確かめられるか。
+とりあえず、ゲートウェイの出力をエンティティにしておけば、ゲートウェイを叩いて動作確認するときにエラーで落ちるかな？
+
+開発用のストアでゲートウェイもテストできるといい。
+
+外部サービスに渡せる形に整形したら、あとはゲートウェイに投げればいい。
+
+groupIdやuserIdがゲートウェイの実行に影響するなら、FactoryをDIしてそこからClientを取得する。
+
+サービスからサービス、ゲートウェイからゲートウェイを呼び出すような操作は避ける。
+
+アプリケーションサービスやゲートウェイだと横の呼び出しは避ける。
+
+外部サービスのAPIはゲートウェイのモックよりHttp::fake()でテストした方がいいかも。
+
+APIにgroupIdが必要だけど、呼び出す側で持ってないならあらかじめAPIクライアントやゲートウェイに設定して、それを呼び出す側にDIする。
+
+ゲートウェイで取ってくるデータはとりあえずpublicプロパティでもいいので型をつけておくと、どういうデータを内部で扱うのかわかりやすい。
+
+サーバー側で別のサービスのAPIを叩いて、クライアントのために仲介するような処理でもゲートウェイは挟んだ方がいいか。
+
+APIとゲートウェイのインタフェースを分けて考えると、ユーザー情報はAPIでしか使わないのに気付ける。
+
+アプリケーションサービスから他のコンテキストのアプリケーションサービスにアクセスするときは、ゲートウェイを定義しておいて、別のところで実装したものをDIする。
+
+ゲートウェイは別のドメインのアプリケーションと考えることもできる。
+
+外部インタフェースの仕様が決まってなくても、こちらからどういう情報が欲しいか、どういう情報を送れるか、は決められる。それに合わせて、先にゲートウェイを用意してしまえばいい。
+
+SDKがあっても、ゲートウェイの層があると置き換えやすい。
+場合によってはSDKが置き換えに対応していることもあるので、その場合は省略してもいいかも。
+
+ビジネスロジックをサーバーに丸投げする場合、アプリケーション層にゲートウェイを用意すればいい。
+
+リポジトリの実装もゲートウェイの一種と言える。
+レイヤードアーキテクチャで言えば、インフラはゲートウェイ、プレゼンテーションはプレゼンターとコントローラーを定義する層だ。
+
+外部サービスの操作は一つのアクションを一つのゲートウェイにまとめる。
