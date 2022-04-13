@@ -2,8 +2,8 @@
 
 ## Examples
 
-[UIデザインにおけるナビゲーションのデザインパターンまとめ | ベイジの社長ブログ](https://baigie.me/sogitani/2014/08/navigation-design-type/)
-[Stock - 日本のWebデザインギャラリー](https://stock.pulpxstyle.com/)
+[UI デザインにおけるナビゲーションのデザインパターンまとめ | ベイジの社長ブログ](https://baigie.me/sogitani/2014/08/navigation-design-type/)
+[Stock - 日本の Web デザインギャラリー](https://stock.pulpxstyle.com/)
 [Webframe - beautiful web app screenshots for design inspiration!](https://webframe.xyz/categories/pricing)
 
 ## Tips
