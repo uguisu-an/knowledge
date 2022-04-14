@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uguisu-an/knowledge.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uguisu-an/knowledge/issues"
+  },
+  "homepage": "https://github.com/uguisu-an/knowledge#readme"
+}
