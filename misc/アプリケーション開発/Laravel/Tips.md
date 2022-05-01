@@ -27,3 +27,8 @@ mix.browserSync("localhost");
 あとは `npm run watch` するとリロードされるようになる。
 
 https://readouble.com/laravel/8.x/ja/mix.html#browsersync-reloading
+
+## JSON の書式
+
+JSON のレスポンスでもキーは snake_case にする。
+他のライブラリとの兼ね合いで揃えた方がいい。
