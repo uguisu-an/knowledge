@@ -33,6 +33,16 @@ https://readouble.com/laravel/8.x/ja/mix.html#browsersync-reloading
 JSON のレスポンスでもキーは snake_case にする。
 他のライブラリとの兼ね合いで揃えた方がいい。
 
+## 新しいリポジトリを作成する
+
+Laravel のプロジェクトを作る。
+Laravel の日本語ファイルをダウンロードする。
+Laravel の locale と timezone の設定を ja にする。
+GitHub にリポジトリを作る。
+GitHub Actions にテストを設定する。
+リポジトリに push する。
+リポジトリの URL をブックマークする。
+
 ## その他
 
 eloquent の relationship だけは snake_case の方が統一感あるかも。
