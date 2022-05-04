@@ -32,3 +32,7 @@ https://readouble.com/laravel/8.x/ja/mix.html#browsersync-reloading
 
 JSON のレスポンスでもキーは snake_case にする。
 他のライブラリとの兼ね合いで揃えた方がいい。
+
+## その他
+
+eloquent の relationship だけは snake_case の方が統一感あるかも。
