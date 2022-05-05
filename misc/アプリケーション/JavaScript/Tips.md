@@ -5,3 +5,5 @@
 [How to Force Use Yarn or NPM](https://www.freecodecamp.org/news/how-to-force-use-yarn-or-npm/)
 
 [JS の非同期処理を理解するために必要だった知識と学習ロードマップ](https://zenn.dev/estra/articles/js-async-programming-roadmap)
+
+[Navigation API による「JS での画面遷移」と SPA の改善 | blog.jxck.io](https://blog.jxck.io/entries/2022-04-22/navigation-api.html)
