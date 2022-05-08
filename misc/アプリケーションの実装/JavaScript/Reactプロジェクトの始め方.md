@@ -1,4 +1,4 @@
-# React の始め方
+# React プロジェクトの始め方
 
 ## 前提
 
@@ -8,7 +8,7 @@
 
 ## プロジェクトを作成する
 
-    npx create-react-app --template=typescript example-app
+    npx create-react-app --template=redux-typescript example-app
     cd example-app
     npm start
 
