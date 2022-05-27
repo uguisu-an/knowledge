@@ -25,3 +25,5 @@ https://newmonz.jp/lesson/laravel-basic/chapter-1
 [Laravel Notification Channels](https://laravel-notification-channels.com/)
 [GitHub - lazychaser/laravel-nestedset: Effective tree structures in Laravel 4-8](https://github.com/lazychaser/laravel-nestedset)
 [GitHub - spatie/laravel-medialibrary: Associate files with Eloquent models](https://github.com/spatie/laravel-medialibrary)
+
+https://bladewindui.com/
