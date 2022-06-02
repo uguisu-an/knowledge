@@ -46,3 +46,32 @@ GitHub Actions にテストを設定する。
 ## その他
 
 eloquent の relationship だけは snake_case の方が統一感あるかも。
+
+laravel のパッケージ
+
+緯度経度からタイムゾーンを得る。
+https://github.com/spatie/google-time-zone
+
+Blade コンポーネントセット。
+https://github.com/cagilo/cagilo
+
+綺麗なルート表示。
+https://github.com/Wulfheart/pretty-routes
+
+Laravel のルートから Postman のコレクションを作る。
+https://github.com/andreaselia/laravel-api-to-postman
+
+既存の DB のダンプファイルからマイグレーションファイルを作る。
+https://github.com/bennett-treptow/laravel-migration-generator
+
+bootstrap で作られた jetstream のビューを生成する。
+https://github.com/nascent-africa/jetstrap
+
+バリデーションルールの拡張セット。
+https://github.com/mattkingshott/axiom
+
+パンくずリストを作る。
+https://github.com/diglactic/laravel-breadcrumbs
+
+論理削除をカスケードする。
+https://github.com/michaeldyrynda/laravel-cascade-soft-deletes
