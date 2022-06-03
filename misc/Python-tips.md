@@ -1,0 +1,7 @@
+# Python Tips
+
+## プロジェクトの作成
+
+テンプレートからプロジェクトを作成する。
+
+https://github.com/cookiecutter/cookiecutter

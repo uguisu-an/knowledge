@@ -107,3 +107,9 @@ sessionContext と KernelConnector も実行制御に使えるか？
 > ビルド済みの拡張機能の開発は、変更を確認するために JupyterLab を再構築する必要がないため、通常ははるかに簡単です。
 >
 > https://jupyterlab.readthedocs.io/en/stable/extension/extension_dev.html
+
+NotebookActions を使って実行のイベントを扱っている拡張機能
+https://github.com/mwakaba2/jupyterlab-notifications
+
+セルの実行を実装している拡張機能
+https://github.com/epi2me-labs/jupyterlab-autorun-cells
