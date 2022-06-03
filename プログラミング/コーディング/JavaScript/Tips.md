@@ -10,6 +10,11 @@ i18next を組み込むのが有力。
 
 yup の schema.camelCase().cast(data)で、snake_case の JSON を camelCase に変換して扱えたりもする。
 
+## 不変性
+
+不変な情報を可変のように簡単に扱うライブラリとしては `immer` が便利。
+https://github.com/immerjs/immer
+
 ## その他
 
 [JavaScript: 文字数を正確にカウントするには？ - Qiita](https://qiita.com/suin/items/3da4fb016728c024eaca)
@@ -19,3 +24,5 @@ yup の schema.camelCase().cast(data)で、snake_case の JSON を camelCase に
 [JS の非同期処理を理解するために必要だった知識と学習ロードマップ](https://zenn.dev/estra/articles/js-async-programming-roadmap)
 
 [Navigation API による「JS での画面遷移」と SPA の改善 | blog.jxck.io](https://blog.jxck.io/entries/2022-04-22/navigation-api.html)
+
+https://zenn.dev/mizchi/articles/understanding-promise-by-ts-eventloop
