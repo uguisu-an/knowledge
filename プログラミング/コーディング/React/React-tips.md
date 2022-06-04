@@ -1,5 +1,12 @@
 # React Tips
 
+## 標準的なコンポーネントの利用
+
+Dialog や Tooltip など便利なので大体使う。
+
+https://mui.com/
+https://react-bootstrap.github.io/
+
 ## 状態管理
 
 Redux で。
