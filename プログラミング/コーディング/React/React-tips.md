@@ -28,3 +28,11 @@ https://react-hook-form.com/jp/
 https://zenn.dev/yuitosato/articles/292f13816993ef
 
 ## その他
+
+React 18 の時点では、コンポーネントのラッパーを使うよりもフックを使うのが推奨されている。
+
+環境変数を書き換えたら npm start をあらためて実行しないと反映されない。
+
+型指定の FC や VFC は、非推奨になっている。
+props に含まれる children の型指定が緩いのと、プロパティの defaultProps が現在では非推奨になっているため。
+https://kray.jp/blog/dont-have-to-use-react-fc-and-react-vfc/

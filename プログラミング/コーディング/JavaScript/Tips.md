@@ -26,3 +26,6 @@ https://github.com/immerjs/immer
 [Navigation API による「JS での画面遷移」と SPA の改善 | blog.jxck.io](https://blog.jxck.io/entries/2022-04-22/navigation-api.html)
 
 https://zenn.dev/mizchi/articles/understanding-promise-by-ts-eventloop
+
+クラスを指定するだけで郵便番号の自動入力を設定できる JS ライブラリ
+https://github.com/yubinbango/yubinbango

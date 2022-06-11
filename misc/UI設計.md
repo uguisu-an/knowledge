@@ -1,18 +1,4 @@
-入れ子のツリーは検索結果の表示に向かないので、単なるリストやテーブルで表示するといい。
-というか、入れ子のデータに対して全ての階層に検索をかける場合はフラットに表示した方がいい。
-データの扱いと表示を合わせる。
-
-アイコンとテキストを併記すると、「大きい」という単純な利点も得られる。
-
-[chot.design - 毎日ちょっとずつデザインを学ぼう](https://chot.design/)
-
-[Web 制作の現場で使える Web サービス 15 選！無料で使えるサービスを集めてみた](https://pulpxstyle.com/web-service/)
-
-[コーディングを助けるためにデザイナーができること ① | knowledge / baigie](https://baigie.me/officialblog/2020/03/26/design-cording/)
-[コーディングを助けるためにデザイナーができること ② | knowledge / baigie](https://baigie.me/officialblog/2022/01/14/design-cording-vol2/)
-
-ボタンのアンチパターン
-[“アプリ UI あるある”な 6 つの NG ボタン 人事 SaaS を例に専門家が解説（ITmedia NEWS） - Yahoo!ニュース](https://news.yahoo.co.jp/articles/06e92a1dac29a644439a6221a139a06dbc8fa88b?page=2)
+# UI 設計
 
 ## UI Stack
 
@@ -30,3 +16,26 @@ https://note.com/taka44/n/n07e39c66df6a
 https://note.com/nowim/n/n185d63cfda5c
 https://digitalidentity.co.jp/blog/creative/ui-stack.html
 https://note.com/earlgray_mk/n/n50129e0ac237
+
+## その他
+
+https://webnaut.jp/design/620.html
+
+入れ子のツリーは検索結果の表示に向かないので、単なるリストやテーブルで表示するといい。
+というか、入れ子のデータに対して全ての階層に検索をかける場合はフラットに表示した方がいい。
+データの扱いと表示を合わせる。
+
+アイコンとテキストを併記すると、「大きい」という単純な利点も得られる。
+
+[chot.design - 毎日ちょっとずつデザインを学ぼう](https://chot.design/)
+
+[Web 制作の現場で使える Web サービス 15 選！無料で使えるサービスを集めてみた](https://pulpxstyle.com/web-service/)
+
+[コーディングを助けるためにデザイナーができること ① | knowledge / baigie](https://baigie.me/officialblog/2020/03/26/design-cording/)
+[コーディングを助けるためにデザイナーができること ② | knowledge / baigie](https://baigie.me/officialblog/2022/01/14/design-cording-vol2/)
+
+ボタンのアンチパターン
+[“アプリ UI あるある”な 6 つの NG ボタン 人事 SaaS を例に専門家が解説（ITmedia NEWS） - Yahoo!ニュース](https://news.yahoo.co.jp/articles/06e92a1dac29a644439a6221a139a06dbc8fa88b?page=2)
+
+UI で特に重要なのはアフォーダンスとフィードバックだ。
+つまり、触る前から見ただけでどういう操作を求められているのか分かって、触るとどういう結果が得られたのか分かる。

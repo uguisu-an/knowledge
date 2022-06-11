@@ -18,3 +18,6 @@ https://jajaaan.co.jp/css/button/
 ## 実装例
 
 https://web.dev/building-a-dialog-component/
+
+Web ページにヘッダとフッタをつける簡単な方法。
+https://twitter.com/tak_dcxi/status/1471627450106974215?s=21

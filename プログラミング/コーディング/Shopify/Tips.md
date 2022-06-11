@@ -223,3 +223,9 @@ Shopify アプリ自体はどこかにホスティングしないといけない
 単なる Web サービスとして動作して、認証は Shopify を経由する。
 
 商品を id 以外で取得するのは handle だけど、handle を連携に使うと URL を自由に変えられなくなる。
+
+shopify の商品管理の詳細ページの URL の最後に`.json`をつけると、json 形式で表示できる。
+例えば、
+https://example.myshopify.com/admin/products/7166574526637
+を以下のようにする。
+https://example.myshopify.com/admin/products/7166574526637.json

@@ -78,3 +78,8 @@ Humility, Respect, Trust の頭文字をとったもの。
 ## 資料
 
 https://blog.toshimaru.net/team-geek/
+
+## その他
+
+「察しろ」というのは相手にコミュニケーションの負担を押し付けている。
+相手を尊重もしてないし、信頼もしてない。
