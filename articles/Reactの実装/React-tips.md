@@ -36,3 +36,5 @@ React 18 の時点では、コンポーネントのラッパーを使うより�
 型指定の FC や VFC は、非推奨になっている。
 props に含まれる children の型指定が緩いのと、プロパティの defaultProps が現在では非推奨になっているため。
 https://kray.jp/blog/dont-have-to-use-react-fc-and-react-vfc/
+
+[React + TwitterAPI + Lambda で web アプリを作ってみる](https://zenn.dev/hukurouo/books/iineum-hands-on)
