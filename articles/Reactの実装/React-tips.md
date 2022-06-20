@@ -38,3 +38,12 @@ props に含まれる children の型指定が緩いのと、プロパティの 
 https://kray.jp/blog/dont-have-to-use-react-fc-and-react-vfc/
 
 [React + TwitterAPI + Lambda で web アプリを作ってみる](https://zenn.dev/hukurouo/books/iineum-hands-on)
+
+UI の変更を検知したいなら Storybook を書くといい。
+スクリーンショットテストで前の状態を持っておいて、Chromatic で履歴を見ることもできる。
+https://storybook.js.org/tutorials/intro-to-storybook/react/ja/get-started/
+
+api を組み込んだ画面のテストは Storybook と MSW で API をモックして確認するといい。
+
+React のテストの課題
+https://zenn.dev/tkdn/books/react-testing-patterns
