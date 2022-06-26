@@ -27,3 +27,9 @@ https://github.com/immerjs/immer
 
 クラスを指定するだけで郵便番号の自動入力を設定できる JS ライブラリ
 https://github.com/yubinbango/yubinbango
+
+今のところ js のテストで api モックするなら msw が良さそう。
+storybook のアドオンがあったり、localhost で試す場合にネットワークタブに通信が表示されたりするので他の選択肢よりも使い勝手がいいと思う。
+
+コンポーネント単位のビジュアルリグレッションテストを行う場合、Storybook が使える。
+React や Vue に対応している。

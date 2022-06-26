@@ -39,3 +39,38 @@ https://webnaut.jp/design/620.html
 
 UI で特に重要なのはアフォーダンスとフィードバックだ。
 つまり、触る前から見ただけでどういう操作を求められているのか分かって、触るとどういう結果が得られたのか分かる。
+
+UI 設計の成果物
+https://www.graat.co.jp/blogs/ckcbgogqykue50869r4oyn2va
+
+UI の確認事項
+https://mag.ibis.gs/creative/design/uiux30_200108/
+https://pantograph.co.jp/blog/uiux/entryform-example.html
+
+UI 実装時の指摘事例
+https://onedarling.site/web-design/easytocoding-design/
+https://b-risk.jp/blog/2019/12/code-friendly/
+https://b-risk.jp/blog/2021/02/code-friendly-2/
+https://qiita.com/y_hokkey/items/de88447bd31d9379b80a
+
+この製品はどんな問題を解決するか
+この製品のコンセプトは何か
+この製品はプロトタイプを作ってユーザーレビューを受けたか
+
+この画面はどこから情報を取得するか
+この画面はどの情報を変更するか
+
+この要素はどの範囲を操作できるか
+この要素はどこに揃えるか
+この要素はどこに余白を入れるか
+
+UI の最初は全てが接触した相対位置の四角だけで考える。
+Web アプリでも Native アプリでもここは同じ。margin と padding を明記する。
+
+SmartHR のデザインシステムやガイドライン
+https://smarthr.design/
+
+Apple のデザインの tips
+https://developer.apple.com/jp/design/tips/
+
+[UIデザインのフローを標準化する試み「MONDRIAN」はじめました｜Chatwork Design｜note](https://note.com/chatworkdesign/n/n9d3ee45b2e82)
