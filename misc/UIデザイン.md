@@ -8,3 +8,7 @@
 > - ｢何故、この形なの？｣
 >
 > https://twitter.com/glassydesign/status/1537692744122273798?s=20&t=mgBasw4G8XTObVB_UMb-8Q
+
+請負の要件定義で UI/UX を先行させるためには、機能を小さくするしかない。
+
+https://note.com/akio_yoshihashi/n/n70602ddc58c6
