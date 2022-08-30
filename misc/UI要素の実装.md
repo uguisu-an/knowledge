@@ -1,0 +1,1 @@
+要素本体のwidth/heightやmarginは外から与えた方がいい。paddingは中で。

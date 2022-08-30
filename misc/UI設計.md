@@ -73,4 +73,20 @@ https://smarthr.design/
 Apple のデザインの tips
 https://developer.apple.com/jp/design/tips/
 
-[UIデザインのフローを標準化する試み「MONDRIAN」はじめました｜Chatwork Design｜note](https://note.com/chatworkdesign/n/n9d3ee45b2e82)
+[UI デザインのフローを標準化する試み「MONDRIAN」はじめました｜ Chatwork Design ｜ note](https://note.com/chatworkdesign/n/n9d3ee45b2e82)
+
+ユーザーを単に驚かせるのではなく、新しい視野を開かせる。
+
+ユーザーの目を引くためには驚きも必要だが、長く使っていくなら快適さしか要らない。
+初めて見た時には驚いても、慣れたら快適さしか残らないように作らないといけない。
+
+美しさは快適さに繋がる。
+
+[モデリング：表からは見えない UI デザイン - Qiita](https://qiita.com/xrxoxcxox/items/425a6223126da5403682)
+
+[オブジェクト指向 UI デザイン ── 使いやすいソフトウェアの原理 WEB+DB PRESS plus | ソシオメディア株式会社, 上野 学, 藤井 幸多, 上野 学 | コンピュータ・IT | Kindle ストア | Amazon](https://www.amazon.co.jp/dp/B0893RK6WC)
+
+プレゼンテーション（ビュー）、インタラクション（コントローラー、ユースケース）、モデル、のレイヤーで分ける。
+複数のビューで同じユースケースが、複数のユースケースで同じモデルが使われる。
+
+一覧に件数をつける場合、一覧の内容と件数は一致していないと気持ち悪い。

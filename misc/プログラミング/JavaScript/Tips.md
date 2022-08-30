@@ -33,3 +33,7 @@ storybook のアドオンがあったり、localhost で試す場合にネット
 
 コンポーネント単位のビジュアルリグレッションテストを行う場合、Storybook が使える。
 React や Vue に対応している。
+
+js で decimal を扱うライブラリは主に 3 つあり、同じ作者が用途ごとに開発している。
+基本的には big.js でいいが、精度の低下を抑えたい金融系には bignumber.js を、特に小さな、あるいは大きな値を扱う科学系には decimal.js を勧めているようだ。
+https://github.com/MikeMcl/big.js/wiki
