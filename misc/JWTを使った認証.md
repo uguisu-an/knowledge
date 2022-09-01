@@ -25,6 +25,9 @@ https://tech.hicustomer.jp/posts/modern-authentication-in-hosting-spa/
 保存場所は Cookie か LocalStorage か、という議論もあるが、有効期限が短いならどちらでもいい。
 Cookie は CSRF に弱く、LocalStorage は XSS やサードパーティ製のパッケージ汚染に弱い。
 
+Auth0 の場合、メモリに保存してページを閉じたら破棄している。
+ページを開く際に SSO から再発行するので、有効期限はそのセッションだけでいい。
+
 ## その他
 
 ...
