@@ -121,3 +121,6 @@ https://github.com/mwakaba2/jupyterlab-notifications
 
 セルの実行を実装している拡張機能
 https://github.com/epi2me-labs/jupyterlab-autorun-cells
+
+NotebookActions.executed は CodeCell.execute の時に発火しない。
+NotebookActions の run とかの時だけ。
