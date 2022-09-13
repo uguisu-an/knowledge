@@ -85,6 +85,14 @@ ICellModel の stateChanged は、属性の変更を拾える。
 executionCount や isDirty の更新など。
 name にどの属性が変更されたか入っている。
 
+## セルの編集を禁止する
+
+cell の metadata に `{ "editable": false }` を設定するとそのセルは編集できなくなる。
+
+## セルの削除を禁止する
+
+cell の metadata に `{ "deletable": false }` を設定するとそのセルは削除できなくなる。
+
 ## Notebook と Console
 
 Notebook と Console (Code Console)は似たような動きをする。
