@@ -1,6 +1,6 @@
 # NodeJS のバージョン管理
 
-nvm と direnv を使う。
+NVM と direnv を使うのがおすすめ。
 
 https://github.com/nvm-sh/nvm
 
