@@ -3,4 +3,4 @@ Laravel や Rails の MVC は、一つの Main からデータベースアクセ
 Laravel や Rails における Model は、本来の意味での Model ではない。
 Active Record を使って、データベースにアクセスする部分。
 
-![MVC or Not MVC](./mvc-framework.png)
+![MVC or Not MVC](/assets/img/mvc-or-not-mvc.png)
