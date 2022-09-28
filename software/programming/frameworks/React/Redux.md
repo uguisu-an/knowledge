@@ -7,3 +7,5 @@ https://redux.js.org/style-guide/style-guide
 https://www.toptal.com/react/redux-toolkit-and-rtk-query
 
 token のように通信を用いず使いまわしたいデータは rtk-query から取ってきた後でさらに store に保存して使う。
+
+https://qiita.com/kahirokunn/items/80b2afa13ee9a1304f74?utm_campaign=post_article&utm_medium=twitter&utm_source=twitter_share
