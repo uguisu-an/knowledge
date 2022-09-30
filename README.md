@@ -6,33 +6,62 @@
 
 ## Outline
 
-- Object
-  - Project
-  - Time
-  - Software
+問題解決
+
+- Management
+  - Project Management
+  - Time Management
+- Development
+  - Software Development
+- Engagement
   - Organization
-    - Team
-    - Company
-    - Government
+  - Government
+  - Company
+  - Team
+- Learning
+- Planning
+
+生活
+
+- Business
+  - Marketing and Sales
+    - Marketing
+    - Sales
+- Lifestyle
+
+技術
+
+- Art
   - Music
   - Graphics
-  - Lifestyle
-- Foundation
-  - Management
-  - Development
-  - Engagement
-  - Entertainment
-- Application
-  - Art
-    - Design
-  - Communication
-    - Discussion
-    - Documentation
-  - Business
-  - Learning
-  - Well-being
-  - Planning
-  - Marketing
+- Technology
+  - Information and Communication Technology
+    - Computer
+      - Computer Science
+      - Computer Network
+      - Computer Security
+    - Software
+      - Software Programming
+      - Software Testing
+- Engineering
+  - Computer Engineering
+
+認識
+
+- Design
+  - Software Design
+    - UI Design
+    - API Design
+- Communication
+  - Discussion
+  - Documentation
+  - Presentation
+  - Meeting
+
+幸福
+
+- Entertainment
+- Well-being
 
 ## その他
 
