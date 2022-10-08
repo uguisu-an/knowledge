@@ -2,5 +2,5 @@
 
 ## 関連
 
-- [Business](/business)
-- [Marketing](/marketing)
+- [Business](/docs/business)
+- [Marketing](/docs/marketing)

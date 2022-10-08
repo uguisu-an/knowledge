@@ -2,7 +2,7 @@
 
 ## 関連
 
-- [Business](/marketing)
-- [Development](/development)
-- [Engagement](/engagement)
-- [Sales](/sales)
+- [Business](/docs/marketing)
+- [Development](/docs/development)
+- [Engagement](/docs/engagement)
+- [Sales](/docs/sales)
