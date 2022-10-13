@@ -14,3 +14,7 @@
 
 クライアント側が API 設計を主導すると、場当たり的な API が作られがち。
 基本的にはサーバー側が主導して、一貫性のある API を作ろう。
+
+以下は少し古いが、API 設計のガイドラインは参考になる。
+
+https://github.com/elsewhencode/project-guidelines/blob/master/README-ja.md
