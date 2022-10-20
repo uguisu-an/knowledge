@@ -11,3 +11,5 @@ Admin ユーザーのようにあらゆるページを表示できる権限を�
 https://zenn.dev/moga/articles/gen-rich-pdf-with-headless-browser
 
 JavaScript で出力すると権限周りを考えなくても済むけど、`jsPDF`ならフォントを外から与えないといけないのでフォントファイルが js に含まれて重くなってしまう。
+
+ライブラリがページネーションに対応してないなら、1 枚ずつ出力して結合する。
