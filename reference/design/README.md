@@ -4,3 +4,11 @@
 要素（コンポーネント）と要素の間にある境界を考える。
 
 [コンポーネントとインタフェース](./コンポーネントとインタフェース.md) が中心。
+
+## Reference
+
+- Art
+- Modeling
+- Presentation
+- Communication
+- Information
