@@ -48,5 +48,5 @@ api を組み込んだ画面のテストは Storybook と MSW で API をモッ�
 React のテストの課題
 https://zenn.dev/tkdn/books/react-testing-patterns
 
-ReactにTailwindCSSを導入する。
+React に TailwindCSS を導入する。
 https://tailwindcss.com/docs/guides/create-react-app
