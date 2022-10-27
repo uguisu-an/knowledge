@@ -6,6 +6,6 @@
 
 ## Reference
 
-- Documentation
-- Engagement
-- Organization
+-   Documentation
+-   Engagement
+-   Organization

@@ -2,9 +2,9 @@
 
 以下の 3 つの頭文字を取ったもの。
 
-- 謙虚: Humility
-- 尊重: Respect
-- 信頼: Trust
+-   謙虚: Humility
+-   尊重: Respect
+-   信頼: Trust
 
 著書『Team Geek』が原典。
 [Team Geek | Brian W. Fitzpatrick, Ben Collins-Sussman](https://www.amazon.co.jp/dp/4873116309/)

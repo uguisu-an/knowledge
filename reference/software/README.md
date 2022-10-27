@@ -2,4 +2,4 @@
 
 ## 関連
 
-- [Computer](/docs/computer)
+-   [Computer](/docs/computer)

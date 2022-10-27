@@ -17,16 +17,16 @@ https://raw.githack.com/MrRio/jsPDF/master/docs/module-html.html#~html
 ```js
 import jsPDF from "jspdf";
 const doc = jsPDF({
-  orientation: "landscape",
-  unit: "px",
-  format: "a3",
+    orientation: "landscape",
+    unit: "px",
+    format: "a3",
 });
 doc.html(htmlElement, {
-  width: 892,
-  windowWidth: htmlElement.clientWidth,
-  callback(doc) {
-    doc.save();
-  },
+    width: 892,
+    windowWidth: htmlElement.clientWidth,
+    callback(doc) {
+        doc.save();
+    },
 });
 ```
 

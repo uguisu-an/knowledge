@@ -8,60 +8,60 @@
 
 問題解決
 
-- Management
-  - Project Management
-  - Time Management
-- Development
-  - Software Development
-- Engagement
-  - Organization
-  - Government
-  - Company
-  - Team
-- Learning
-- Planning
+-   Management
+    -   Project Management
+    -   Time Management
+-   Development
+    -   Software Development
+-   Engagement
+    -   Organization
+    -   Government
+    -   Company
+    -   Team
+-   Learning
+-   Planning
 
 生活
 
-- Business
-  - Marketing and Sales
-    - Marketing
-    - Sales
-- Lifestyle
+-   Business
+    -   Marketing and Sales
+        -   Marketing
+        -   Sales
+-   Lifestyle
 
 技術
 
-- Art
-  - Music
-  - Graphics
-- Technology
-  - Information and Communication Technology
-    - Computer
-      - Computer Science
-      - Computer Network
-      - Computer Security
-    - Software
-      - Software Programming
-      - Software Testing
-- Engineering
-  - Computer Engineering
+-   Art
+    -   Music
+    -   Graphics
+-   Technology
+    -   Information and Communication Technology
+        -   Computer
+            -   Computer Science
+            -   Computer Network
+            -   Computer Security
+        -   Software
+            -   Software Programming
+            -   Software Testing
+-   Engineering
+    -   Computer Engineering
 
 認識
 
-- Design
-  - Software Design
-    - UI Design
-    - API Design
-- Communication
-  - Discussion
-  - Documentation
-  - Presentation
-  - Meeting
+-   Design
+    -   Software Design
+        -   UI Design
+        -   API Design
+-   Communication
+    -   Discussion
+    -   Documentation
+    -   Presentation
+    -   Meeting
 
 幸福
 
-- Entertainment
-- Well-being
+-   Entertainment
+-   Well-being
 
 ## その他
 

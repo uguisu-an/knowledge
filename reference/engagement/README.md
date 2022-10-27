@@ -2,7 +2,7 @@
 
 ## Reference
 
-- Love
-- Community
-- Organization
-- Education
+-   Love
+-   Community
+-   Organization
+-   Education

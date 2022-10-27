@@ -8,8 +8,8 @@
 
 ## Reference
 
-- Art
-- Modeling
-- Presentation
-- Communication
-- Information
+-   Art
+-   Modeling
+-   Presentation
+-   Communication
+-   Information

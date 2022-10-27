@@ -4,6 +4,6 @@
 
 ## Reference
 
-- Organization
-- Engagement
-- Scrum
+-   Organization
+-   Engagement
+-   Scrum

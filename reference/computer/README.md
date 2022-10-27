@@ -2,4 +2,4 @@
 
 ## 関連
 
-- [Software](/docs/software)
+-   [Software](/docs/software)

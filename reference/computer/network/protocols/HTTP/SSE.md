@@ -53,9 +53,9 @@ PHP で SSE するときは `ignore_user_abort(true);` して、自前で `conne
 
 ロングポーリングや SSE を使う代わりに、データ同期のプラットフォームを使うのも手だ。
 
-- Firebase Realtime Database
-- Azure Mobile Apps
-- MongoDB Realm (Beta)
+-   Firebase Realtime Database
+-   Azure Mobile Apps
+-   MongoDB Realm (Beta)
 
 ショートポーリングは最も原始的なパターンで、代わりにロングポーリングや SSE、WS などを用いることがある。
 

@@ -2,12 +2,12 @@
 
 ## Reference
 
-- Company
-- Discussion
-- Documentation
-- Engagement
-- Information
-- Management
-- Organization
-- Presentation
-- Violence
+-   Company
+-   Discussion
+-   Documentation
+-   Engagement
+-   Information
+-   Management
+-   Organization
+-   Presentation
+-   Violence

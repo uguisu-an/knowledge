@@ -2,6 +2,6 @@
 
 ## Reference
 
-- Project Management
-- Product Management
-- Software Design
+-   Project Management
+-   Product Management
+-   Software Design
