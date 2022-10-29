@@ -1,4 +1,6 @@
-# DDD (Domain Driven Development)
+# Domain-Driven Design: DDD
+
+ドメイン駆動設計。
 
 コミュニケーションのためにモデリングする。
 
