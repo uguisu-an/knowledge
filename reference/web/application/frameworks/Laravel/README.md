@@ -10,12 +10,6 @@
 
 [Laravel 入門](https://newmonz.jp/lesson/laravel-basic)
 
-## Tips
-
-[laravel-best-practices/japanese.md at master · alexeymezenin/laravel-best-practices · GitHub](https://github.com/alexeymezenin/laravel-best-practices/blob/master/japanese.md)
-
-[Laravel 学習ロードマップ - Qiita](https://qiita.com/nunulk/items/785749a5d184198fe712)
-
 ## Tools
 
 [Laravel Package Boilerplate - Kickstart your next package](https://laravelpackageboilerplate.com/)
