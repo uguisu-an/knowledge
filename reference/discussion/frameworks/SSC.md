@@ -1,12 +1,11 @@
-# Start-Stop-Continue
+# Start-Stop-Continue: SSC
 
 行動改善を促すフィードバックのテンプレート。
 
-Start: やってほしいこと、始めてほしいこと
-
-Stop: やめてほしいこと
-
-Continue: 続けてほしいこと
+1. Start: やってほしいこと、始めてほしいこと
+2. Stop: やめてほしいこと
+3. Continue: 続けてほしいこと
 
 Start-Stop-Continue が 3 つとも揃っている必要はない。
+
 逆に、この 3 つから外れたフィードバックは行動改善に繋がらないと考えた方がいい。
