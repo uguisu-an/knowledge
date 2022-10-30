@@ -12,3 +12,5 @@
 請負の要件定義で UI/UX を先行させるためには、機能を小さくするしかない。
 
 https://note.com/akio_yoshihashi/n/n70602ddc58c6
+
+https://note.com/tkmngy/n/nf31f0604225e
