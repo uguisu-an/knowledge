@@ -9,3 +9,5 @@
 -   [Company](/docs/company)
 -   [Marketing](/docs/marketing)
 -   [Sales](/docs/sales)
+-   Violence
+-   Community
