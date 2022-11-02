@@ -11,6 +11,6 @@
 ## Reference
 
 -   Communication
--   Design
+-   Domain-Driven Design
 -   Presentation
 -   Versioning
