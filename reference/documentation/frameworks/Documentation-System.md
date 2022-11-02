@@ -1,7 +1,15 @@
 # Documentation System
 
-ドキュメントを分類する仕組み。
-[Documentation System](https://documentation.divio.com/)
+https://documentation.divio.com/
+
+書類を以下の 4 つに分類する。
+
+1. Tutorials (learning-oriented)
+2. How-to Guides (problem-oriented)
+3. Explanation (understanding-oriented)
+4. Reference (information-oriented)
+
+## 備考
 
 Tutorial はそのドキュメントの対象を使い始めるための全てが詰まっている。
 詳しい Installation とは区別する。Installation は How-to Guides だ。
