@@ -1,9 +1,5 @@
 # Management
 
-## About
-
-正しい問題に対処すること。
-
 ## Structure
 
 -   検査
