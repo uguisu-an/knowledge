@@ -6,10 +6,6 @@
 
 # Structure
 
-`/tutorial`
-
-このリポジトリのチュートリアル。
-
 `/docs`
 
 トピックごとにある程度まとまった解説。
@@ -54,6 +50,7 @@
     -   Marketing and Sales
         -   Marketing
         -   Sales
+-   Community
 -   Lifestyle
 
 技術
@@ -80,10 +77,9 @@
         -   UI Design
         -   API Design
 -   Communication
-    -   Discussion
-    -   Documentation
-    -   Presentation
-    -   Meeting
+-   Discussion
+-   Documentation
+-   Presentation
 
 幸福
 
