@@ -13,3 +13,5 @@ MVP はモックを作って紙芝居でもいい。
 [MVP（Minimum Viable Product）とは？実践するメリットと検証方法 | UX MILK](https://uxmilk.jp/65654)
 
 [リーン・スタートアップ ムダのない起業プロセスでイノベーションを生みだす | エリック リース, 井口 耕二, 伊藤 穣一(MIT メディアラボ所長) （解説） | ビジネス・経済 | Kindle ストア | Amazon](https://www.amazon.co.jp/dp/B00F3UTIQY)
+
+開発するだけで疲弊して、初めから年老いてしまってるサービスもよくある。
