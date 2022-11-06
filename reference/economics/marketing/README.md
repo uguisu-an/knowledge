@@ -1,6 +1,8 @@
 # Marketing
 
-## 関連
+商談に持ち込むこと。
+
+## Reference
 
 -   Business
 -   Development
