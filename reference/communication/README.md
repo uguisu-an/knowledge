@@ -3,6 +3,7 @@
 ## Reference
 
 -   Company
+-   Design
 -   Discussion
 -   Documentation
 -   Engagement
