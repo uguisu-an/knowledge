@@ -1,8 +1,15 @@
 # Knowledge
 
-## Purpose
-
 天才を作る。
+
+## For developers
+
+-   参照先として設定しても位置が変わりにくいように、構造はできるだけフラットにしたい。
+-   ただし、少なくともコンテキストは分ける。
+-   `programming/languages/javascript/` や `time/management/` みたいなのは一貫していれば OK。
+-   関連する情報はできるだけ近くに置きたい。
+-   Obsidian のようなツールに頼るよりはフォルダでシンプルに整理したい。
+-   ツールを補助的に使うのは構わない。
 
 # Structure
 
