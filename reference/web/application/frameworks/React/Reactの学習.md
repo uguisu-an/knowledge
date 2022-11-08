@@ -1,10 +1,18 @@
 # React の学習
 
-## 読む
-
-ロードマップ
+## ロードマップ
 
 https://twitter.com/_georgemoller/status/1537818396150095873
+
+https://roadmap.sh/react
+
+## JavaScript
+
+JavaScript の知識がないと始まらない。
+
+https://qiita.com/KNR109/items/d127687d54a12e992143
+
+## 読む
 
 情報はとにかく公式。
 
