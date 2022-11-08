@@ -7,3 +7,5 @@
 -   Documentation
 -   Engagement
 -   Organization
+-   Teaching
+-   Mentoring
