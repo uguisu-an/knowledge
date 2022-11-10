@@ -18,3 +18,5 @@
 以下は少し古いが、API 設計のガイドラインは参考になる。
 
 https://github.com/elsewhencode/project-guidelines/blob/master/README-ja.md
+
+https://qiita.com/KNR109/items/d3b6aa8803c62238d990
