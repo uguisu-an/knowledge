@@ -1,10 +1,9 @@
 # Engagement
 
-意欲を高めること。
+パートナーを集めること。
 
 ## Reference
 
--   Love
 -   Community
 -   Organization
 -   Education
