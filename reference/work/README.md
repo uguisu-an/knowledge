@@ -1,5 +1,10 @@
 # Work
 
+影響を与えること。
+
 ## Reference
 
--   Change
+-   Management
+-   Development
+-   Engagement
+-   Progress
