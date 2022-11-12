@@ -4,6 +4,5 @@
 
 ## Reference
 
--   Programming
 -   Planning
 -   Estimating
