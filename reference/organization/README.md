@@ -4,8 +4,6 @@
 
 -   engagement
 -   communication
--   lifestyle
--   team
 -   company
+-   community
 -   government
--   business
