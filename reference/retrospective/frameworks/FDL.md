@@ -16,3 +16,6 @@ https://www.ogis-ri.co.jp/otc/hiroba/others/ActivityPocket/FunDoneLearn.html
 意見の偏りを見つけて、「次はもっと挑戦してみよう」とか「学習に寄りすぎてたから成果も増やそう」とか方針を決める。
 
 意見を得られて、なんらかの対処が必要なものを見つけたら、対処も決める。
+
+KPT に比べると対処を決めるのは後回しなのと、ポジティブなのが違うところ。
+Done というのは Problem の裏面だし、Learn というのは過去の Try なので、内容は似ている。
