@@ -1,5 +1,7 @@
 # DDD Design Pattern
 
+DDD でついでに紹介されているデザインパターン。
+
 ## 注意
 
 DDD はデザインパターンにも目が行きがちだが、もっと大事なのはドメインやコンテキストの境界を明確にすること。
@@ -12,5 +14,6 @@ DDD はデザインパターンにも目が行きがちだが、もっと大事�
 -   Value Object
 -   Domain Service
 -   Domain Event
--   Repository
+-   Aggregate & Repository
 -   Policy (Strategy)
+-   Application Service
