@@ -1,4 +1,4 @@
-# OS: Operating System
+# Operating System: OS
 
 人間がコンピュータを操作するためのミドルウェア。
 
