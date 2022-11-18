@@ -9,3 +9,5 @@
 の 3 つがある。今のところ 3 つしかない。
 
 [Clean Architecture 達人に学ぶソフトウェアの構造と設計 | Robert C.Martin, 角 征典, 高木 正弘](https://www.amazon.co.jp/dp/B07FSBHS2V)
+
+プログラミングパラダイムは実行計画の立て方に影響する。
