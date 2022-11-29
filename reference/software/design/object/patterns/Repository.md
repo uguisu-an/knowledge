@@ -12,3 +12,6 @@ DDD ではドメイン層にインタフェースを置いて、実装を DI す
 
 データの取得を持たせることがあっても、それは保存のための予備動作。
 いろんな取得パターンを作るときは、Repository に持たずに Query Service を作った方がいい。
+
+Repository と Aggregate の層があると、ActiveRecord の Model はデータベースアクセスに専念できる。
+複数の Model を一つの Aggregate としてアクセスの単位を固定できる。一定のアクセス方法以外でその Model を変更しない、という制約になる。
