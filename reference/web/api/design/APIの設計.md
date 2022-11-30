@@ -4,13 +4,7 @@
 
 [REST API の設計規則を解説｜設計する際のポイントや必要なスキルもご紹介します｜ SaaS 連携開発ならストラテジット](https://www.strategit.jp/column/041304/)
 
-[API 設計スキルを次のレベルに引き上げるベストプラクティス 22 選 - Qiita](https://qiita.com/baby-degu/items/6f516189445d98ddbb7d)
-
-[翻訳: WebAPI 設計のベストプラクティス - Qiita](https://qiita.com/mserizawa/items/b833e407d89abd21ee72)
-
 [Web API 設計入門](https://zenn.dev/nakaryo/articles/87b15866d67efe)
-
-[Web API 設計のベスト プラクティス - Azure Architecture Center | Microsoft Docs](https://docs.microsoft.com/ja-jp/azure/architecture/best-practices/api-design)
 
 クライアント側が API 設計を主導すると、場当たり的な API が作られがち。
 基本的にはサーバー側が主導して、一貫性のある API を作ろう。
