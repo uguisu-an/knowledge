@@ -12,7 +12,7 @@ https://qiita.com/c60evaporator/items/b9e645b96afa3a34f41e
 AWS IAM まとめ
 https://qiita.com/c60evaporator/items/0121399880625cc1de51
 
-AWSの料金を制限する。
+AWS の料金を制限する。
 https://dev.classmethod.jp/articles/aws-cost-saver/
 https://docs.aws.amazon.com/ja_jp/awsaccountbilling/latest/aboutv2/checklistforunwantedcharges.html
 https://tipstour.net/aws-budget-alert
