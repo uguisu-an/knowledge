@@ -15,3 +15,5 @@ documentation
 learning
 marketing
 planning
+
+PM の仕事のうち、計画づくりの部分を「プログラム・マネジメント」といい、製品づくりの部分を「プロダクト・マネジメント」という。
