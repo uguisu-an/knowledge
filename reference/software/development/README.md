@@ -8,6 +8,7 @@
 
 -   Coding
 -   Programming
--   Software Design
+-   Computer Science
 -   Software Engineering
+-   Software Design
 -   Software Testing

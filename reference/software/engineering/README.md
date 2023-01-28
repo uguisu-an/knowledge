@@ -3,6 +3,6 @@
 ## Reference
 
 -   Computer
--   Software Development
--   System Operations
--   Project Management
+-   Software
+-   Software Design
+-   Software Testing
