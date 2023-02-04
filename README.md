@@ -1,8 +1,6 @@
 # Knowledge
 
-天才を作る。
-
-## Guide
+## Getting Started
 
 まずは `tutorial` を読みましょう。
 
