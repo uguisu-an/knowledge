@@ -4,7 +4,7 @@
 
 概要を抑える。
 
-https://dart.dev/overview
+[Dart overview | Dart](https://dart.dev/overview)
 
 ## 書き方を覚える
 
@@ -14,9 +14,9 @@ https://dart.dev/overview
 
 [Language tour | Dart](https://dart.dev/guides/language/language-tour)
 
-以下の入門記事も参考になる。
+以下の入門記事も Language tour の縮小版といった内容だが日本語。
 
-[Flutter入門のためのDart入門 - Qiita](https://qiita.com/teradonburi/items/913fb8c311b9f2bdb1dd)
+[Flutter 入門のための Dart 入門 - Qiita](https://qiita.com/teradonburi/items/913fb8c311b9f2bdb1dd)
 
 ## 目的別の開発方法を覚える
 
@@ -28,7 +28,7 @@ https://dart.dev/overview
 
 各種チュートリアルを実施する。
 
-https://dart.dev/tutorials
+[Tutorials | Dart](https://dart.dev/tutorials)
 
 ## よく使うパッケージの使い方を覚える
 
