@@ -4,27 +4,34 @@
 
 -   Dart
 
-## はじめに
-
-まずは公式の「はじめに」から。
+## 環境構築
 
 https://docs.flutter.dev/get-started/install
 
-"4. Write your first app" がチュートリアルになっている。
+https://docs.flutter.dev/get-started/editor
 
-## レイアウト
+https://docs.flutter.dev/get-started/test-drive
 
-https://docs.flutter.dev/development/ui/layout/tutorial
+## チュートリアル
+
+公式のチュートリアル
+
+https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0
+
+## さらに詳しく
+
+https://docs.flutter.dev/get-started/learn-more
+
+特に、Flutter basics の部分は読んだほうがいい。
+ウィジェット、イベント、レイアウトが基本。
+
+SwiftUI, Android, React Native, その他の Web 開発などに携わったことがあれば、"From another platform?"から入ると違いがわかりやすい。
+
+レイアウトについて詳しく
 
 https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
 
-## イベント
-
-https://docs.flutter.dev/development/ui/interactive
-
-## その他
-
-SwiftUI, Android, React Native, その他の Web 開発などに携わったことがあれば、"From another platform?"から入ると違いがわかりやすい。
+あとはサンプルを読んだり、API リファレンスを読んだりする。
 
 ## Reference
 
