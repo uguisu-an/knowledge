@@ -14,16 +14,29 @@ https://docs.flutter.dev/get-started/test-drive
 
 ## チュートリアル
 
-公式のチュートリアル
+まずは公式のチュートリアルから。
 
 https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0
 
+## ウィジェットとレイアウト
+
+ウィジェットとレイアウトについて基礎を学ぶ。
+
+https://docs.flutter.dev/development/ui/widgets-intro
+
+https://docs.flutter.dev/development/ui/layout
+
+レイアウトのチュートリアルをこなす。
+
+https://docs.flutter.dev/development/ui/layout/tutorial
+
+## イベント
+
 ## さらに詳しく
 
-https://docs.flutter.dev/get-started/learn-more
+公式のおすすめに従うといい。
 
-特に、Flutter basics の部分は読んだほうがいい。
-ウィジェット、イベント、レイアウトが基本。
+https://docs.flutter.dev/get-started/learn-more
 
 SwiftUI, Android, React Native, その他の Web 開発などに携わったことがあれば、"From another platform?"から入ると違いがわかりやすい。
 
