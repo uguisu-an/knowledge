@@ -1,0 +1,14 @@
+# 情報と通信 Information and Communication
+
+情報とその交換。
+
+情報は「リスクを下げる」性質があるので、リスクとも関連がある。
+
+情報を得るための学習、知識、経験、実験や交換の手段などに関連がある。
+
+## 情報通信技術 Information and Communication Technology
+
+コンピュータを扱う分野が Information and Communication Technology: ICT と呼ばれるのは、情報通信を扱う機材だから。
+
+-   Computer
+-   Web
