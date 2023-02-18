@@ -100,3 +100,7 @@ https://developer.apple.com/jp/design/tips/
 早くから UI が欲しかったら、そもそもアプリケーションの規模を小さくすることから始める。
 
 ソフトウェア開発で「UI」と呼ばれているのは「”アプリケーションの”UI」だ。アプリケーションを考えずに UI を考えるのはおかしい。
+
+細かいポイント
+
+https://coliss.com/articles/build-websites/operation/design/ui-ux-micro-tips-best-of-2022.html
