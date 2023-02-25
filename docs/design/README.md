@@ -8,6 +8,5 @@
 
 ## Reference
 
--   Modeling
--   Presentation
+-   Information
 -   Communication
