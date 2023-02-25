@@ -8,7 +8,4 @@
 
 -   Business
 -   Development
--   Engineering
 -   Engagement
--   Sales
--   Economics

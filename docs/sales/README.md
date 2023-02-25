@@ -5,5 +5,3 @@
 ## 関連
 
 -   Business
--   Marketing
--   Engagement
