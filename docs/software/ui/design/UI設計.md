@@ -104,3 +104,5 @@ https://developer.apple.com/jp/design/tips/
 細かいポイント
 
 https://coliss.com/articles/build-websites/operation/design/ui-ux-micro-tips-best-of-2022.html
+
+UIのデザインはアプリケーションの下。アプリケーション抜きには語れない。
