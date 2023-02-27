@@ -6,7 +6,8 @@
 
 コンポーネントとインタフェースが中心。
 
+インタフェースは情報をやり取りする接点。通信と関連がある。
+
 ## Reference
 
--   Information
 -   Communication

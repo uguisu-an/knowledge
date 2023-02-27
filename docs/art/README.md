@@ -7,4 +7,4 @@
 ## Reference
 
 -   Work
--   Lateral Thinking
+-   Information
