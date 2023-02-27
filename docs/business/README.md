@@ -1,7 +1,5 @@
-# 取引 Business
+# Business
 
-## 関連
+## Reference
 
--   Communication
--   Engagement
--   Leisure
+-   Exchange

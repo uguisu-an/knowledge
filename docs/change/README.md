@@ -2,5 +2,4 @@
 
 ## Reference
 
--   Work
 -   Time
