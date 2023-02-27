@@ -1,9 +1,7 @@
 # Team
 
-小さな組織。
+仕事の実行単位。
 
 ## Reference
 
--   Organization
--   Engagement
--   Scrum
+-   Work
