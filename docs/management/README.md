@@ -1,5 +1,9 @@
 # Management
 
+うまくやる。
+
+なんとかする。
+
 ## Structure
 
 -   検査
@@ -19,8 +23,4 @@
 
 ## Reference
 
--   Learning
--   Change
--   Planning
--   Routine
--   Science
+-   Work

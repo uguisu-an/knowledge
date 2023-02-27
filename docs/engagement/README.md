@@ -4,7 +4,4 @@
 
 ## Reference
 
--   Community
--   Organization
--   Education
--   Violence
+-   Work
