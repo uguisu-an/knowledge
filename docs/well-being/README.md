@@ -6,3 +6,5 @@
 -   Lifestyle
 -   Peace
 -   Health
+-   Business
+-   Finance
