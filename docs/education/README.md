@@ -13,3 +13,4 @@
 -   Organization
 -   Teaching
 -   Mentoring
+-   Entertainment
