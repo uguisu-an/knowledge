@@ -2,8 +2,11 @@
 
 文化を伝えること。
 
+「部族を増やす」ことを価値とする。
+
 ## Reference
 
+-   Community
 -   Communication
 -   Documentation
 -   Engagement
