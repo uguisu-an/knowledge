@@ -4,4 +4,4 @@
 
 ## Reference
 
--   Resource
+- Resource

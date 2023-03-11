@@ -6,11 +6,11 @@
 
 ## Reference
 
--   Community
--   Communication
--   Documentation
--   Engagement
--   Organization
--   Teaching
--   Mentoring
--   Entertainment
+- Community
+- Communication
+- Documentation
+- Engagement
+- Organization
+- Teaching
+- Mentoring
+- Entertainment

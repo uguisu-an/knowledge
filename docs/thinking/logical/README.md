@@ -2,4 +2,4 @@
 
 ## Reference
 
--   Vertical Thinking
+- Vertical Thinking

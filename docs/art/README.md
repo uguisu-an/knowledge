@@ -6,5 +6,5 @@
 
 ## Reference
 
--   Work
--   Information
+- Work
+- Information

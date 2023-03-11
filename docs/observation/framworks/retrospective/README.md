@@ -4,4 +4,4 @@
 
 ## Reference
 
--   Decision
+- Decision

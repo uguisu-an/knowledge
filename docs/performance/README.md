@@ -4,6 +4,6 @@
 
 ## Reference
 
--   Planning
--   Estimating
--   Monitoring
+- Planning
+- Estimating
+- Monitoring

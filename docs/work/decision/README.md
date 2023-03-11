@@ -2,6 +2,6 @@
 
 ## Reference
 
--   Action
--   Thinking
--   Learning
+- Action
+- Thinking
+- Learning

@@ -10,10 +10,10 @@ DDD はデザインパターンにも目が行きがちだが、もっと大事�
 
 ## デザインパターンの種類
 
--   Entity
--   Value Object
--   Domain Service
--   Domain Event
--   Aggregate & Repository
--   Policy (Strategy)
--   Application Service
+- Entity
+- Value Object
+- Domain Service
+- Domain Event
+- Aggregate & Repository
+- Policy (Strategy)
+- Application Service

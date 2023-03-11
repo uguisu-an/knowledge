@@ -6,8 +6,8 @@
 
 ```yaml
 dev_dependencies:
-    flutter_test:
-        sdk: flutter
+  flutter_test:
+    sdk: flutter
 ```
 
 ## Widget の構築と検索

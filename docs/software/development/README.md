@@ -6,9 +6,9 @@
 
 ## Reference
 
--   Coding
--   Programming
--   Computer Science
--   Software Engineering
--   Software Design
--   Software Testing
+- Coding
+- Programming
+- Computer Science
+- Software Engineering
+- Software Design
+- Software Testing

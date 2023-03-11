@@ -2,7 +2,7 @@
 
 ## Reference
 
--   People
--   Work
--   Team
--   Community
+- People
+- Work
+- Team
+- Community

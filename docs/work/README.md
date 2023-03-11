@@ -4,11 +4,11 @@
 
 ## Reference
 
--   Decision
--   Action
--   Task
--   Project
--   Management
--   Development
--   Engagement
--   Progress
+- Decision
+- Action
+- Task
+- Project
+- Management
+- Development
+- Engagement
+- Progress

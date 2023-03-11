@@ -2,8 +2,8 @@
 
 ## Reference
 
--   Knowledge
--   Experience
--   Information
--   Communication
--   Learning
+- Knowledge
+- Experience
+- Information
+- Communication
+- Learning

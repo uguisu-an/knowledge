@@ -2,5 +2,5 @@
 
 ## Reference
 
--   Engagement
--   Power
+- Engagement
+- Power

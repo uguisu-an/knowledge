@@ -155,12 +155,12 @@ Repository みたいにするのか、一つ一つ外部サービスのユース
 
 機能テストの方針
 
--   Laravel ではアーキテクチャを凝りすぎない
--   機能テストでは Gateways をスタブにする
--   外部サービスは Gateways を挟む
--   内部サービスはモックしない
--   複数のサービスを扱うアクションでは各サービスのアサーションを省略する
--   アクションでアサーションを省略したサービスは個別にテストする
+- Laravel ではアーキテクチャを凝りすぎない
+- 機能テストでは Gateways をスタブにする
+- 外部サービスは Gateways を挟む
+- 内部サービスはモックしない
+- 複数のサービスを扱うアクションでは各サービスのアサーションを省略する
+- アクションでアサーションを省略したサービスは個別にテストする
 
 アプリケーションやドメインモデルとしては Gateways を意識しなくてもいいと思う。
 基本的には Repository でいい。ただ、直接別のコンテキストをアプリケーションから操作する場合は Gateways を挟む感じ。Repository で済むなら Repository でいい。
@@ -247,11 +247,11 @@ SDK は Response でもいいし、独自のドメインモデルを持つこと
 
 外部サービスの API を自前で用意する場合、
 
--   src/Crm/Client.php
--   src/Crm/Models/Response.php
--   src/Marketing/Application/Services/UserCreateCustomerUseCase.php
--   src/Marketing/Domain/Models/Customer.php
--   src/Marketing/Domain/Models/CustomerRepository.php
+- src/Crm/Client.php
+- src/Crm/Models/Response.php
+- src/Marketing/Application/Services/UserCreateCustomerUseCase.php
+- src/Marketing/Domain/Models/Customer.php
+- src/Marketing/Domain/Models/CustomerRepository.php
 
 みたいになるかな。
 `src/Crm`以下に SDK を用意して、Gateways の実装からそれを使う。
@@ -323,18 +323,18 @@ Laravel でレイヤー分けるならこんな感じ。
 
 app/Gateways/
 
--   EloquentArticleRepository
+- EloquentArticleRepository
 
 src/Blog/Application/Services/
 
--   UserPostArticleUseCase
--   UserEditArticleUseCase
+- UserPostArticleUseCase
+- UserEditArticleUseCase
 
 src/Blog/Domain/Models/
 
--   Article
--   ArticleId
--   ArticleRepository (interface)
+- Article
+- ArticleId
+- ArticleRepository (interface)
 
 CampaignRetrieveCustomerUseCase の場合、その中で使う CustomerGateway や CustomerTagListGateway は同じコンテキストであるべき。
 専用の CustomerGateway を、CRM の通常ルートとは別に作ることも考えられる。その場合もコンテキストは同じ。
@@ -376,15 +376,15 @@ Query では、QueryService から Gateway のインタフェースにアクセ�
 
 ドメインとアプリケーションは以下のような構成が良さそう。
 
--   Domain/
-    -   Models/ ... Entity や Repository など
--   Application/
-    -   Models/ ... Command や Transformer など
-    -   Services/ ... UseCase や ApplicationService など
--   Query/
-    -   Models/
-    -   Services/
-    -   Gateways/ ... QueryService から呼び出すアダプタ
+- Domain/
+  - Models/ ... Entity や Repository など
+- Application/
+  - Models/ ... Command や Transformer など
+  - Services/ ... UseCase や ApplicationService など
+- Query/
+  - Models/
+  - Services/
+  - Gateways/ ... QueryService から呼び出すアダプタ
 
 クエリサービスでデータを取得する部分は Gateway などに委譲する。
 
@@ -401,19 +401,19 @@ Gateways = Models
 
 例えば、Event の一覧を取ってくる API の中継を Laravel でやるなら・・
 
--   app/
-    -   Gateways/
-        -   EventApi.php
--   src/
-    -   XxxContext
-        -   Application/
-            -   Gateways/
-                -   EventQueryGateway.php
-            -   Query/
-                -   Models/
-                    -   Event.php
-                -   Services/
-                    -   EventQueryService.php
+- app/
+  - Gateways/
+    - EventApi.php
+- src/
+  - XxxContext
+    - Application/
+      - Gateways/
+        - EventQueryGateway.php
+      - Query/
+        - Models/
+          - Event.php
+        - Services/
+          - EventQueryService.php
 
 一覧の Gateway は、XxxListGateway が好み。
 XxxRetrieveGateway, XxxCreateGateway, のように動詞を後にする方がわかりやすいかも。

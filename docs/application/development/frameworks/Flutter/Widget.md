@@ -12,20 +12,20 @@ https://docs.flutter.dev/development/ui/widgets
 
 以下の Widget はチュートリアルにもよく出てくる。
 
--   MaterialApp
--   Scaffold
--   AppBar
--   Placeholder
--   Row
--   Column
--   Container
--   Center
--   Text
--   Icon
--   Image
--   TextButton
--   ElevatedButton
--   OutlinedButton
+- MaterialApp
+- Scaffold
+- AppBar
+- Placeholder
+- Row
+- Column
+- Container
+- Center
+- Text
+- Icon
+- Image
+- TextButton
+- ElevatedButton
+- OutlinedButton
 
 ## 全ての Widget
 

@@ -6,5 +6,5 @@
 
 ## Reference
 
--   Work
--   People
+- Work
+- People

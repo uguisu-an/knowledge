@@ -2,7 +2,7 @@
 
 ## Reference
 
--   Computer
--   Software
--   Software Design
--   Software Testing
+- Computer
+- Software
+- Software Design
+- Software Testing

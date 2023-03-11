@@ -4,5 +4,5 @@
 
 ## Reference
 
--   Work
--   Organization
+- Work
+- Organization

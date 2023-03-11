@@ -2,5 +2,5 @@
 
 ## Reference
 
--   design
--   learning
+- design
+- learning

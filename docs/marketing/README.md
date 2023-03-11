@@ -6,6 +6,6 @@
 
 ## Reference
 
--   Business
--   Development
--   Engagement
+- Business
+- Development
+- Engagement

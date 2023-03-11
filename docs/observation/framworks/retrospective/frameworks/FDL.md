@@ -5,9 +5,9 @@
 
 ![FDL](https://www.ogis-ri.co.jp/otc/hiroba/others/ActivityPocket/img/pic201811-01.png)
 
--   Fun: 楽しんだこと
--   Done: うまくいったこと
--   Learn: 試したこと、学んだこと
+- Fun: 楽しんだこと
+- Done: うまくいったこと
+- Learn: 試したこと、学んだこと
 
 https://qiita.com/yattom/items/90ac533d993d3a2d2d0f
 

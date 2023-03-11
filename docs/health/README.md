@@ -2,5 +2,5 @@
 
 ## Reference
 
--   Monitoring
--   Healing
+- Monitoring
+- Healing

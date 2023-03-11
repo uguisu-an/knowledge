@@ -2,9 +2,9 @@
 
 ## Reference
 
--   Life
--   Lifestyle
--   Peace
--   Health
--   Business
--   Finance
+- Life
+- Lifestyle
+- Peace
+- Health
+- Business
+- Finance

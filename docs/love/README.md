@@ -4,4 +4,4 @@
 
 ## Reference
 
--   People
+- People

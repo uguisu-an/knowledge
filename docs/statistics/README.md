@@ -2,4 +2,4 @@
 
 ## Reference
 
--   learning
+- learning

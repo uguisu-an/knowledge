@@ -6,5 +6,5 @@
 
 ## Reference
 
--   Community
--   Organization
+- Community
+- Organization

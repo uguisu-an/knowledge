@@ -1,9 +1,9 @@
 # OODA Loop
 
--   Observe: 観察
--   Orient: 情勢判断
--   Decide: 意思決定
--   Act: 検証
+- Observe: 観察
+- Orient: 情勢判断
+- Decide: 意思決定
+- Act: 検証
 
 https://www.amazon.co.jp/dp/B07ND6QTN4
 

@@ -4,5 +4,5 @@
 
 ## Reference
 
--   Exchange
--   Finance
+- Exchange
+- Finance

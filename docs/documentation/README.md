@@ -6,11 +6,11 @@
 
 ## Principles
 
--   [ドキュメントは読まれない](./原則.md#ドキュメントは読まれない)
+- [ドキュメントは読まれない](./原則.md#ドキュメントは読まれない)
 
 ## Reference
 
--   Communication
--   Domain-Driven Design
--   Presentation
--   Versioning
+- Communication
+- Domain-Driven Design
+- Presentation
+- Versioning

@@ -2,6 +2,6 @@
 
 ## Reference
 
--   information
--   trial
--   science
+- information
+- trial
+- science

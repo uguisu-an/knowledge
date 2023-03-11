@@ -4,5 +4,5 @@
 
 ## Reference
 
--   Business
--   Organization
+- Business
+- Organization

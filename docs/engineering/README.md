@@ -2,6 +2,6 @@
 
 ## Reference
 
--   Science
--   Technology
--   Development
+- Science
+- Technology
+- Development

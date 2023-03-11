@@ -1,4 +1,4 @@
--   Git History
--   Git Graph
--   GitHub Pull Requests and Issues
--   GitLens
+- Git History
+- Git Graph
+- GitHub Pull Requests and Issues
+- GitLens

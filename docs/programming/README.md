@@ -2,11 +2,11 @@
 
 ## Objectives
 
--   誰でもできるようにする。
+- 誰でもできるようにする。
 
 ## Reference
 
--   Design
--   Planning
--   Modeling
--   Computer Science
+- Design
+- Planning
+- Modeling
+- Computer Science

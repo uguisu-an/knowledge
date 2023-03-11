@@ -4,5 +4,5 @@
 
 ## Reference
 
--   Management
--   Trust
+- Management
+- Trust
