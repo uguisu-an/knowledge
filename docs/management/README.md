@@ -1,13 +1,16 @@
 # Management
 
-うまくやる、なんとかすること。成功させること。
+うまくやる、なんとかすること。成功させること。適応すること。
 
-## Getting Started
+成功させるために学習は欠かせない。
 
+## Keywords
+
+- 検査と適応
 - 成功と失敗
 
 ## Reference
 
 - Work
-- Well-being
 - Learning
+- Well-being

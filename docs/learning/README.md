@@ -1,7 +1,9 @@
 # Learning
 
+情報を得ること。
+
 ## Reference
 
-- information
-- trial
-- science
+- Information
+- Observation
+- Communication
