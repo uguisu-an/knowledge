@@ -13,4 +13,5 @@
 
 - Work
 - Learning
+- Coaching
 - Well-being
