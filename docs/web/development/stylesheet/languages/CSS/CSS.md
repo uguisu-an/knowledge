@@ -24,4 +24,5 @@ Web ページにヘッダとフッタをつける簡単な方法。
 
 https://qiita.com/KNR109/items/41065e31970925964b90
 
+CSS の理解度を確認するインタビュー
 https://github.com/fed/css-interview-questions
