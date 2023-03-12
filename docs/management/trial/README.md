@@ -1,3 +1,0 @@
-# Trial
-
-## Reference
