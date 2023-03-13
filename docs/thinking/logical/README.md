@@ -1,5 +1,0 @@
-# Logic
-
-## Reference
-
-- Vertical Thinking
