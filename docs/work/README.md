@@ -7,11 +7,4 @@
 ## Reference
 
 - Change
-- Decision
 - Action
-- Task
-- Project
-- Management
-- Development
-- Engagement
-- Progress

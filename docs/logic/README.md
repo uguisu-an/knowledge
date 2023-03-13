@@ -9,3 +9,7 @@
 - 推論
 - 法則
 - 原則と例外
+
+## Reference
+
+- Thinking
