@@ -13,5 +13,6 @@
 
 - Work
 - Learning
+- Thinking
 - Coaching
 - Well-being
