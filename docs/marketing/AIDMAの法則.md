@@ -20,6 +20,11 @@
 値段を下げるのは Action のコストを下げるけど、商売としてはできるだけ避けたい。
 そのほかの部分で購入しやすくする。
 
+知られることがないと、無料でも見つからない。
+
+趣味でやってるだけなら、attention と interest だけで足りる。
+そこから商売に発展することもある。
+
 ## Reference
 
 https://www.mitsue.co.jp/knowledge/marketing/principle/aidma.html

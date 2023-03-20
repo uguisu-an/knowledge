@@ -1,11 +1,7 @@
 # Marketing
 
-商談に持ち込むこと。
-
-顧客をパートナーとした engagement の応用分野。
+需要を獲得すること。
 
 ## Reference
 
-- Business
-- Development
-- Engagement
+- Communication

@@ -7,3 +7,5 @@
 - Economics
 - Politics
 - Finance
+- Marketing
+- Sales
