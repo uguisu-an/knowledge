@@ -1,6 +1,6 @@
 # Marketing
 
-需要を獲得すること。
+需要を獲得、維持すること。
 
 ## Keywords
 
@@ -11,3 +11,4 @@
 ## Reference
 
 - Communication
+- Engagement
