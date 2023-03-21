@@ -25,6 +25,8 @@
 趣味でやってるだけなら、attention と interest だけで足りる。
 そこから商売に発展することもある。
 
+高いと思っていても欲しいのは変わらない。割引などをきっかけに購買に進むこともある。
+
 ## Reference
 
 https://www.mitsue.co.jp/knowledge/marketing/principle/aidma.html
