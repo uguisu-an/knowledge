@@ -1,5 +1,8 @@
 # Statistics
 
+データの数値的な特徴を理解すること。
+
 ## Reference
 
-- learning
+- Math
+- Learning
