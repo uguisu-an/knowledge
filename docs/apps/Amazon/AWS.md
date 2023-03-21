@@ -16,3 +16,6 @@ AWS の料金を制限する。
 https://dev.classmethod.jp/articles/aws-cost-saver/
 https://docs.aws.amazon.com/ja_jp/awsaccountbilling/latest/aboutv2/checklistforunwantedcharges.html
 https://tipstour.net/aws-budget-alert
+
+AWS エンジニアロードマップ
+https://qiita.com/KurokawaKouhei/items/3836802fc3a0286f668f
