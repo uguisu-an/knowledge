@@ -8,3 +8,5 @@
 
 - Community
 - Organization
+- Politics
+- Economics
