@@ -1,8 +1,7 @@
 # Estimating
 
-推定。見積もり。
+目的を達成するために必要な手間や時間、費用などを予測すること。
 
 ## Reference
 
 - Achievement
-- Logic
