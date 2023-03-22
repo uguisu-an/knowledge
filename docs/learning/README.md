@@ -5,5 +5,4 @@
 ## Reference
 
 - Information
-- Observation
 - Communication
