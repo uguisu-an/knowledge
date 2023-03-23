@@ -7,3 +7,4 @@
 - Work
 - Community
 - Organization
+- Education

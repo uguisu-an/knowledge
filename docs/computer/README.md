@@ -1,5 +1,5 @@
 # Computer
 
-## 関連
+## Reference
 
-- [Software](/docs/software)
+- Technology
