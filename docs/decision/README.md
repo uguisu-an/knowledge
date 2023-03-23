@@ -1,7 +1,10 @@
-# 意思決定 Decision
+# Decision
+
+意思決定
 
 ## Reference
 
+- Risk
 - Action
 - Thinking
 - Learning
