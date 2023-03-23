@@ -12,3 +12,4 @@
 
 - Communication
 - Engagement
+- Economics
