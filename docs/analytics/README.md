@@ -4,5 +4,4 @@
 
 ## Reference
 
-- design
-- learning
+- Decision
