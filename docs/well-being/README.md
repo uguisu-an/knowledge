@@ -12,3 +12,4 @@
 - Finance
 - Community
 - Security
+- Wealth

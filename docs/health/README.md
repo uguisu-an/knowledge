@@ -4,3 +4,4 @@
 
 - Monitoring
 - Healing
+- Entertainment

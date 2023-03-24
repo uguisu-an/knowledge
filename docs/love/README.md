@@ -1,7 +1,8 @@
 # Love
 
-親密になること。
+愛。親密になること。
 
 ## Reference
 
 - People
+- Community
