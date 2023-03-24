@@ -1,4 +1,4 @@
-# Analysis
+# Analytics
 
 データを理解すること。
 
