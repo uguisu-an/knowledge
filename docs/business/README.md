@@ -8,5 +8,6 @@
 - Politics
 - Finance
 - Marketing
+- Pricing
 - Innovation
 - Sales
