@@ -1,8 +1,9 @@
 # Love
 
-愛。親密になること。
+双方が積極的に関わり合うこと。
 
 ## Reference
 
 - People
 - Community
+- Engagement
