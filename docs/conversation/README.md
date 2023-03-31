@@ -1,6 +1,6 @@
 # Conversation
 
-会話
+意見や情報を交換すること
 
 ## Reference
 
