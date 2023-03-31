@@ -6,4 +6,3 @@
 
 - People
 - Community
-- Engagement
