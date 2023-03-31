@@ -4,5 +4,4 @@
 
 ## Reference
 
-- People
-- Community
+- Decision

@@ -1,5 +1,7 @@
 # Intimacy
 
+人との愛。
+
 ## Keywords
 
 - 親密さ
