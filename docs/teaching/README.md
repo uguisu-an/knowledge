@@ -1,7 +1,8 @@
 # Teaching
 
-情報を与えること。
+知識を伝えること。
 
 ## Reference
 
 - Communication
+- Knowledge
