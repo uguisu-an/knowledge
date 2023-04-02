@@ -7,4 +7,3 @@
 ## Reference
 
 - Science
-- Development
