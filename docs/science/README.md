@@ -5,3 +5,5 @@
 ## Reference
 
 - Logic
+- Experience
+- Thinking
