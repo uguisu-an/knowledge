@@ -7,5 +7,5 @@
 ## Reference
 
 - Science
-- Technology
+- Technique
 - Programming
