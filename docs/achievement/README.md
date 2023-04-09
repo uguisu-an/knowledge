@@ -4,4 +4,7 @@
 
 ## Reference
 
+- Management
 - Development
+- Learning
+- Training
