@@ -4,4 +4,6 @@
 
 ## Reference
 
-- Decision
+- Trust
+- Respect
+- Engagement
