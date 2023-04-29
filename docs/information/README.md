@@ -1,8 +1,8 @@
 # Information
 
-リスクを下げるもの。
+リスクを下げるものが情報。
 
 ## Reference
 
-- Work
+- Decision
 - Risk
