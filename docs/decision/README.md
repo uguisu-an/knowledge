@@ -8,3 +8,5 @@
 - Action
 - Thinking
 - Learning
+- Information
+- Communication
