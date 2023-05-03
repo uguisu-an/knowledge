@@ -14,3 +14,5 @@
 
 - Change
 - Action
+- Health
+- Wealth
