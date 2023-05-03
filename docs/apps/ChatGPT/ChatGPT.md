@@ -34,3 +34,11 @@ GPT 自体にプロンプトを作ってもらう
 「〜したいです。どのようなプロンプトを投げればいいですか？」
 
 目的や仮説を投げてから「まずは理解するために質問して」「話を膨らませるためのトピックを教えて」と広げていく。
+
+OpenAI 公式の事例。
+[GitHub - openai/openai-cookbook: Examples and guides for using the OpenAI API](https://github.com/openai/openai-cookbook)
+
+[Prompt Engineering Guide 日本語版](https://www.promptingguide.ai/jp)
+
+GPT で BNF 表記を使うアイデア
+https://twitter.com/awakia/status/1641798554623819777
