@@ -4,6 +4,9 @@
 
 ## Reference
 
+- Perception
 - Thinking
 - Design
+- Architecture
 - Analysis
+- Analytics
