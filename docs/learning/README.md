@@ -6,3 +6,4 @@
 
 - Information
 - Communication
+- Perception
