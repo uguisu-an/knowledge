@@ -6,6 +6,7 @@
 
 ## Reference
 
+- Training
 - Community
 - Communication
 - Documentation
