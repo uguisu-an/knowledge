@@ -6,5 +6,4 @@
 
 - Work
 - Community
-- Organization
 - Education
