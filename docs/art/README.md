@@ -4,8 +4,11 @@
 
 「情報を生み出す」こと。
 
+知識や思考を表現すること。
+
 ## Reference
 
 - Work
 - Design
 - Experience
+- Communication
