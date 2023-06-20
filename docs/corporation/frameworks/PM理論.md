@@ -1,4 +1,9 @@
 # PM 理論
 
-目標達成と集団維持の 2 つの軸でマネジメントを評価するのが PM 理論。Performance と Maintenance の頭文字をとっている。
+目標達成 (Performance) と集団維持 (Maintenance) の 2 つの軸でマネジメントを評価するのが PM 理論。
+頭文字をとっている。
 https://go.chatwork.com/ja/column/efficient/efficient-584.html
+
+仕事や達成の方向とモチベーションやエンゲージメントの方向。
+
+PM 理論はリーダーそのものの特性というよりも、リーダーが広めるべき文化でしかない。
