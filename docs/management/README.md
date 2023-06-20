@@ -19,3 +19,5 @@
 - Coaching
 - Well-being
 - Achievement
+- Business
+- Finance
