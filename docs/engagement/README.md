@@ -10,3 +10,5 @@
 - Love
 - People
 - Community
+- Care
+- Respect

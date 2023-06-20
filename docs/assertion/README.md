@@ -6,3 +6,4 @@
 
 - Decision
 - Communication
+- Care
