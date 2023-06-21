@@ -1,3 +1,0 @@
-# Satisfaction
-
-## Reference
