@@ -9,3 +9,4 @@
 - Work
 - Team
 - Community
+- Management
