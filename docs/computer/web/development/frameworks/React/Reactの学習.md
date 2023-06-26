@@ -26,3 +26,9 @@ https://notion.yumemi.co.jp/0e9ef27b55704d7882aab55cc86c999d
 ## その他
 
 https://qiita.com/KNR109/items/e13a5c5b8b461e846902
+
+https://github.com/PacktPublishing/React-Application-Architecture-for-Production/tree/main
+
+https://github.com/alan2207/bulletproof-react
+
+https://zenn.dev/hrbrain/articles/437d0b7492ac47
