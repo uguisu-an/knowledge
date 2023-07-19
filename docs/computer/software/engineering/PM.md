@@ -4,3 +4,5 @@
 顧客とのやり取り、予算管理など。
 
 [Project Management](/docs/project/management/README.md)
+
+プロマネの本質的な目標は、プロジェクトを成功させること。そのために、完了させること。
