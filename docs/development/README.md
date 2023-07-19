@@ -7,3 +7,6 @@
 ## Reference
 
 - Work
+- Decision
+- Action
+- Choice
