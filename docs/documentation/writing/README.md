@@ -1,0 +1,4 @@
+- Communication
+- Documentation
+- Design
+- Reading
