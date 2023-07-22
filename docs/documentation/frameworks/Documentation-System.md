@@ -18,3 +18,5 @@ Tutorial はそのドキュメントの対象を使い始めるための全て�
 How-to Guides には How を書く。
 Explanation には Why を書く。
 Reference には What を書く。
+
+チュートリアルは初学者向けの導入。練習のはじめ方。
