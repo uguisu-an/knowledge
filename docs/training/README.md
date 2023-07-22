@@ -1,6 +1,11 @@
 # Training
 
-相手を成長させること。
+慣れること。
+
+## Keywords
+
+- 慣れ
+- 練習
 
 ## Reference
 
