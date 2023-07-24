@@ -5,3 +5,4 @@
 - Design
 - Reading
 - Assertion
+- Thinking
