@@ -4,9 +4,14 @@
 
 ## Reference
 
-- Risk
-- Choice
+とくに大きな依存先
+
 - Action
+- Choice
+
+その他
+
+- Risk
 - Thinking
 - Learning
 - Information
