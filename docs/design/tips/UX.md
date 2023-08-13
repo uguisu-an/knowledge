@@ -16,4 +16,4 @@ SNS や口コミのように製品以外から受ける影響なども全て含�
 
 > 我々が理解するべきは「顧客そのもの」ではなく「顧客体験（UX）」である
 
-https://note.com/takashi_koshiro/n/n6d71a559a91f
+[#3-2 顧客理解・ユーザ理解にサヨナラを（UX戦略の教科書）｜小城 崇](https://note.com/takashi_koshiro/n/n6d71a559a91f)
