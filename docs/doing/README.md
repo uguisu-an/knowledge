@@ -1,0 +1,4 @@
+- Work
+- Rest
+- Action
+- Decision
