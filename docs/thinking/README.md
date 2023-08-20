@@ -13,3 +13,5 @@
 - Data
 - Logic
 - Science
+- Learning
+- Knowledge
