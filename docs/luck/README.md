@@ -1,0 +1,5 @@
+## Reference
+
+- Action
+- Decision
+- Communication

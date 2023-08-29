@@ -4,5 +4,6 @@
 
 ## Reference
 
-- Work
 - Luck
+- Care
+- Work
