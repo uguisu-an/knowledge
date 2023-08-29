@@ -6,4 +6,5 @@
 
 - Business
 - Finance
-- Work
+- Security
+- Community
