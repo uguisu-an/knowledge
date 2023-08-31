@@ -4,6 +4,8 @@
 
 ## Reference
 
-- Life
+- Luck
+- Care
+- Love
 - Health
 - Wealth

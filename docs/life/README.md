@@ -11,4 +11,6 @@
 - Work
 - Love
 - Luck
+- Being
+- Doing
 - Entertainment
