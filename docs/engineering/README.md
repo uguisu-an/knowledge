@@ -6,6 +6,5 @@
 
 ## Reference
 
-- Science
-- Technique
-- Programming
+- Business
+- Technology
