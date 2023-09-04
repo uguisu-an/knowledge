@@ -1,6 +1,6 @@
 # Leisure
 
-Business 以外。
+余暇。Business でないこと。
 
 ## Reference
 
