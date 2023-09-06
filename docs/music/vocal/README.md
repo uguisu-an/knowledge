@@ -6,4 +6,3 @@
 
 - Music
 - Voice
-- Breathing
