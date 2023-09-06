@@ -7,3 +7,5 @@
 - Luck
 - Care
 - Work
+- Management
+- Coaching
