@@ -6,5 +6,6 @@
 
 - Work
 - Information
-- Communication
 - Perception
+- Observation
+- Communication
