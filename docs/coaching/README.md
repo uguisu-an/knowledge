@@ -5,7 +5,7 @@
 ## Reference
 
 - Love
-- Management
+- People Management
 - Engagement
 - Trust
 - Education
