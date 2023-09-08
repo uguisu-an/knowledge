@@ -9,3 +9,6 @@
 - Work
 - Management
 - Coaching
+- Learning
+- Training
+- Thinking
