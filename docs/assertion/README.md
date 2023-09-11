@@ -14,6 +14,5 @@
 
 ## Reference
 
-- Decision
 - Communication
 - Care
