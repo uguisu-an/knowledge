@@ -1,6 +1,6 @@
-# Vocal
+# Vocal Music
 
-歌唱
+声楽、歌唱
 
 ## Reference
 
