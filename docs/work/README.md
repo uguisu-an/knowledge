@@ -16,3 +16,4 @@
 - Action
 - Health
 - Wealth
+- Rest
