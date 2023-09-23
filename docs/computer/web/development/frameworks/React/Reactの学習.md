@@ -18,6 +18,8 @@ https://qiita.com/KNR109/items/d127687d54a12e992143
 
 https://ja.reactjs.org/
 
+https://ja.react.dev/learn
+
 ## 手を動かす
 
 株式会社ゆめみの公開しているフロントエンドのコーディング課題。React/Vue で SPA を作る。
