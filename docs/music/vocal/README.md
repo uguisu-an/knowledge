@@ -7,3 +7,4 @@
 - Sound
 - Voice
 - Music
+- Speaking

@@ -6,3 +6,4 @@
 - Reading
 - Assertion
 - Thinking
+- Speaking
