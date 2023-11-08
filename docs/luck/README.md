@@ -5,3 +5,4 @@
 - Action
 - Decision
 - Communication
+- Management
