@@ -1,4 +1,4 @@
-# API 設計
+# Web API の設計
 
 [API 設計の基本原則・手順 - 【Spring Hack】](https://springhack.com/api%E8%A8%AD%E8%A8%88%E3%81%AE%E5%9F%BA%E6%9C%AC%E3%83%BB%E6%89%8B%E6%B3%95/)
 
@@ -14,3 +14,15 @@
 https://github.com/elsewhencode/project-guidelines/blob/master/README-ja.md
 
 https://qiita.com/KNR109/items/d3b6aa8803c62238d990
+
+設計段階で必要なこと:
+
+1. 扱うリソースを決める
+2. どんなメソッドが必要か考える
+3. 各メソッドのクエリ（URI 本体とオプション）を決める
+4. 認証や認可を決める
+5. ステータスコードを決める
+6. レスポンスの内容を決める（本文やコンテンツタイプなど）
+7. ドキュメントを残す
+
+https://qiita.com/kazuki_tachikawa/items/7dab01ac2ea08b85fb15
