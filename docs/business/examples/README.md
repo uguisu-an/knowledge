@@ -7,3 +7,5 @@
 - 雇用契約を結んで働く
 - API を公開する
 - ジモティーなどの募集サイトで仕事を募集して働く
+
+[事例集 │ 新しいビジネスモデルの発想とヒント](https://financial-note.com/category/business-model-sample/)
