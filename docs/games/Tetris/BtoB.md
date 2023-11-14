@@ -5,3 +5,5 @@ BtoB になるとテトリスと T-Spin の火力に 1 段追加される。
 そうなる前に見切りをつけて狙いを変えた方がいい。
 
 http://tetds.web.fc2.com/basic/basic_btob.html
+
+どこまで BtoB にこだわって継続するべきか。
