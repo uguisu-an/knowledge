@@ -17,3 +17,4 @@
 - Health
 - Wealth
 - Rest
+- Influence
