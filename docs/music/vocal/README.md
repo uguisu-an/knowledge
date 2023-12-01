@@ -4,7 +4,5 @@
 
 ## Reference
 
-- Sound
-- Voice
 - Music
-- Speaking
+- Voice
