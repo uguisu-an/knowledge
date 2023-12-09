@@ -124,3 +124,6 @@ Street Fighter
 
 https://youtube.com/watch?v=6RNMRuHZ1oE&si=_Arbc3-Lr7eMpPsS
 スト 6 中級者向けの改善案
+
+フレームは上級者向けなので、かなり慣れてから覚えればいい。
+ただ、とりあえず有利不利の状況判断は初心者の頃からできた方がいい。
