@@ -13,3 +13,6 @@
 - War
 - Popular
 - Mood
+- Culture
+- Education
+- Fashion
