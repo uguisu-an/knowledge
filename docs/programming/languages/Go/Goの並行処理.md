@@ -3,7 +3,7 @@ goroutine を使うと、並行処理が簡単に書ける。
 主な命令文:
 
 - `go`
-- `make(chan)`
+- `make(chan ..)`
 - `close()`
 
 `go` で並行処理を実行する。
@@ -33,6 +33,8 @@ func main() {
 `channel <- message` でチャネルにメッセージを送って、`<- channel` でチャネルからメッセージを取り出す。
 取り出したメッセージは代入してもいいし、そのまま何かの引数にしてもいいし。
 
+内部的には `make(chan)` を呼び出すと `runtime.makechan(t *chantype, size int) *hchan` に変換される。
+
 ```go
 func funcA(chA chan <- string) {
     time.Sleep(3 * time.Second)
@@ -54,3 +56,4 @@ Channel が Promise にあたるけど、Go では `go` をつけないと並行
 ## Reference
 
 - https://www.tohoho-web.com/ex/golang.html#goroutines
+- https://zenn.dev/hsaki/books/golang-concurrency/viewer/chaninternal
