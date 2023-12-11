@@ -115,3 +115,5 @@ UI のデザインはアプリケーションの下。アプリケーション�
 使い勝手はレスポンスというか、思った通りに動くのが全て。
 
 https://note.com/dreamui/n/nd8a35fe5f8ac
+
+https://caroa.jp/article/IhEq8__-
