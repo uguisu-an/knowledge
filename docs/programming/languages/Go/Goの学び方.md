@@ -16,6 +16,26 @@ https://go-tour-jp.appspot.com/
 もちろん制限もあるが、簡単なプログラムなら問題ない。
 https://go.dev/play/
 
+## 基本構文に慣れる
+
+- パッケージの宣言 `package`
+- 変数と定数 `var`, `:=`, `const`
+- 演算子
+- 値 `nil`, `true`, `false`
+- 基本的な型と型変換 `bool`, `int`, `float64`, `string`
+- 配列とスライス `[]`, `make()`
+- 連想配列 `map`
+- 反復 `for`, `continue`, `break`
+- 分岐 (1) `if`, `else`
+- 分岐 (2) `switch`, `case`, `default`
+- 関数の定義 `func`, `return`
+- 型の定義 `type`
+- 構造体の定義 `struct`
+- インタフェースの定義 `interface`
+- パッケージの導入 `import`
+- 遅延処理 `defer`
+- 並行処理 `go`, `chan`, `<-`, `select`, `close()`
+
 ## Reference
 
 - https://qiita.com/tenntenn/items/0e33a4959250d1a55045
