@@ -29,9 +29,6 @@ func main() {
 }
 ```
 
-JavaScript でいう Generater や async/await に近い。
-ただ、結果は channel を経由してやりとりするのが特殊なところ。
-
 `channel := make(chan string)` で string のメッセージをやりとりするチャネルを作って、`defer close(channel)` で破棄するのを予約しておく。
 `channel <- message` でチャネルにメッセージを送って、`<- channel` でチャネルからメッセージを取り出す。
 取り出したメッセージは代入してもいいし、そのまま何かの引数にしてもいいし。
@@ -50,6 +47,9 @@ func main() {
     fmt.Println(msg)
 }
 ```
+
+JavaScript でいう Generater や async/await に近い。
+Channel が Promise にあたるけど、Go では `go` をつけないと並行処理しない。JavaScript では `async` なら勝手に並行処理になるけど。
 
 ## Reference
 
