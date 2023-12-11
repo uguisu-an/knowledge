@@ -12,3 +12,4 @@
 - Community
 - Care
 - Respect
+- Influence People
