@@ -19,3 +19,4 @@ https://go.dev/play/
 ## Reference
 
 - https://qiita.com/tenntenn/items/0e33a4959250d1a55045
+- https://qiita.com/tfrcm/items/e2a3d7ce7ab8868e37f7
