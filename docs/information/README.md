@@ -1,8 +1,15 @@
 # Information
 
-リスクを下げるものが情報。
+情報
 
 ## Reference
 
 - Decision
+- Observation
+- Communication
+- Documentation
 - Risk
+- Learning
+- Knowledge
+- Experience
+- Influence
