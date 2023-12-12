@@ -11,3 +11,5 @@ Go の考え方:
 
 - https://zenn.dev/nobonobo/articles/0b722c9c2b18d5
 - https://qiita.com/iwakiri0104/items/24d70205aaa2415f0491
+- https://qiita.com/immrshc/items/13199f420ebaf0f0c37c
+- https://www.twihike.dev/docs/golang-primer/errors
