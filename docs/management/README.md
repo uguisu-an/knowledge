@@ -19,6 +19,7 @@
 - Thinking
 - Coaching
 - Well-being
+- Development
 - Achievement
 - Business
 - Finance
