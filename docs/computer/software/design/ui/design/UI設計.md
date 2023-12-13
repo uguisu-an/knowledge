@@ -103,7 +103,7 @@ https://developer.apple.com/jp/design/tips/
 
 細かいポイント
 
-https://coliss.com/articles/build-websites/operation/design/ui-ux-micro-tips-best-of-2022.html
+[2022年、もっとも注目されたUIデザインのテクニックのまとめ | コリス](https://coliss.com/articles/build-websites/operation/design/ui-ux-micro-tips-best-of-2022.html)
 
 UI のデザインはアプリケーションの下。アプリケーション抜きには語れない。
 
@@ -114,6 +114,6 @@ UI のデザインはアプリケーションの下。アプリケーション�
 
 使い勝手はレスポンスというか、思った通りに動くのが全て。
 
-https://note.com/dreamui/n/nd8a35fe5f8ac
+[ダメなUIを作るコツ｜yumemi](https://note.com/dreamui/n/nd8a35fe5f8ac)
 
-https://caroa.jp/article/IhEq8__-
+[【UIシリーズ】選択肢の管理 ｜caroa blog｜caroa bx design partners｜ブランド体験をデザインする共創型トータルブランディングパートナー](https://caroa.jp/article/IhEq8__-)
