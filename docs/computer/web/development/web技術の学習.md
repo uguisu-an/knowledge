@@ -11,3 +11,5 @@
 https://github.com/bradtraversy/design-resources-for-developers
 
 https://prtimes.jp/main/html/rd/p/000000076.000015015.html
+
+https://web.dev/learn?hl=ja
