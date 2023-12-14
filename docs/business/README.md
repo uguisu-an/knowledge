@@ -30,3 +30,4 @@
 - Sales
 - Commerce
 - Care
+- Popular
