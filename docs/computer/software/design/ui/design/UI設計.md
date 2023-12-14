@@ -103,7 +103,7 @@ https://developer.apple.com/jp/design/tips/
 
 細かいポイント
 
-[2022年、もっとも注目されたUIデザインのテクニックのまとめ | コリス](https://coliss.com/articles/build-websites/operation/design/ui-ux-micro-tips-best-of-2022.html)
+[2022 年、もっとも注目された UI デザインのテクニックのまとめ | コリス](https://coliss.com/articles/build-websites/operation/design/ui-ux-micro-tips-best-of-2022.html)
 
 UI のデザインはアプリケーションの下。アプリケーション抜きには語れない。
 
@@ -114,6 +114,19 @@ UI のデザインはアプリケーションの下。アプリケーション�
 
 使い勝手はレスポンスというか、思った通りに動くのが全て。
 
-[ダメなUIを作るコツ｜yumemi](https://note.com/dreamui/n/nd8a35fe5f8ac)
+[ダメな UI を作るコツ｜ yumemi](https://note.com/dreamui/n/nd8a35fe5f8ac)
 
-[【UIシリーズ】選択肢の管理 ｜caroa blog｜caroa bx design partners｜ブランド体験をデザインする共創型トータルブランディングパートナー](https://caroa.jp/article/IhEq8__-)
+[【UI シリーズ】選択肢の管理 ｜ caroa blog ｜ caroa bx design partners ｜ブランド体験をデザインする共創型トータルブランディングパートナー](https://caroa.jp/article/IhEq8__-)
+
+[【閲覧注意】イライラ不可避な UI デザイン 10 選 #UI - Qiita](https://qiita.com/9re-pe/items/0296f8a8c11490efda21)
+
+1. キレイに並んでいない
+2. じっくり読まなきゃわからない
+3. 情報のまとまりがわかりづらい
+4. 情報量が多すぎる
+5. 言葉で説明されると辛い
+6. いつものように使えない
+7. すごく待たされているように感じる
+8. 失敗を想定していない
+9. 判断に困る
+10. 自己満足で思いやりがない
