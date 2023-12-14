@@ -16,3 +16,5 @@ t 分布に連動して、標本数が多くなるほど小さくなりやすい
 https://www.nri.com/jp/knowledge/glossary/lst/alphabet/p_value
 
 https://best-biostatistics.com/hypo_test/p-value.html
+
+データが正規分布に従うかどうかを判断するのにも「正規分布に従わない」ことを帰無仮説に設定して使う。
