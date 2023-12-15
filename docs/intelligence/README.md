@@ -1,3 +1,0 @@
-- learning
-- thinking
-- training
