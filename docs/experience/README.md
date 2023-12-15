@@ -2,4 +2,7 @@
 
 ## Reference
 
-- Narrative
+- Story
+- Perception
+- Devotion
+- Action
