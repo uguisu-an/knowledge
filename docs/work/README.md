@@ -7,14 +7,16 @@
 ## Keywords
 
 - 仕事
+- 意味
+- 働き・作用
 - 作業
-- 作用
 
 ## Reference
 
 - Change
+- Influence
 - Action
+
 - Health
 - Wealth
 - Rest
-- Influence
