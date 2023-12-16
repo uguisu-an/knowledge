@@ -4,6 +4,11 @@
 
 目的を達成すること、成果を得ること、完成させること。
 
+## Keywords
+
+- 実績
+- 成果
+
 ## Reference
 
 - Management
