@@ -11,5 +11,6 @@
 - People
 - Community
 - Care
+- Trust
 - Respect
 - Influence People
