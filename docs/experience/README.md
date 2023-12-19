@@ -6,3 +6,4 @@
 - Perception
 - Devotion
 - Action
+- Love
