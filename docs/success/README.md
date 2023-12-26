@@ -7,6 +7,8 @@
 - Luck
 - Care
 - Work
+- Test
+- Trial
 - Management
 - Coaching
 - Learning
