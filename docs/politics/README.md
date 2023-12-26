@@ -12,4 +12,5 @@
 ## Reference
 
 - People
+- Society
 - Trust
