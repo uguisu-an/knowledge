@@ -8,3 +8,5 @@ https://youtube.com/watch?v=vE1UN0z2jTs&si=BfxFJlDX9Su89gG0
 
 - 仕様を詰めないといけないのに次の打ち合わせまで後回しにする
 - 新機能の価値が高いのはわかっているのに面倒なので後回しにする
+
+- https://zenn.dev/loglass/articles/95f367d2a6ced7
