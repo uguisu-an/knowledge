@@ -1,0 +1,5 @@
+# Fortune Telling
+
+## Reference
+
+- Decision
