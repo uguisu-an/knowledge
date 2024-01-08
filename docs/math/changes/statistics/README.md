@@ -4,8 +4,7 @@
 
 ## Reference
 
-- Math
+- Math > Probability
 - Modeling
-- Probability
 
 数学の中でも特に、集合や確率、解析学を基盤としている。
