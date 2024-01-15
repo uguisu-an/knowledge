@@ -1,0 +1,5 @@
+# Fortune
+
+## Reference
+
+- Decision
