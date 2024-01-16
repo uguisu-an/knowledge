@@ -9,3 +9,5 @@
 - Perception
 - Observation
 - Communication
+- Decision
+- Action
