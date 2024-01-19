@@ -5,3 +5,5 @@
 ## Reference
 
 - Analytics
+- Thinking
+- Perception
