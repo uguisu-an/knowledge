@@ -1,6 +1,6 @@
-# Well-doing
+# Success
 
-成功
+試行によって、目的の事象を得ること。
 
 ## Reference
 
