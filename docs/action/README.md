@@ -9,3 +9,4 @@
 - Trial
 - Work
 - Decision
+- Story
