@@ -27,3 +27,5 @@ ChatGPT のチャットをいちいち作るよりも、特定用途のシンプ
 解像度を高めた上でさらに質問や指示を繰り返せば、相乗効果がある。
 
 寸評をつけたりもできる。
+
+[[人要らず]ChatGPT を使った一人議論やってますか？ #ChatGPT - Qiita](https://qiita.com/Gamari0009/items/37a5b7b69ce9dfdb670e)
