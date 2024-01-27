@@ -1,9 +1,10 @@
 # Care
 
-世話をすること、良い状態にすること。
+積極的に関わること。
 
 ## Reference
 
 - Doing
 - Work
 - Trust
+- Influence
