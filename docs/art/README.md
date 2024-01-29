@@ -6,6 +6,16 @@
 
 知識や思考を表現すること。
 
+## Map
+
+- Art
+  - Visual
+    - Picture
+      - Photograph
+    - Sculpture
+  - Aural
+    - Music
+
 ## Reference
 
 - Work

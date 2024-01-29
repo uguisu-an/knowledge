@@ -8,6 +8,17 @@
 
 インタフェースは情報をやり取りする接点。通信と関連がある。
 
+## Map
+
+- Design
+  - Visual
+    - Icon
+    - Diagram
+      - Chart
+        - Graph
+        - Table
+      - Symbol
+
 ## Reference
 
 - Communication
