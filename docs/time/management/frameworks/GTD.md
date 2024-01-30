@@ -19,3 +19,5 @@ Inbox と Maybe は明確に分ける。
 混ぜてしまうと「整理されていない」情報を見分けられない。
 
 完了を定義してから Project や Action にする。
+
+achievement も近いと思う。
