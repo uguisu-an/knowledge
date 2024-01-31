@@ -51,8 +51,6 @@ Essential: フィーチャーとストーリー,
 
 OKR とスクラムでやっていたことをまとめた形。
 
-3 つのレベルと 4 つのコンフィギュレーション
-
 Product Manager と各チームの Product Owner が密接にやり取りする。
 ART のトップはビジネスオーナー。
 
@@ -68,3 +66,12 @@ PO Sync: PM と PO で進捗状況の確認とスコープの調整。
 チーム間の依存関係の調整が SAFe としての特徴の一つ。
 
 Essential は大体スクラムや XP のプラクティス。
+
+3 つのレベルと 4 つのコンフィギュレーションがある。
+
+| Configuration \ Level | Portfolio | Large Solution | Essential |
+| --------------------- | --------- | -------------- | --------- |
+| Full                  | v         | v              | v         |
+| Portfolio             | v         |                | v         |
+| Large Solution        |           | v              | v         |
+| Essential             |           |                | v         |

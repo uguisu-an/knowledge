@@ -1,5 +1,7 @@
 # Objectives and Key Results: OKR
 
+MBO の一種。
+
 「目標と成果指標」
 
 https://rework.withgoogle.com/jp/guides/set-goals-with-okrs/steps/introduction/
