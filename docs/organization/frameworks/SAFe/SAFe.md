@@ -72,15 +72,9 @@ PO Sync: PM と PO で進捗状況の確認とスコープの調整。
 
 Essential は大体スクラムや XP のプラクティス。
 
-3 つのレベルと 4 つのコンフィギュレーションがある。
-
-| Configuration \ Level | Portfolio | Large Solution | Essential |
-| --------------------- | --------- | -------------- | --------- |
-| Full                  | v         | v              | v         |
-| Portfolio             | v         |                | v         |
-| Large Solution        |           | v              | v         |
-| Essential             |           |                | v         |
-
 大規模スクラムの中でもシェアが大きい。
+
+Lean-Agile Mindset は、方法論や原則の基盤。
+Lean Thinking と Agile Manifest がベース。
 
 - https://www.atlassian.com/ja/agile/agile-at-scale/what-is-safe
