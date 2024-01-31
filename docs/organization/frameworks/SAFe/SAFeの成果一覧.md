@@ -1,6 +1,13 @@
 - Program Increment (PI)
 - PI Objectives: PI の各チームの目標
 - Program Board: PI の全体スケジュール
+- 戦略テーマ
+- Epic
+- Capability
+- Feature
+- Story
+- Program Backlog
+- Team Backlog
 
 ## PI (Program Increment)
 
