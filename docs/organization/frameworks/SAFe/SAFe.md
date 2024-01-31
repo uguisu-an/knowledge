@@ -59,6 +59,8 @@ OKR とスクラムでやっていたことをまとめた形。
 Product Manager と各チームの Product Owner が密接にやり取りする。
 ART のトップはビジネスオーナー。
 
+Enabler
+
 RTE, スクラムマスターの統括をしている人。各チームの SCM で持ち回りすることもあるみたい。
 
 ART としての全体のイベントを ART Sync という。

@@ -11,4 +11,6 @@
 9. 権限を委譲し、意思決定を分散する
 10. 価値を中心に組織を作る
 
+原則を守って、方法論をカスタマイズする。
+
 - https://scaledagileframework.com/safe-lean-agile-principles/
