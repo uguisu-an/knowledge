@@ -2,14 +2,17 @@
 
 https://scaledagileframework.com/
 
-https://www.atlassian.com/ja/agile/agile-at-scale/what-is-safe
+大規模、エンタープライズ向けのアジャイルソフトウェア開発フレームワーク。
+
+Scrum や OKR など、既存のフレームワークを取り込んだものになっている。
 
 日本では NTT データが推している。
 
-大規模、エンタープライズ向けのアジャイルソフトウェア開発フレームワーク。
+次の３つを Lean-Agile Mindset という。
 
-方法論 Big Picture、原則 Principles、実現価値 Core Values。
-この全体像を Lean-Agile Mindset という。
+1. 概論 Big Picture
+2. 原則 Principles
+3. 実現価値 Core Values
 
 方法論は 10 の原則を具体的な活動や役割にしたもの。一枚の絵としてまとめられている。
 
@@ -43,6 +46,8 @@ Agile Release Train (ART)
 
 Portfolio > Solution > Program (Product) > Team (Sprint)
 
+Epic > Capability > Feature > Story
+
 規模に合わせて、
 Portfolio: 戦略テーマとエピック,
 Large Solution: ケーパビリティ（強み）,
@@ -75,3 +80,7 @@ Essential は大体スクラムや XP のプラクティス。
 | Portfolio             | v         |                | v         |
 | Large Solution        |           | v              | v         |
 | Essential             |           |                | v         |
+
+大規模スクラムの中でもシェアが大きい。
+
+- https://www.atlassian.com/ja/agile/agile-at-scale/what-is-safe

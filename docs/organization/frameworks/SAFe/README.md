@@ -1,0 +1,5 @@
+- OKR
+- Agile Software Development
+- Scrum
+- Scrum of Scrums
+- XP
