@@ -12,13 +12,13 @@ Large Solution:
 Essential:
 
 - Agile Release Train (ART)
-- Business Owners
-- System Architect/Engineer
-- Product Management
-- Release Train Engineer (RTE)
-- Agile Teams
-  - Developers
-  - Product Owner
-  - Scrum Master
+  - Business Owners
+  - System Architect/Engineer
+  - Product Management: PO の中心
+  - Release Train Engineer (RTE): SCM の中心
+  - Agile Teams
+    - Developers
+    - Product Owner
+    - Scrum Master
 
 RTE は各チームのスクラムマスターの繋ぎ役。

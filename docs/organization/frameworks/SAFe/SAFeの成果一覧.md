@@ -6,8 +6,8 @@
 - Capability
 - Feature
 - Story
-- Program Backlog
-- Team Backlog
+- Program Backlog: Scrum でいう Product Backlog
+- Team Backlog: Scrum でいう Sprint Backlog
 
 ## PI (Program Increment)
 
