@@ -1,15 +1,15 @@
-# Portfolio
+Portfolio:
 
 - Epic Owners
 - Enterprice Architect
 
-## Large Solution
+Large Solution:
 
 - Solution Architect/Engineer
 - Solution Management
 - Solution Train Engineer (STE)
 
-## Essential
+Essential:
 
 - Agile Release Train (ART)
 - Business Owners

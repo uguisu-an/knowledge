@@ -1,6 +1,0 @@
-## PI (Program Increment)
-
-中期計画。三ヶ月くらいの周期で行うことが多い。
-上位で決めた PI をベースにそれぞれのイテレーションを考える。
-
-Program Backlog を作る。
