@@ -14,3 +14,5 @@
     - Retrospective
     - Problem-Solving Workshop
   - PI Planning
+
+ART のシステムデモでビジネスオーナーにデモを行う。
