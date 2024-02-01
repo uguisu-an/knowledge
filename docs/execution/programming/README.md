@@ -9,6 +9,7 @@
 - Design
 - Planning
 - Modeling
-- Computer Science
 - Execution
 - Engineering
+- Problem Solving
+- Science
