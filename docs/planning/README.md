@@ -6,3 +6,4 @@
 
 - Thinking
 - Achievement
+- Design

@@ -10,5 +10,5 @@
 - Planning
 - Modeling
 - Computer Science
-- Executive
+- Execution
 - Engineering
