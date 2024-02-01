@@ -1,3 +1,5 @@
+# Next.js
+
 https://nextjs.org/
 
 https://capacitorjs.jp/
@@ -7,3 +9,6 @@ Next のアプリをクロスプラットフォームにする。
 
 公式ドキュメントを日本語に翻訳するプロジェクトもある。
 https://nextjs-ja-translation-docs.vercel.app/docs/getting-started
+
+開発中にメモリが足りないとコード 137 で落ちることがある。
+特にページを移動してリビルドがかかったときなどに落ちがち。
