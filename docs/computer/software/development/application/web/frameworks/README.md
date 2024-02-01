@@ -4,8 +4,6 @@
 
 React Native
 
-Redux
-
 Next
 
 Nuxt
@@ -19,6 +17,10 @@ Xamarin
 ## Ruby
 
 Ruby on Rails
+
+## PHP
+
+Laravel
 
 ## Python
 
