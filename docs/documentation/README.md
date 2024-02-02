@@ -1,18 +1,13 @@
 # Documentation
 
-知識の蓄積。
+情報を記録する。
 
 ナレッジ管理やドキュメントを使った情報共有まで含む。
 
-記録を残すのが重要。
-
-## Principles
-
-- [ドキュメントは読まれない](./原則.md#ドキュメントは読まれない)
-
 ## Reference
 
-- design
+- Design
+- Information
 - Communication
 - Domain-Driven Design
 - Presentation
