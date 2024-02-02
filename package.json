@@ -1,15 +1,24 @@
 {
-    "private": true,
-    "scripts": {
-        "format": "prettier --write ."
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/uguisu-an/knowledge.git"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/uguisu-an/knowledge/issues"
-    },
-    "homepage": "https://github.com/uguisu-an/knowledge#readme"
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "prepare": "husky && husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uguisu-an/knowledge.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uguisu-an/knowledge/issues"
+  },
+  "homepage": "https://github.com/uguisu-an/knowledge#readme",
+  "devDependencies": {
+    "husky": "^9.0.10",
+    "lint-staged": "^15.2.1",
+    "prettier": "^3.2.4"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
 }
