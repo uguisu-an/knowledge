@@ -1,6 +1,6 @@
-# Git Tips: Cherry Pick
+# Cherry Pick
 
-別のリポジトリや fork はリモートブランチとして扱えばいい。
+別のリポジトリや fork はリモートブランチと考えればいい。
 コミットを取ってきたいなら、remote に追加して、fetch --no-tags して、cherry-pick する。
 もういらなかったら remote から削除する。
 
