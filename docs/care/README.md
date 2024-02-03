@@ -8,3 +8,4 @@
 - Work
 - Trust
 - Influence
+- Observation
