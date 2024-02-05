@@ -14,3 +14,5 @@ https://zenn.dev/rinchsan/articles/1c26913a87a5aa
 `Settings > Advanced > Pop to Root Search` は `Immediately` にしたほうが使いやすい。
 
 Raycast の Extensions の Hot Key 設定は Raycast を開いていない時も有効になっている。
+
+他のランチャーを使いつつ、単純にクリップボードの拡張としても使える。
