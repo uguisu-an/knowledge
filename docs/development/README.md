@@ -15,6 +15,8 @@
 
 - Work
 - Success
-- Decision
-- Action
-- Choice
+  - Learning
+    - Action
+    - Decision
+      - Choice
+  - Training
