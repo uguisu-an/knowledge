@@ -6,3 +6,4 @@
 
 - Communication
 - Knowledge
+- Study
