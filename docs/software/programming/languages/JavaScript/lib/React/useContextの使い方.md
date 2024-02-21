@@ -29,3 +29,7 @@ Contextを使わずに、Propsにコンポーネントを渡して制御の方�
 
 ContextでできることはPropsでもできる。
 基本はPropsで、何階層も上とやりとりする必要が多かったらContextを検討する。
+
+`unstated-next`はContainerでContextとHooksのセットをまとめて作ってくれる。
+StateをContextで共有するHooksが簡単に作れる。
+ただ、便利すぎるので、Store以外の用途でも使えてしまう。
