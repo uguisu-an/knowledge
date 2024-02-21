@@ -14,3 +14,8 @@ https://zenn.dev/longbridge/articles/c100d0311ed1be
 ただ、細かいクラスに依存してしまうのでできるだけテーマの方が良さそう。
 
 https://blog.gaji.jp/2022/01/14/8892/
+
+MaterialUIを使うなら専用の仕組みでスタイルをカスタマイズする。
+v4ではmakeStylesだが、v5ではstyledを使う。makeStylesは非推奨になった。
+
+MUIはv5で大きく変わっている。特にstyledとsx propsでスタイルをカスタマイズする方法が大きい。

@@ -16,3 +16,6 @@ https://zenn.dev/rinchsan/articles/1c26913a87a5aa
 Raycast の Extensions の Hot Key 設定は Raycast を開いていない時も有効になっている。
 
 他のランチャーを使いつつ、単純にクリップボードの拡張としても使える。
+
+RaycastはCmd-Shift-Vにクリップボードから貼り付け、Cmd-Shift-Bにスニペットの貼り付けを設定して使ってる。
+本体使ってない。
