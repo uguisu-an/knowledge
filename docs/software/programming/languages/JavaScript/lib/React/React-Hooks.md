@@ -2,7 +2,7 @@ Dialogのように特殊なコンポーネントを外から操作する処理�
 
 細かいところはHooksとか関数に分けたい。
 
-ApolloはAPIアクセスをHooksと大きなContextで制御している。
+ApolloはAPIアクセスをHooksと大きなContextで制御しているが、ContextはCacheのために使っている。
 
 MutationとQueryで分けるといい。
 あまり大きなHooksになるようなら怪しい。

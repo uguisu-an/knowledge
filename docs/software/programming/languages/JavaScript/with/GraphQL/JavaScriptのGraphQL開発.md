@@ -2,5 +2,5 @@
 クライアントもサーバーも作れる。
 https://www.apollographql.com/
 
-graphql-codegen もあるが、apollo の方がメジャー。
+graphql-codegenでApolloのコードを生成できる。
 https://the-guild.dev/graphql/codegen
