@@ -16,3 +16,5 @@ fetchPolicyの設定は、
 データの変更が多かったらcache-and-network,
 データの変更が少なかったらcache-firstが基本。
 例えばマスタデータなんかはほぼ更新されないのでcache-firstでいい。
+
+ApolloのHooksはそもそもuseEffectのようなタイミングで処理している。

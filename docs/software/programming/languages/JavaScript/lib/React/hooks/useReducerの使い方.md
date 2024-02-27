@@ -1,0 +1,1 @@
+useReducerはuseStateと違って、setStateの方法をReducerによって定義できる。
