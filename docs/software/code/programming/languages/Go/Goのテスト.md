@@ -24,7 +24,12 @@ Goではテストを本体のファイルの近くに置く。jsでもたまに�
 - `t.Error`または`t.Errorf`: 失敗
 - `t.Fatal`または`t.Fatalf`: 失敗 + テストケースの中止
 
-判定は自前で書かないといけないので、mapの一致をテストするような複雑な比較は`reflect.DeepEqual`や`stretchr/testify/assert`パッケージを使うと便利。
+`testing`自体は検証用の機能を持っていない。
+`github.com/stretchr/testify/assert`パッケージを使うと便利。
+ただ、公式の見解では「Assertは便利だけど、頼りすぎてエラーのレポートが適当になる」として組み込みのパッケージを用意していないらしい。
+Assertのように「何が失敗したか」ではなく、「なぜ失敗したか」を個別に書こう、という思想。
+
+Assertほど画一的でなく、同値検査を楽にしたいだけなら`refrect`の`DeepEqual`などを使うといい。
 
 ドキュメント用の例やベンチマークも書ける。
 シグネチャを`ExampleXxxx()`や`BenchmarkXxxx(t *testing.B)`にする。
@@ -43,3 +48,4 @@ Goではテストを本体のファイルの近くに置く。jsでもたまに�
 - https://www.twihike.dev/docs/golang-primer/testing
 - https://future-architect.github.io/articles/20200601/
 - https://qiita.com/hiroyky/items/4a9be463e752d5c0c41c
+- https://qiita.com/Jxck/items/8717a5982547cfa54ebc
