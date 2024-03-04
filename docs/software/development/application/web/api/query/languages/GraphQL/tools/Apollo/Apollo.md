@@ -11,6 +11,7 @@ GraphQLのクライアントやサーバーを開発するためのライブラ�
 情報が足りなくて後で読みたいときはlazyを使うよりもコンポーネントを分けて段階的に読み込んだ方がいい。
 
 stateに突っ込むならapolloというよりもfetchで能動的に取りたいことが多い。
+それかuseEffectでdataの更新に合わせてStateに突っ込むか。
 
 fetchPolicyの設定は、
 データの変更が多かったらcache-and-network,

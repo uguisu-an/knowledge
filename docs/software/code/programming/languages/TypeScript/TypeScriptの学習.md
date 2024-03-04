@@ -16,3 +16,5 @@ TypeScript は JavaScript に静的な型を付けるもので、構文もほぼ
 [サバイバル TypeScript](https://typescriptbook.jp/)
 
 [仕事ですぐに使える TypeScript](https://future-architect.github.io/typescript-guide/index.html)
+
+Utility Typeを使いこなすとTypeScript使いっぽいけど、いらないとこにも使いがち。

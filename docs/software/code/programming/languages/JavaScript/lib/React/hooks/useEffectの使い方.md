@@ -8,3 +8,11 @@ useEffectを扱うときは配列やオブジェクトに注意する。空配�
 
 命令的な書き方をするとどうしてもuseEffectは必要になる。
 Hooksに閉じ込めたりしてうまいこと吸収すると宣言的な書き方になる。
+
+useEffectとその補助としてのuseMemo, useCallback, useRefはセットみたいなとこがある。
+
+useEffectから依存するなら、useMemoやuseCallbackで更新のタイミングを算出前のStateなどと合わせた方がいい。
+元の関数や変数と同じように扱えるようになる。
+
+配列やオブジェクトは再生成すると別物になってしまうので、useEffectで依存するならuseMemoを使わないといちいちuseEffectが発火してしまう。
+特に`array ?? []`みたいな初期化してるとこはuseEffectで依存すると毎回違う配列として判定される。
