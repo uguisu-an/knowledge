@@ -12,3 +12,17 @@ GraphQL のクエリ言語に何が使えるかもスキーマで定義する。
 [GraphQL の基礎の基礎 #JavaScript - Qiita](https://qiita.com/shotashimura/items/3f9e04b93e79592030a4)
 
 fragment はクエリ側、クライアント側で作ると、クエリの中で使いまわせる。
+
+最上位以外の場所でも引数を取れる。
+例えば、以下のようなクエリも考えられる。
+
+```gql
+User {
+  id
+  name
+  height(unit: "cm")
+}
+```
+
+GraphQLのデータはツリー構造が前提。
+リゾルバもparentを受け取る。
