@@ -28,3 +28,5 @@ GraphQLのデータはツリー構造が前提。
 リゾルバもparentを受け取る。
 
 GraphQLは自動生成できる部分が多い。
+
+- [GraphQLを徹底解説する記事](https://zenn.dev/nameless_sn/articles/graphql_tutorial)
