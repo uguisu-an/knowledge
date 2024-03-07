@@ -10,3 +10,6 @@ WebAPI を叩くのも RPC の一種。REST や GraphQL が一般的。
 
 - https://www.ntt-west.co.jp/business/glossary/words-00229.html
 - https://qiita.com/S4nTo/items/0ff0445542538ef49a05
+
+データベースを直接触るよりは、APIを挟んだほうが抽象化された層を経由するので変更に強い。
+ただ、RPCはデータベースアクセスよりも遅いことが多い。
