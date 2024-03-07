@@ -18,3 +18,10 @@ function isString(data: unknown): data is string {
 
 この関数は`(data: unknown) => boolean`とも取れるが、booleanにしてしまうと関数内でいくら型判別してもコンパイラは認識してくれない。
 booleanを`data is string`とすることで特定の引数の型判別をコンパイラが認識する。
+
+型の判別自体はisを使わなくてもできる。型を判別する関数を定義するときにisを使う。
+
+stringをconstのunionやenumにしたいときはisを使った判別用の関数を用意する。
+`["a", "b"].includes(data)`みたいな感じ。
+
+- https://qiita.com/ryo2132/items/ce9e13899e45dcfaff9b
