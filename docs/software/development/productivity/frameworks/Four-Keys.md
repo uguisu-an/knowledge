@@ -1,3 +1,5 @@
+# Four Keys
+
 DORA の提唱する Four Keys
 https://speakerdeck.com/yigarashi/30fen-dewakarufour-keysnoji-chu-tozhong-yao-xing
 
@@ -9,3 +11,4 @@ https://speakerdeck.com/yigarashi/30fen-dewakarufour-keysnoji-chu-tozhong-yao-xi
 1,2 はスループット、3,4 は安定性なのでトレードオフを持っているが、研究において見つかったハイパフォーマーは 4 項目全てで抜きん出ていた。
 
 https://zenn.dev/loglass/articles/28c565a875e9bd
+https://speakerdeck.com/isanasan/introduction-to-state-of-devops-and-four-keys-for-visualizing-productivity-in-development-organizations-expanded-and-revised-edition?slide=43
