@@ -30,3 +30,5 @@ GraphQLのデータはツリー構造が前提。
 GraphQLは自動生成できる部分が多い。
 
 - [GraphQLを徹底解説する記事](https://zenn.dev/nameless_sn/articles/graphql_tutorial)
+
+クエリやミューテーションには名前をつけた方がいい。
