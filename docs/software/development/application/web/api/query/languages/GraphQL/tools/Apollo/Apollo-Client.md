@@ -1,0 +1,4 @@
+fetchMoreした時のデフォルトの動作は上書き。
+新たに10件取得したとしたら、dataにはその10件だけが残る。
+
+InMemoryCacheにtypePoliciesを設定すると保存する動作を上書きできる。
