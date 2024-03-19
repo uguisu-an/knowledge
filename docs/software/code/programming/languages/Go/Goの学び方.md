@@ -36,6 +36,11 @@ https://go.dev/play/
 - 遅延処理 `defer`
 - 並行処理 `go`, `chan`, `<-`, `select`, `close()`
 
+## その他
+
+https://go.dev/wiki/CodeReviewComments
+詳細なベストプラクティス
+
 ## Reference
 
 - https://qiita.com/tenntenn/items/0e33a4959250d1a55045
