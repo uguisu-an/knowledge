@@ -1,0 +1,1 @@
+ValueObjectやCollectionObjectは、そのデータをどう操作するべきか、あるいはどう操作してはいけないか明示する。

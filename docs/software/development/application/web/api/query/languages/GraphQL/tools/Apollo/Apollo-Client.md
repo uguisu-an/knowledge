@@ -2,3 +2,6 @@ fetchMoreした時のデフォルトの動作は上書き。
 新たに10件取得したとしたら、dataにはその10件だけが残る。
 
 InMemoryCacheにtypePoliciesを設定すると保存する動作を上書きできる。
+
+新しいfetchMoreの設定方法
+https://dev.classmethod.jp/articles/apollo-client-v3-fetchmore-scroll-pagenation/
