@@ -1,0 +1,5 @@
+RDSの残り容量を知りたいなら、FreeStorageSpaceを見る。
+
+RDSの使用率を知りたいなら、CloudWatchのログに記載されるStorageUsedPercentで見る。
+
+RDSは容量が足りなくなったら拡張してくれる。

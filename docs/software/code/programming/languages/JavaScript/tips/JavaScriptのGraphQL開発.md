@@ -1,4 +1,4 @@
-ライブラリの apollo を使うのが一般的。
+ライブラリの apollo を使うのが楽。
 クライアントもサーバーも作れる。
 https://www.apollographql.com/
 

@@ -1,0 +1,1 @@
+ginのjsonのomitemptyはゼロ値の時にその項目を落としてjsonを作る。
