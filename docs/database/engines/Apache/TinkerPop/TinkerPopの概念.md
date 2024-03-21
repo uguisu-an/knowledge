@@ -8,6 +8,8 @@
 
 VerticesやEdgesには、Labelで検索用のタグをつけられる。
 
+Verticesには、Idで識別子をつけられる。
+
 Edgeには向きがある。
 
 (A) -> [Edge] -> (B)
@@ -21,5 +23,5 @@ TinkerPop自体は３つの階層でできている。
 2. Gremlin Traversal Language
 3. Core API
 
-OLAP: グラフ分析
-OLTP: グラフデータベース
+- OLAP: グラフ分析
+- OLTP: グラフデータベース
