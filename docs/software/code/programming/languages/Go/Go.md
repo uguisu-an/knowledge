@@ -5,3 +5,5 @@ typeは型の別名をつけられる。構造体を作るstructと一緒に使�
 https://qiita.com/Yuuki557/items/e9f5bdfbbfe92973a05e
 
 ポインタレシーバと値レシーバがある。ポインタレシーバでないと対象を変更しても反映されない。値レシーバはコピーされてレシーバに入ってくるので。
+
+https://zenn.dev/hsaki/articles/go-convert-json-struct
