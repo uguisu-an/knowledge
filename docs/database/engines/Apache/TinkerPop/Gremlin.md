@@ -44,3 +44,8 @@ Gremlin ServerはGremlinで書かれたテキストを受け取って、デー�
 `sideEffect()`の副作用は元の走査に影響しない。
 
 `drop()`すると頂点と結合がまとめて削除される。トラバーサルに含まれない頂点は削除されない。
+
+グラフを視覚化する場合は次のツールを使う。本当に表示するだけなら悪くはない。
+https://github.com/prabushitha/gremlin-visualizer
+
+https://tinkerpop.apache.org/docs/current/reference/#traversal
