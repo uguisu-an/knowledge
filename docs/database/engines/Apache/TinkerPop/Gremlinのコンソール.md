@@ -3,6 +3,12 @@
 - tinkerpop/gremlin-server
 - tinkerpop/gremlin-console
 
+composeのvolumesやdocker cpでconf/remote.yamlを設定して、次のコマンドでサーバーに接続する。
+
+```
+:remote connect tinkerpop.server conf/remote.yaml
+```
+
 consoleは変数も使える。
 
 ```
