@@ -47,3 +47,8 @@ v1 = V()....
 のような書き方ができる。
 
 https://qiita.com/chromia/items/b93ef0b3a14eb875e7cc
+
+wssでアクセスする場合、`remote.yaml`の設定に`connectionPool: { enableSsl: true }`を追加する。
+
+`:>`はリモート接続した先にクエリを送る命令。
+リモート接続で`:>`を省略したい場合、接続してから`:remote console`を実行する。

@@ -1,5 +1,7 @@
 Kubernetes
 
+k8s
+
 saml2aws で認証しているなら kubectl の前に `saml2aws login` を実行する。
 
 コンテキストを確認するコマンド:
