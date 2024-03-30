@@ -51,3 +51,11 @@ https://github.com/prabushitha/gremlin-visualizer
 https://tinkerpop.apache.org/docs/current/reference/#traversal
 
 `id().is(id)`と`hasId(id)`は同じ。糖衣構文がある。
+
+project()はby()と一緒に使うとさまざまな値を持ったmapを作れる。
+project()にはキーを指定して、by()でそれぞれの値を設定する流れ。
+project('id', 'out').by(id).by(out().count())みたいにmapを構築する。
+
+新しい走査は常にV(), E(), addV(), addE(), inject()の5つのいずれかで始まる。これを使うと新しい走査になる。GraphTraversalを作る。
+そこから5つのステップで結果を調整する。Gremlinの関数は基本的にmap, flatMap, filter, sideEffect, branchのいずれかを返す。
+barrierはsideEffectの一種。
