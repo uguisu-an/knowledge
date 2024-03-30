@@ -49,3 +49,5 @@ Gremlin ServerはGremlinで書かれたテキストを受け取って、デー�
 https://github.com/prabushitha/gremlin-visualizer
 
 https://tinkerpop.apache.org/docs/current/reference/#traversal
+
+`id().is(id)`と`hasId(id)`は同じ。糖衣構文がある。

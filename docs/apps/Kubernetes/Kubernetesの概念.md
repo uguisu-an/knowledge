@@ -33,3 +33,5 @@ Kubernetes APIとやりとりすると、実際にはクラスター内のコン
 コントロールプレーンはクラスター内を監視して、望ましい状態に保つ。
 
 https://kubernetes.io/ja/docs/concepts/
+
+Podの設定ファイルはPodテンプレートと呼ぶ。

@@ -1,18 +1,19 @@
 # TinkerPop Concept
 
-まずは主要な３つの概念がある。
+まずは主要な５つの概念がある。
 
-1. Vertices (V): 頂点
-2. Edges (E): 結合
-3. Properties: 属性
+1. Graph
+2. Element
+   1. Vertex (V): 頂点
+   2. Edge (E): 結合
+3. Property: 属性
 
-VerticesやEdgesには、Labelで検索用のタグをつけられる。
-
-Verticesには、Idで識別子をつけられる。
+Elementには、id, label, propertyをつけられる。
+idは識別用、labelは分類用の特別な属性。
 
 Edgeには向きがある。
 
-(A) -> [Edge] -> (B)
+`(A) -> [Edge] -> (B)`
 
 上記のようになっている時、Edgeから見てAがin, Bがoutの方向。
 AをEdgeのSource, BをEdgeのTargetという。
