@@ -5,3 +5,5 @@ InMemoryCacheにtypePoliciesを設定すると保存する動作を上書きで�
 
 新しいfetchMoreの設定方法
 https://dev.classmethod.jp/articles/apollo-client-v3-fetchmore-scroll-pagenation/
+
+Apolloの型はoptionalになっているので、厳密に型付けしたいなら移し替えた方がいい。
