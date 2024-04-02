@@ -59,3 +59,6 @@ project('id', 'out').by(id).by(out().count())みたいにmapを構築する。
 新しい走査は常にV(), E(), addV(), addE(), inject()の5つのいずれかで始まる。これを使うと新しい走査になる。GraphTraversalを作る。
 そこから5つのステップで結果を調整する。Gremlinの関数は基本的にmap, flatMap, filter, sideEffect, branchのいずれかを返す。
 barrierはsideEffectの一種。
+
+`next()`は反復子（イテレーター）を返す。反復子を使ってイテレーションする。
+`iterate()`は反復を処理して、何も返さない。

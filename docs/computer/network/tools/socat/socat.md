@@ -8,8 +8,8 @@ socat tcp:example.com:80,fork,reuseaddr
 
 example.com:80のサービスがlocalhost:80で動いているかのように振る舞う。
 
-`fork`をつけないと1回の接続で切れる。
-`reuseaddr`をつけないとセッションを使いまわせなくてロックされる。
+`fork`をつけないと、接続が切れたらプロセスも落ちる。
+`reuseaddr`をつけないと、セッションを使いまわせなくてロックされる。
 
 ポートを変えたい場合は引数を分ける。
 
