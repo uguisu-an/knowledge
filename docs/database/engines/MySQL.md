@@ -15,3 +15,5 @@ mysqldumpのよく使うオプション:
 - `--ignore-table`: 指定したテーブルをdumpしない
 - `--no-create-info`: create tableをdumpしない（データのみ）
 - `--no-data`: データをdumpしない
+
+Dockerのmysqlイメージは`entrypoint-initdb.d/`にある`.sh/.sql/.sql.gz`ファイルを順番通りに実行する。
