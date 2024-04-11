@@ -1,0 +1,3 @@
+Springの対応範囲は広い。DB接続用のオブジェクトだったり、XMLの読み込みだったり、ユーティリティもたくさんある。
+
+ClassPathXmlApplicationContextはSpringのユーティリティ。コンテキスト定義ファイルを読み込んでBeanをDIしたりする。
