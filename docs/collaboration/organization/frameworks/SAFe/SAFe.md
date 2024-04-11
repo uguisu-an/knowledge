@@ -80,3 +80,5 @@ Lean-Agile Mindset は、方法論や原則の基盤。
 Lean Thinking と Agile Manifest がベース。
 
 - https://www.atlassian.com/ja/agile/agile-at-scale/what-is-safe
+
+SAFeのEssentialレベルではBusiness Ownersがビジネス層の判断に責任を持つ。組織と製品の両方の変革をリードする。
