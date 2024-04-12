@@ -8,3 +8,4 @@ TypeScript は使ったり使わなかったり。
 サーバー側は Rails や Laravel が手軽。
 Lambda に載せる場合は大きすぎるのでシンプルに Express.js とか。
 静的型付けなら ASP.NET や Spring Boot も強い。
+並行処理が必要ならGoも盛り上がってきている。
