@@ -50,4 +50,7 @@
 
 ## Reference
 
-- Information and Communication Technology
+- Information
+- Communication
+- Technology
+- Machine
