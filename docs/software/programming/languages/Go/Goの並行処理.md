@@ -53,7 +53,11 @@ func main() {
 JavaScript でいう Generater や async/await に近い。
 Channel が Promise にあたるけど、Go では `go` をつけないと並行処理しない。JavaScript では `async` なら勝手に並行処理になるけど。
 
+プロセス間を横断するキャンセルやタイムアウトの処理に`context`モジュールを使う。
+親子間でキャンセルを伝搬する。
+
 ## Reference
 
 - https://www.tohoho-web.com/ex/golang.html#goroutines
 - https://zenn.dev/hsaki/books/golang-concurrency/viewer/chaninternal
+- https://zenn.dev/hsaki/books/golang-context

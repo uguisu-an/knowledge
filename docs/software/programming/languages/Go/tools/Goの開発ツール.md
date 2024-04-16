@@ -9,3 +9,5 @@
 - [Zap](https://github.com/uber-go/zap): Logging
 - [Ozzo](https://github.com/go-ozzo/ozzo-validation): Validation
 - [Testify](https://github.com/stretchr/testify): Test Assertion
+- [Viper](https://github.com/spf13/viper): Environment Variables
+- [Cobra](https://github.com/spf13/cobra): Commander (CLI開発)
