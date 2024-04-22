@@ -7,3 +7,5 @@ https://qiita.com/Yuuki557/items/e9f5bdfbbfe92973a05e
 ポインタレシーバと値レシーバがある。ポインタレシーバでないと対象を変更しても反映されない。値レシーバはコピーされてレシーバに入ってくるので。
 
 https://zenn.dev/hsaki/articles/go-convert-json-struct
+
+Go を使う人は Gopher と呼ばれる。
