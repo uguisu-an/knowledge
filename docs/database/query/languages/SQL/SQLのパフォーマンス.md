@@ -28,6 +28,8 @@
 
 結合は主にハッシュ結合とネストループ結合がある。
 
+https://zenn.dev/team_soda/articles/mysql-innodb-sql-perfomance-tuning-essentials
+
 ## References
 
 - https://qiita.com/SimonLee/items/a878f721975370b45883
