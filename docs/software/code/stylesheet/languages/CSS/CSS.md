@@ -26,3 +26,5 @@ https://qiita.com/KNR109/items/41065e31970925964b90
 
 CSS の理解度を確認するインタビュー
 https://github.com/fed/css-interview-questions
+
+PCサイズのモニター前提の画面なら、minWidthを設定して、小さな画面でもそれ以上狭くならないようにしてしまっていい。

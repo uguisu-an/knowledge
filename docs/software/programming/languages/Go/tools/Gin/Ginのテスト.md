@@ -1,0 +1,1 @@
+Ginのテストはrouter.ServeHTTPにhttptestのRecorderを渡すと、CodeやBodyを得られる。
