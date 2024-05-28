@@ -19,3 +19,5 @@ https://tipstour.net/aws-budget-alert
 
 AWS エンジニアロードマップ
 https://qiita.com/KurokawaKouhei/items/3836802fc3a0286f668f
+
+AWSはGuardDutyでクラウドのセキュリティリスクを検出できる。SecurityHubに連携して、チケット管理するのが定石。
