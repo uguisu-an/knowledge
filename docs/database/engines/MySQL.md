@@ -17,3 +17,7 @@ mysqldumpのよく使うオプション:
 - `--no-data`: データをdumpしない
 
 Dockerのmysqlイメージは`entrypoint-initdb.d/`にある`.sh/.sql/.sql.gz`ファイルを順番通りに実行する。
+
+MySQL 8では、indexがあるカラムで全角スペースが半角スペースと同じ扱いになる。
+結合の時も同じ。
+ただ、indexを使わない場合は完全一致させないといけないのでややこしい。
