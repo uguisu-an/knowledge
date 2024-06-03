@@ -14,3 +14,8 @@
 `kubectl delete -f pod.yaml`でPodを消す。
 
 Podの設定ファイルにはURLも指定できる。
+
+## ポートフォワードを止める
+
+kubectlのport-forwardをbgにしたら、止めるときは`kill`でいい。
+pidは`lsof -i:3306`のようにポート番号を使って確認できる。
