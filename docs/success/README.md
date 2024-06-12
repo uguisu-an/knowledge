@@ -15,3 +15,7 @@
 - Training
 - Thinking
 - Satisfaction
+- Risk
+- Information
+- Action
+- Decision
