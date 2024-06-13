@@ -1,3 +1,15 @@
+## Podの一覧
+
+```
+kubectl get pods
+```
+
+## Serviceの一覧
+
+`kubectl get services`
+
+ポートフォワードの接続先を探すならpodsよりもservicesのほうがいい。
+
 ## Podを起動・削除する
 
 `kubectl run {pod_name}`で起動して、`kubectl delete pod {pod_name}`で削除する。
@@ -14,6 +26,10 @@
 `kubectl delete -f pod.yaml`でPodを消す。
 
 Podの設定ファイルにはURLも指定できる。
+
+## ポートフォワードする
+
+`kubectl get services`で接続したいサービスを探して、`kubectl port-forward {service_name}`で接続する
 
 ## ポートフォワードを止める
 
