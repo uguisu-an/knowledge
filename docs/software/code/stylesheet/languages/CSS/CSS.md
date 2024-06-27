@@ -28,3 +28,6 @@ CSS の理解度を確認するインタビュー
 https://github.com/fed/css-interview-questions
 
 PCサイズのモニター前提の画面なら、minWidthを設定して、小さな画面でもそれ以上狭くならないようにしてしまっていい。
+
+CSSのpositionの基準になる要素をScrolling Ancestorという。基本的にはビューポートか、Overflowを設定した要素。
+https://qiita.com/orangain/items/6268b6528ab33b27f8f2
