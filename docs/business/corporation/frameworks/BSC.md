@@ -12,3 +12,5 @@ https://www.nri.com/jp/knowledge/glossary/lst/ha/balance
 https://www.freee.co.jp/kb/kb-business-administration/bsc/
 
 方法の視点で考えられる人を育てるのが人材の視点になる。
+
+「まず人を造り、次に車を造ります。」（トヨタ会長、張富士夫）

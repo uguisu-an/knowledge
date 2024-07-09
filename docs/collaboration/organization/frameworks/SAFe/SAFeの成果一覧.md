@@ -9,6 +9,8 @@
 - Program Backlog: Scrum でいう Product Backlog
 - Team Backlog: Scrum でいう Sprint Backlog
 
+SAFeでは、フロー、設計、コード、システム、リリースの5つの品質を扱う。
+
 ## PI (Program Increment)
 
 中期計画。三ヶ月くらいの周期で行うことが多い。
