@@ -29,3 +29,5 @@ ChatGPT のチャットをいちいち作るよりも、特定用途のシンプ
 寸評をつけたりもできる。
 
 [[人要らず]ChatGPT を使った一人議論やってますか？ #ChatGPT - Qiita](https://qiita.com/Gamari0009/items/37a5b7b69ce9dfdb670e)
+
+https://qiita.com/b-mente/items/93ea3d9a4fc33a76b949
