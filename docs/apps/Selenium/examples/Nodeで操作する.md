@@ -10,20 +10,37 @@ npm install selenium-webdriver
 ```
 
 https://qiita.com/yoshi10321/items/b1be0aded2f3c10ad5d5
-ここの例を動かしてみるといい。
+まずはここの例を動かしてみるといい。
 
 ## 要素を検索する
 
 ```js
-await driver.findElement(By.id("username")); // id
-
-await driver.findElement(By.css('button[@value="Hello"]')); // css selector
-
-await driver.findElement(By.xpath('div[text()="Hello"]')); // xpath
+element = await driver.findElement(By.id("username")); // id
+buttonElement = await driver.findElement(By.css('button[@value="Hello"]')); // css selector
+textElement = await driver.findElement(By.xpath('div[text()="Hello"]')); // xpath
 ```
 
-## 要素の検索を待つ
+## 要素の変化を待つ
 
 ```js
-await driver.wait(until.)
+const element = driver.findElement(By.id("message"));
+await driver.wait(until.elementText(element, "Hello world"), 5000);
+```
+
+## タイトルが変わるまで待つ
+
+```js
+await driver.wait(until.titleIs("New Page"), 5000);
+```
+
+## 特定の要素が出現するまで待つ
+
+```js
+await driver.wait(until.elementLocated(By.id("message")), 5000);
+```
+
+## フォームに入力する
+
+```js
+await driver.findElement(By.css("input[name='message']")).sendKeys("Hello world", Key.RETURN);
 ```
