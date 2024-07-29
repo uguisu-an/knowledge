@@ -7,3 +7,6 @@
 [Terraform Registry](https://registry.terraform.io/browse/modules)
 
 [Terraform ベストプラクティスを整理してみました。 | DevelopersIO](https://dev.classmethod.jp/articles/terraform-bset-practice-jp/)
+
+Terraformのコードからコストがどれくらい変わるのか計算してくれるツール
+https://github.com/infracost/infracost
