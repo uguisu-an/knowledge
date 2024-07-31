@@ -1,6 +1,0 @@
-# Manufacturing
-
-## Reference
-
-- Production
-- Engineering
