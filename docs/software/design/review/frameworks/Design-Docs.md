@@ -35,3 +35,5 @@ https://myenigma.hatenablog.com/entry/2021/07/25/140308
 長期的に保管するものでもある。
 
 デザインドキュメントは設計書というよりもインセプションデッキに近い。
+
+https://zenn.dev/yoshii0110/articles/46ce33cc023762
