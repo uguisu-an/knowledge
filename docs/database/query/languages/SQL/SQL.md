@@ -9,3 +9,5 @@ SQLは次の3種で構成されている。
 1. Data Defintion Language (DDL): データベースやテーブルの定義
 2. Data Manipulation Language (DML): データの操作
 3. Data Control Language (DCL): 権限やトランザクションの制御
+
+SQLは手順というよりもどういうデータを取ってきて、どのデータと組み合わせるか、あとはどの行を除外するか、を考える。
