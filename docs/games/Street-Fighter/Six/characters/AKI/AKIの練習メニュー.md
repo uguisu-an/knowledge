@@ -40,8 +40,9 @@
 
 ## ジャンプ攻撃からのコンボ
 
-- J.HK, HK, 蛇行-K, 2LP, LK, 強鞭, 中軽功
-- J.HK, HK, 蛇行-K, 2LP, LK, 強泡, SA3
+1. J.HK, HK, 蛇行-K, 2LP, LK, 強鞭
+2. 中軽功, MK, MP, 強鞭(毒), DR 2MP, 強鞭
+3. J.2HP, HK, 蛇行-K, 2LP, LK, 強泡, SA3
 
 ## Dリバの確反
 
