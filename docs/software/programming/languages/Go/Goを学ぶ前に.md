@@ -1,4 +1,0 @@
-- 環境構築ツールは使用しない（単に最新版を使う）
-- 基本的に環境変数は設定しない
-- ディレクトリ構成に [Standard Go Project Layout](https://github.com/golang-standards/project-layout) を採用しない
-- 検索ワードは "go" よりも "golang" を使う

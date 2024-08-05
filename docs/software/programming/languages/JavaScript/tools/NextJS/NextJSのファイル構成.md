@@ -1,1 +1,0 @@
-AppRouterのNextJSではappの中にコンポーネントを置いてもいいので、全体をapp/componentsに置いて、機能ごとにapp/products/componentsのように切ることもできる。

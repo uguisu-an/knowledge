@@ -1,3 +1,0 @@
-# Bootstrap
-
-https://getbootstrap.jp/

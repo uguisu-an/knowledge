@@ -1,8 +1,0 @@
-useReducerはuseStateと違って、setStateの方法をReducerによって定義できる。
-
-自作のフックを作らなくてもReducerを定義するだけで特殊な更新方法に限った状態を作れる。
-
-自作フックでsetStateを隠せば、useStateでもuseReducerと似たようなことはできる。
-
-useStateやそれを使ったHooksと違って、useReducerの使っているreducerは単体テストしやすい。
-Hooksではなく、reducerだけを切り出して単体テストする。

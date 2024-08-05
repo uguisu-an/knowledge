@@ -1,5 +1,0 @@
-- Query
-- Mutation
-- Subscription
-- Schema
-- Resolver
