@@ -1,0 +1,6 @@
+RailsのForm Objectは、Requestでまとめて受け取った複数のModelを保存するような処理をControllerから切り出す意味がある。
+
+Controllerに保存処理を書く代わりに、new XxxForm(req.data).save()のように書く。
+RailsだとModelがデータベース接続を持っているのでこれでいいけど、Repositoryとか使うフレームワークならcontextを渡してもいいと思う。
+
+Form Objectには、ModelやRepositoryをシンプルに保ちつつ、Controllerから処理を剥がす意味がある。

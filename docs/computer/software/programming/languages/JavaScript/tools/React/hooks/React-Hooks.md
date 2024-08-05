@@ -1,0 +1,12 @@
+Dialogのように特殊なコンポーネントを外から操作する処理はHooksにすると使いやすいし読みやすい。
+
+細かいところはHooksとか関数に分けたい。
+
+ApolloはAPIアクセスをHooksと大きなContextで制御しているが、ContextはCacheのために使っている。
+
+MutationとQueryで分けるといい。
+あまり大きなHooksになるようなら怪しい。
+
+大きなコンポーネントの処理を丸ごと抜き出したような大きなフックを作るのは意味がない。
+
+useCallbackとか考えるとfunctionもconstで定義した方が何かと便利。
