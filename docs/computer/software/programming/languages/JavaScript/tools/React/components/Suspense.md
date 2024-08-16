@@ -13,3 +13,8 @@ function AlwaysSuspend(): JSX.Element {
 ```
 
 Suspenseの子はまだ描画されていないので、Stateなどの副作用は扱えない。
+
+Suspenseは対象のコンポーネントがPromiseをthrowするとfallbackのコンポーネントを代わりに表示する。
+
+Suspenseは単にUI上のローディング要素を表示するためのコンポーネントではなくて、真にローディングの境界になる。
+Suspenseで分けられた部分はページ全体とは別に読み込まれる。
