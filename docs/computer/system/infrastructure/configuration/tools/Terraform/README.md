@@ -10,3 +10,5 @@
 
 Terraformのコードからコストがどれくらい変わるのか計算してくれるツール
 https://github.com/infracost/infracost
+
+https://qiita.com/WebEngrChild/items/e5e3031d93158507cd5d
