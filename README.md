@@ -1,13 +1,5 @@
 # Knowledge
 
-## Getting Started
-
-まずは `tutorial` を読みましょう。
-
-続けて `main` や `advanced` を読みます。
-
-詳細は `reference` を参照します。
-
 ## For developers
 
 - 参照先として設定しても位置が変わりにくいように、構造はできるだけフラットにしたい。
