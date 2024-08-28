@@ -12,6 +12,11 @@
 - 世話する
 - 面倒を見る
 
+## Concepts
+
+- [情](情.md)
+- [関心](関心.md)
+
 ## Reference
 
 - Doing
