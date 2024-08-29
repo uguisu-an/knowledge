@@ -1,0 +1,1 @@
+ExcelとGoogle SpreadsheetはSpreadsheetみたいなフォルダにまとめてもいいかも。
