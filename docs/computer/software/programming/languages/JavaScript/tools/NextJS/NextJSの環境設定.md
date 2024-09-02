@@ -6,3 +6,5 @@ Next で外から設定を与えたいときは next.config.js に設定する�
 
 Next で publicRuntimeConfig を使うのは非推奨になった。
 https://nextjs.org/docs/pages/api-reference/next-config-js/runtime-configuration
+
+dev起動時に`--experimental-https`オプションをつけるとnextのlocalhostもhttpsで動かせる。
