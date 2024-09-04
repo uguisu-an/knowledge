@@ -25,3 +25,6 @@ https://support.atlassian.com/ja/cloud-automation/docs/jira-cloud-automation/
 https://ja.confluence.atlassian.com/adminjiraserver/managing-webhooks-938846912.html
 
 - Webhook、プッシュ通知の送信
+
+特定のトランジションで特定のフィールドを必須入力にする方法。
+https://search.app/dpiBhS1TvKqPaLkW6
