@@ -1,5 +1,12 @@
 # CRUD (Create, Read, Update, Delete)
 
+操作の種類を以下の4つに分けて考えるモデル。
+
+- 作成: Create
+- 閲覧: Read
+- 変更: Update
+- 削除: Delete
+
 操作の種類
 
 - 作成画面の表示
