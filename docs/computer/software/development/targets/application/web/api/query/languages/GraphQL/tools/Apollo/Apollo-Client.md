@@ -7,3 +7,4 @@ InMemoryCacheにtypePoliciesを設定すると保存する動作を上書きで�
 https://dev.classmethod.jp/articles/apollo-client-v3-fetchmore-scroll-pagenation/
 
 Apolloの型はoptionalになっているので、厳密に型付けしたいなら移し替えた方がいい。
+結局移し替えが必要なら、Apolloの利点としてはイマイチ。初めから生でGQL叩いてオブジェクトに変換するのと大して変わらない。

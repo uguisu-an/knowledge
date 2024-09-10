@@ -19,3 +19,6 @@ fetchPolicyの設定は、
 例えばマスタデータなんかはほぼ更新されないのでcache-firstでいい。
 
 ApolloのHooksはそもそもuseEffectのようなタイミングで処理している。
+
+Apolloで生成した関数で書くとGraphQLのQueryと処理が離れてしまうのも少し使いづらい。
+Queryを直接叩いて自分でオブジェクトに変換した方がいいかも。
