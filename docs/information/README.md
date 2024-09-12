@@ -2,6 +2,10 @@
 
 情報
 
+## Keywords
+
+- 情報
+
 ## Reference
 
 - Decision

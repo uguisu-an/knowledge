@@ -6,6 +6,11 @@
 
 エンジニアリングの核は再現性。特に品質の再現。
 
+## Keywords
+
+- 工業
+- 工学
+
 ## Reference
 
 - System

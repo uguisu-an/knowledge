@@ -4,8 +4,9 @@
 
 ## Keywords
 
-- 慣れ
 - 練習
+- 癖
+- 慣れ
 
 ## Reference
 

@@ -12,12 +12,17 @@
 - 世話する
 - 面倒を見る
 
-## Concepts
+## Keywords
 
-- [情](情.md)
-- [関心](関心.md)
+- 情
+- 利
+- 害
+- 関心
+- 注意
+- 配慮
+- 遠慮
 
-## Reference
+## References
 
 - Doing
 - Work

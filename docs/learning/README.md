@@ -2,7 +2,11 @@
 
 情報を得ること。
 
-## Reference
+## Keywords
+
+- 学習、学び
+
+## References
 
 - Work
 - Information

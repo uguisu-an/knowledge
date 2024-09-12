@@ -4,6 +4,10 @@
 
 相手から影響を受けて喜びを感じること。
 
+## Keywords
+
+- 愛
+
 ## Reference
 
 - Care

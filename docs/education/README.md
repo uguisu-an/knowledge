@@ -4,6 +4,11 @@
 
 「部族を増やす」ことを価値とする。
 
+## Keywords
+
+- 教育、教化
+- 教養
+
 ## Reference
 
 - Society
