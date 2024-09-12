@@ -49,7 +49,7 @@ DR MP、J.HPやスパークをガードされていてもとりあえずMPまで
 
 ## キャンセルラッシュ
 
-- MK, cDR LP, MP-MP, 強ブリッツ, キルステ, 前投げ
+- MK, cDR LP, MP-MP, 強ブリッツ, キルステ, HP, MP, ...
 - MK(g), cDR LP, 前投げ
 - MK(g), cDR 前投げ
 
