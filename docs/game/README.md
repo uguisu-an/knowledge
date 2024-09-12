@@ -4,6 +4,11 @@
 
 駆け引きを考える。
 
+## Keywords
+
+- 勝負
+- 攻守
+
 ## Reference
 
 - Work

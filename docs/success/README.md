@@ -2,7 +2,13 @@
 
 試行によって、目的の事象を得ること。
 
-## Reference
+## Keywords
+
+- 成功
+- 失敗
+- 試行
+
+## References
 
 - Luck
 - Care

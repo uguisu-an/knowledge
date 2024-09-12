@@ -2,7 +2,12 @@
 
 価値を生み出す。
 
-## Reference
+## Keywords
+
+- 生産
+- ゴミ
+
+## References
 
 - Value
 - Business

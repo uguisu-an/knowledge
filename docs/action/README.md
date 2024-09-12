@@ -4,8 +4,17 @@
 
 目的を持った活動のこと。
 
-## Reference
+## Keywords
 
+- 検証
+- 行動
+- 目的
+- 手段
+- 意味
+
+## References
+
+- Success
 - Trial
 - Work
 - Decision

@@ -1,6 +1,11 @@
 # War
 
-## Reference
+## Keywords
+
+- 敵
+- 戦
+
+## References
 
 - Work
 - Game
