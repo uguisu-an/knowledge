@@ -22,3 +22,6 @@ AtomsやMoleculesはlibやsharedに置いて、特定のドメインでフォル
 `lib/ui/components/buttons/SaveButton.tsx`みたいにする。
 
 Atomic DesignのAtomsやMoleculesは「特定のドメインに依存しない」のが特徴だけど、それならlibに置けばいいだけ。
+
+「Atomic Design はコンポーネント指向を理解するのに有用ですが、コロケーションが崩れたり、粒度に関する不要な議論が増えるなどのデメリットがあります。」
+https://dev.to/puku0x/angular-react-2h4j
