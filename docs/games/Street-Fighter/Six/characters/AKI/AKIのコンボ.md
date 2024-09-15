@@ -126,6 +126,11 @@ AKIはリーサルで伸ばすのが難しい。かなりコンボの序盤で�
 - (毒) HK(pc), 強凶襲, 2LP 1-2, LK, 中鞭(毒), DR HK, 強泡, SA3: 5566(毒)
 - HK(pc), HK, cDR MK, MK, MP, cDR MK, MK, MP, 強泡, SA3: 5836(毒)
 
+中央付近から:
+
+- (空) HK(pc), OD凶襲, DR HK, 蛇行-P(毒), (端) DR 6HK, DR 2LP, cDR 6HK, 弱鞭, SA1: 4667
+- (空) HK(pc), OD凶襲, DR HK, 蛇行-P(毒), (端) DR 6HK, DR 2LP, cDR 6HK, 弱鞭, SA3: 6190
+
 ## (毒) HK(pc)
 
 - (毒) HK(pc), 強凶襲, 2LP 1-2, LK, 中鞭(毒), DR HK, 強鞭: 3680(毒)
@@ -255,3 +260,4 @@ AKIはリーサルで伸ばすのが難しい。かなりコンボの序盤で�
 ## 参考
 
 https://anisagan.com/aki-clasic-combo/
+https://x.com/Rip_xxx_RIP/status/1834952104537944440
