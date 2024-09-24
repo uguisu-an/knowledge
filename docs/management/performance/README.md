@@ -4,6 +4,13 @@
 
 資源を活用する。
 
+## Keywords
+
+- 効果
+- 効率
+- 容量
+- 負荷
+
 ## Reference
 
 - Work
