@@ -1,5 +1,0 @@
-# Innovation
-
-- Development
-- Technology
-- Society
