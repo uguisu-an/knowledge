@@ -15,8 +15,8 @@
 - Design
 - Information
 - Communication
-- Domain-Driven Design
 - Presentation
 - Versioning
-- Knowledge Management
+- Knowledge
 - Writing
+- Reading
