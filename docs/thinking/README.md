@@ -2,11 +2,14 @@
 
 推測によって情報を作る。
 
+意見を捨てる。
+
 ## Keywords
 
-- 意見（アイデア）と前提（データ）
-- 問いと答え
-- 収束と発散
+- 意見 Idea
+- 前提 Data
+- 問い Question
+- 答え Answer
 
 ## Reference
 

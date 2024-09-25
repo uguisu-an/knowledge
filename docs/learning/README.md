@@ -15,3 +15,5 @@
 - Communication
 - Decision
 - Action
+- Knowledge
+- Experience
