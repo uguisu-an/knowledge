@@ -1,4 +1,4 @@
-# Scaled Agile Framework
+# Scaled Agile Framework: SAFe
 
 https://scaledagileframework.com/
 
@@ -82,3 +82,11 @@ Lean Thinking と Agile Manifest がベース。
 - https://www.atlassian.com/ja/agile/agile-at-scale/what-is-safe
 
 SAFeのEssentialレベルではBusiness Ownersがビジネス層の判断に責任を持つ。組織と製品の両方の変革をリードする。
+
+SAFeは曖昧で、各自がそれぞれのプロセスをよく理解しないといけないわりに大きすぎる。
+少なくともスクラムとOKRに慣れたメンバーだけで進めるべき。
+
+SAFeでは実質的にARTのPIが一つのイテレーションになるので、リリースが大きくなりがち。
+逆に、そもそもチームが連携する必要がないような組織のアーキテクチャならSAFeで制御しなくていい。単独のチームで動く。
+
+ARTプランニングボードはチームとイテレーションを縦横に置いて、まずイベントとフィーチャーを配置する。その後、各チームの目標でそれに関連する依存関係を出して紐をつける。それらの目標が全て達成しないとそのフィーチャーはリリースできない。例えば、ある機能を廃止するために他のサービスからの参照を廃止するなど。
