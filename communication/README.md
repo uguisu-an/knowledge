@@ -1,7 +1,5 @@
 # Communication
 
-通信、伝達。
-
 情報をやりとりすること。
 
 ## Keywords
