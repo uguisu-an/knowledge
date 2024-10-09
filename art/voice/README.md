@@ -4,8 +4,7 @@
 
 ## Reference
 
-Sound > Voice
-
 - Human Body
 - Sound
 - Breathing
+- Throat
