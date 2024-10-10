@@ -40,3 +40,5 @@ npx playwright test
 ```sh
 npx playwright codegen http://localhost:3000
 ```
+
+CodeのPlaywright Test拡張もいいみたい。

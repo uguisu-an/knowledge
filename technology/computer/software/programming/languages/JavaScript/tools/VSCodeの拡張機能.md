@@ -1,0 +1,1 @@
+CodeのPretty TypeScript Errors拡張を入れるとエラーが読みやすくなる。
