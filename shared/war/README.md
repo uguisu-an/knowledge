@@ -3,7 +3,8 @@
 ## Keywords
 
 - 敵
-- 戦
+- 戦・争い
+- 攻撃性
 
 ## References
 
