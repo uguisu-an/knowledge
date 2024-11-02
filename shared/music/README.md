@@ -1,6 +1,8 @@
 # Music
 
-音楽。チャネルの一つ。
+音楽。
+
+音の連なりや重なり。
 
 ## Keywords
 
@@ -14,4 +16,3 @@
 ## Reference
 
 - Sound
-- Communication

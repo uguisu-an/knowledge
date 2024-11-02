@@ -8,3 +8,4 @@
 - Sound
 - Breathing
 - Throat
+- Singing
