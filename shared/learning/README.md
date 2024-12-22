@@ -17,3 +17,4 @@
 - Action
 - Knowledge
 - Experience
+- Practice
