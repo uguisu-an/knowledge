@@ -18,3 +18,4 @@
 - Knowledge
 - Experience
 - Practice
+- Thinking
