@@ -4,7 +4,9 @@
 
 ## Reference
 
+- Communication
 - Decision
+
 - Logic
 - Respect
 - Assertion
