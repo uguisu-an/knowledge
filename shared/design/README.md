@@ -32,7 +32,7 @@
 
 ## Reference
 
-- Communication
-- Perception
-- Planning
 - Art
+- Decision
+- Perception
+- Communication
