@@ -35,3 +35,4 @@
 - Communication
 - Perception
 - Planning
+- Art
