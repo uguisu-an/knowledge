@@ -29,6 +29,8 @@
 
 ## Reference
 
+- Work
+- Society
 - Gift
 - Love
 - Economics
