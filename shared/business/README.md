@@ -1,8 +1,6 @@
 # Business
 
-利益を追求するための経済活動。
-
-経済活動のためには信用を得て、交換を続けなければならない。
+他人や社会に影響を与えること。
 
 ## Keywords
 
@@ -30,8 +28,10 @@
 ## Reference
 
 - Work
+- People
 - Society
 - Gift
+
 - Love
 - Economics
 - Politics
