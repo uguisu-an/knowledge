@@ -11,9 +11,32 @@
 ## Reference
 
 - Change
-- Influence
-- Action
 
-- Health
-- Wealth
-- Rest
+## Map
+
+- Achievement
+  - Decision
+    - Information
+      - Thinking
+      - Learning
+      - Training
+    - Communication
+  - Action
+- Influence
+  - People
+- Resource
+  - Management
+    - Performance
+    - Maintenance
+      - Health
+        - Rest
+      - Wealth
+    - Finance
+  - Development
+- Works
+  - Art
+  - Job
+  - War
+- Collaboration
+  - Team
+  - Organization
