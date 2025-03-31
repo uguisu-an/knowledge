@@ -4,6 +4,7 @@
 
 ## 関連
 
+- Society
 - Communication
 - Emotion
 - Entertainment
