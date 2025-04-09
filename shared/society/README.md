@@ -16,3 +16,5 @@
 - Culture
 - Education
 - Fashion
+- Love
+- Care
