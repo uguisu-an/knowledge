@@ -1,3 +1,7 @@
+# Talk
+
+言葉を使って情報を伝えること。
+
 ## Reference
 
 - People
@@ -5,3 +9,4 @@
 - Conversation
 - Story Telling
 - Music
+- Language
