@@ -1,4 +1,4 @@
-Myers-Briggs Type Indicator
+# Myers-Briggs Type Indicator
 
 性格占いの一種。
 科学的には不備があるとされているので、あくまでも占いとして楽しもう。
