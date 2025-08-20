@@ -10,3 +10,4 @@
 - Story Telling
 - Music
 - Language
+- Voice
