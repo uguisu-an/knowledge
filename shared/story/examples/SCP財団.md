@@ -63,6 +63,8 @@ http://scp-jp.wikidot.com/object-classes
 
 収容できているが、不明点があって安全に収容できているとは限らないのがEuclidになる。
 
+基本的に封鎖しておけば安全だけど一般人が侵入する可能性が少しでもあるような場合はEuclidになる。
+
 ## メモ
 
 https://ja.wikipedia.org/wiki/SCP%E8%B2%A1%E5%9B%A3
