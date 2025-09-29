@@ -4,4 +4,4 @@
 
 - Computer
 - System
-- Network
+- Product
