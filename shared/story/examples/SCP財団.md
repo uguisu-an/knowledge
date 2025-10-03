@@ -84,3 +84,6 @@ https://ja.wikipedia.org/wiki/SCP%E8%B2%A1%E5%9B%A3
 探索・回収の段階ではDクラス職員よりも機動部隊やエージェントなどのスタッフが対応しがち。Dクラス職員はどちらかというと収容後の実験で用いる。ただ、あまりにも危険だとDクラス職員が探索することもある。
 
 Keterだらけの世界で異常や財団の存在がバレてないって無理ある気もする。認識災害かも。
+
+SCP財団入門
+https://youtube.com/playlist?list=PL4XghUIxLYjCOQIUx9ap1lhuYop6cNgFF&si=nLms7tWPvoJ18EPF
