@@ -9,6 +9,7 @@
 - 勝負
 - 攻守
 
-## Reference
+## References
 
 - Work
+- Trick

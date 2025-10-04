@@ -8,11 +8,14 @@
 
 ## Reference
 
+- Risk
+
+その他:
+
 - Decision
 - Observation
 - Communication
 - Documentation
-- Risk
 - Learning
 - Knowledge
 - Experience

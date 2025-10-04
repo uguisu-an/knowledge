@@ -13,14 +13,16 @@
 
 ## Reference
 
-- Society
 - Culture
-- Training
-- Community
 - Communication
+
+その他:
+
+- Society
+- Community
 - Documentation
-- Engagement
-- Organization
+- Training
 - Teaching
 - Mentoring
+- Engagement
 - Entertainment
