@@ -4,7 +4,11 @@
 
 誰かを喜ばせたり楽しませたりすること。
 
-## Reference
+## References
+
+- Engagement
+
+その他:
 
 - Mood
 - Influence People

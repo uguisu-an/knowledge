@@ -10,7 +10,7 @@
 
 - 文書、書類
 
-## Reference
+## References
 
 - Design
 - Information
