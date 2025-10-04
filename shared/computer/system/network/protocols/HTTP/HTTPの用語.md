@@ -1,7 +1,3 @@
-# HTTP (HyperText Transfer Protocol)
-
-## 主な用語
-
 - リソース: URLで指定されるWebサイトなど
 - メッセージ
   - リクエスト: サーバーに送信する入力・要求メッセージ
