@@ -11,63 +11,120 @@
 
 ## Outline
 
-問題解決
-
-- Management
-  - Project Management
-  - Time Management
-- Development
-  - Software Development
-- Engagement
-  - Organization
-  - Government
-  - Company
-  - Team
-- Learning
-- Planning
-
-生活
-
-- Business
-  - Marketing and Sales
-    - Marketing
-    - Sales
-- Community
-- Lifestyle
-
-技術
-
-- Art
-  - Music
-  - Graphics
+- Being
+  - Health
+    - Diet
+    - Sleep
+    - Exercise
+  - Wealth
+    - Care
+    - Gift
+      - Entertainment
+- Doing
+  - Success
+    - Management
+      - Finance
+      - Maintenance
+      - Performance
+        - Time
+    - Development
+      - Training
+      - Thinking
+        - Logic
+        - Story
+      - Learning
+    - Achievement
+      - Execution
+        - Planning
+        - Programming
+- Change
+  - Work
+    - Art
+    - Job
+    - War
+  - Risk
+    - Information
+      - Media
+        - Dance
+        - Video
+        - Music
+        - Picture
+        - Text
+          - Literature
+        - Talk
+          - Conversation
+  - History
+    - Documentation
+      - Revision
+- Choice
+  - Love
+- Culture
+  - Education
+    - Coaching
+    - Teaching
+      - Study
+      - Knowledge
+    - Mentoring
+      - Example
+  - Fashion
+    - Art
+    - Design
+- Human
+  - Life
+    - Business
+    - Home
+      - Reception
+      - Lifestyle
+        - Cooking
+        - Shopping
+    - Rest
+  - Mind
+    - Perception
+      - Meme
+      - Feeling
+        - Mood
+          - Humor
+          - Joke
+        - Pain
+    - Satisfaction
+      - Peace
+        - Trust
+        - Respect
+  - Body
+    - Brain
+      - Memory
+    - Voice
+    - Breath
+    - etc.
+- People
+  - Society
+    - Community
+    - Communication
+      - Trick
+    - Organization
+      - Team
+      - Family
+      - Government
+  - Engagement
+    - Entertainment
+      - Gift
+      - Leisure
+- System
+  - Administration
+  - Operation
+  - Migration
+- Science
+  - Math
+  - Physics
+- Philosophy
+  - Ethics
+  - Politics
+  - Aesthetics
+- Biology
 - Technology
-  - Information and Communication Technology
-    - Computer
-      - Computer Science
-      - Computer Network
-      - Computer Security
+  - Computer
+    - System
+    - Network
     - Software
-      - Software Programming
-      - Software Testing
-- Engineering
-  - Computer Engineering
-
-認識
-
-- Design
-  - Software Design
-    - UI Design
-    - API Design
-- Communication
-- Discussion
-- Documentation
-- Presentation
-
-幸福
-
-- Entertainment
-- Well-being
-
-## その他
-
-何かを説明するものではなく、何かを定義するものであるべき。
+    - Hardware
+  - Engineering
