@@ -1,3 +1,0 @@
-# Vocal Training
-
-- Voice Training
