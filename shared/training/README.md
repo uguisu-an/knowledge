@@ -11,7 +11,11 @@
 - 癖
 - 慣れ
 
-## Reference
+## References
+
+- Success
+
+その他:
 
 - Work
 - Learning

@@ -8,6 +8,12 @@
 
 ## References
 
+- Success
+  - Thinking
+  - Training
+
+その他:
+
 - Work
 - Information
 - Perception

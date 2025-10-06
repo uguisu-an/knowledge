@@ -28,15 +28,15 @@
       - Performance
         - Time
     - Development
-      - Training
-      - Thinking
-        - Logic
-        - Story
-      - Learning
     - Achievement
       - Execution
         - Planning
         - Programming
+    - Learning
+    - Thinking
+      - Logic
+      - Story
+    - Training
 - Change
   - Work
     - Art
