@@ -22,7 +22,7 @@
   - Aural
     - Music
 
-## Reference
+## References
 
 - Work
 - Design
