@@ -2,12 +2,9 @@
 
 相手を成功させること。
 
-## Reference
+## References
 
-- Love
+- Success
+- Communication
 - Engagement
 - Encouragement
-- Trust
-- Respect
-- Education
-- People Management
