@@ -1,7 +1,6 @@
 # Computer System
 
-## Reference
+## References
 
 - Computer
 - System
-- Product
