@@ -1,6 +1,6 @@
 # Software Engineering
 
-## Reference
+## References
 
 - Computer
 - Software

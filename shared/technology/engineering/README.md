@@ -11,12 +11,7 @@
 - 工業
 - 工学
 
-## Reference
+## References
 
-- Production
-- Science
-- System
-- Machine
-- Business
-- Technique
 - Technology
+- Production
