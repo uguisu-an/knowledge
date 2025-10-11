@@ -1,8 +1,10 @@
-# Web API Design
+# Representational State Transfer: REST
+
+https://aws.amazon.com/jp/what-is/restful-api/
 
 ## ベストプラクティス
 
-id は string にする。
+- id は string にする。
 
 ## 参考資料
 
