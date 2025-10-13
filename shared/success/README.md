@@ -16,8 +16,6 @@
 - Work
 - Test
 - Trial
-- Management
-- Coaching
 - Learning
 - Training
 - Thinking
@@ -26,3 +24,4 @@
 - Information
 - Action
 - Decision
+- Management

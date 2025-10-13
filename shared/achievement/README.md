@@ -20,6 +20,4 @@
 - Success
 - Management
 - Development
-- Learning
-- Training
 - Satisfaction

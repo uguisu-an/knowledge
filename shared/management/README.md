@@ -19,6 +19,7 @@
 - Care
 - Work
 - Learning
+- Training
 - Thinking
 - Coaching
 - Well-being
