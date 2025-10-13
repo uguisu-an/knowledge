@@ -8,4 +8,4 @@
 
 ## Reference
 
-- Art/Visual
+- Visual Art
