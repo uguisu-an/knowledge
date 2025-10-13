@@ -17,6 +17,9 @@
 - Success
 - Trial
 - Work
+
+その他:
+
 - Decision
 - Story
 - Execution
