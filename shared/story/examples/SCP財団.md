@@ -112,3 +112,5 @@ Keterだらけの世界で異常や財団の存在がバレてないって無理
 
 SCP財団入門
 https://youtube.com/playlist?list=PL4XghUIxLYjCOQIUx9ap1lhuYop6cNgFF&si=nLms7tWPvoJ18EPF
+
+Keterオブジェクトには収容違反のインシデントログがありがち。
