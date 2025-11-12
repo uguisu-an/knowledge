@@ -7,5 +7,6 @@
 - Luck
 - Care
 - Love
+- Work
 - Health
 - Wealth
