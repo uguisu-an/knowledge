@@ -10,10 +10,11 @@
 - メロディ（旋律）
 - ハーモニー（和音）
 - 演奏
+- 楽譜
 - 音楽史
 - 音楽理論
 
-## Reference
+## References
 
 - Art
 - Sound
