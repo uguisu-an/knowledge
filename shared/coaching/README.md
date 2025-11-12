@@ -6,5 +6,9 @@
 
 - Success
 - Communication
+
+その他:
+
+- Management
 - Engagement
 - Encouragement
