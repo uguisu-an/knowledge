@@ -1,7 +1,10 @@
 # Finance
 
-収支。
+財務。
+
 収入と支出の調整。
+
+資産の調達・運用・管理。
 
 資本を扱う。
 
@@ -9,7 +12,12 @@
 
 経済的な資源のマネジメント.
 
-## Reference
+## References
+
+- Action
+- Money
+
+その他:
 
 - Economics
 - Business
