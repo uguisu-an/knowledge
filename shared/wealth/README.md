@@ -1,8 +1,14 @@
-# 福祉 Wealth
+# Wealth
+
+福祉
 
 幸福を支える外的な部分。
 
-## Reference
+## References
+
+- Well-being
+
+その他:
 
 - Business
 - Finance
