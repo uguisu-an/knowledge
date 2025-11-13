@@ -11,10 +11,18 @@
 
 ## References
 
+- Work
+  - Change
+- Time
+  - Chance
+- Risk
+  - Information
+
+その他:
+
 - Luck
 - Care
 - Work
-- Test
 - Trial
 - Learning
 - Training
