@@ -11,7 +11,7 @@
 - 法則
 - 原則と例外
 
-## Reference
+## References
 
 - Story
 - Thinking

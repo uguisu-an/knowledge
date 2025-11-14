@@ -1,5 +1,8 @@
 # Story
 
-## Reference
+物語。
 
+## References
+
+- Thinking
 - Experience
