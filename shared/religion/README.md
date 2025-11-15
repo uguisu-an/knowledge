@@ -1,6 +1,6 @@
-# Faith
+# Religion
 
-信仰
+宗教
 
 ## References
 
