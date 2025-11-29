@@ -8,3 +8,5 @@
 DOCTYPE、文書型宣言はブラウザが文書を描画する際に後方互換モードに切り替わるのを防ぐ効果がある。
 `<!DOCTYPE html>`を先頭に記述することで、標準準拠モードで描画する。
 https://developer.mozilla.org/ja/docs/Glossary/Doctype
+
+テーブルなどで横方向に構造化しようとするとスマホなど小さな画面で見づらいので、基本的には縦に構造化するべき。headingなど。
