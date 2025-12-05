@@ -2,7 +2,7 @@
 
 ある目的を達成するために集団を運営する。
 
-## Reference
+## References
 
 - System
 - Achievement
@@ -11,3 +11,4 @@
 - Team
 - Community
 - Management
+- Society
