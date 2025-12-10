@@ -5,21 +5,24 @@
 ## References
 
 - People
+- Love
+- Care
+- Work
+- Mood
+- Trust
+- Respect
+- Culture
+- Popular
+- Communication
 
 その他:
 
 - Government
 - Family
 - Corporation
-- Communication
 - Community
 - Economics
 - Politics
 - War
-- Popular
-- Mood
-- Culture
 - Education
 - Fashion
-- Love
-- Care
