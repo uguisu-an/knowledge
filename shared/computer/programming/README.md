@@ -1,6 +1,11 @@
-# Software Programming
+# Computer Programming
+
+Codingとも。
 
 ソフトウェアの設計と実装
+
+コンピュータ (Computer) の実行計画 (Program) をコードとして残すこと (Documentation) が求められる。
+基礎としては、計算機工学 (Computer Engineering) や計算機科学 (Computer Science) で、特にアルゴリズムとデータ構造が重要。
 
 ## Map
 
@@ -21,9 +26,12 @@
 
 ## References
 
-- Computer Science
-- Computer Engineering
-- Software
+- Computer
+  - Software
+  - Computer Engineering
+    - Computer Science
+      - Algorithm
+      - Data Structure
 - Design
 - Programming
 - Documentation
