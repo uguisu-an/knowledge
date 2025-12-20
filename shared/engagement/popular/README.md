@@ -2,10 +2,15 @@
 
 求められること。
 
-## Reference
+愛されること。
+
+## References
+
+- Love
+
+その他:
 
 - People
-- Love
 - Trust
 - Credit
 - Business
