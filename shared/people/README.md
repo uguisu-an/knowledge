@@ -5,4 +5,3 @@
 ## References
 
 - Human
-- Society
