@@ -24,6 +24,7 @@
 
 ## References
 
+- Mind
 - Doing
 - Work
 - Trust
