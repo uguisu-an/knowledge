@@ -15,3 +15,4 @@
 - Credit
 - Business
 - Value
+- Society

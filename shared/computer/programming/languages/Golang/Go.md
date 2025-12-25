@@ -9,3 +9,5 @@ https://qiita.com/Yuuki557/items/e9f5bdfbbfe92973a05e
 https://zenn.dev/hsaki/articles/go-convert-json-struct
 
 Go を使う人は Gopher と呼ばれる。
+
+コンパイラとかメモリ的な高速さが求められる部分はGoやRustが増えてる。Dockerは代表的だし、TypeScriptのコンパイラも7でGoになる。
