@@ -21,3 +21,4 @@
 - Life
 - Society
 - Communication
+- Intimacy
