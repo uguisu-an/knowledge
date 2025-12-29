@@ -10,10 +10,11 @@
 
 - 愛
 
-## Reference
+## References
+
+- Care
 
 - Choice
-- Care
 - Popular
 - Trust
 - Respect
