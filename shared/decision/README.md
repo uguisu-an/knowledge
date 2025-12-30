@@ -7,7 +7,7 @@
 - 判断、意思決定
 - 意識
 
-## Reference
+## References
 
 とくに大きな依存先
 
