@@ -1,12 +1,11 @@
 # Wealth
 
-財産、福祉。
-
 幸福を支える外的な部分。
 
 ## Keywords
 
 - 財産
+- 福祉
 
 ## References
 
