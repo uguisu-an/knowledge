@@ -20,3 +20,5 @@ AIアシスタントはGeminiやChatGPTのような対話的なプロンプト�
 https://cloud.google.com/discover/what-are-ai-agents?hl=ja
 
 Botは受動的に特定のコマンドやトリガーに反応するが、エージェントやアシスタントは積極的な提案を行うべき。
+
+企業のAIは、料金がどこまで上がるかわからないリスクがある。乗り換えられるようにしないといけない。
