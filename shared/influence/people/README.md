@@ -1,3 +1,10 @@
+# Influence People
+
+人を動かす。
+
+## References
+
+- Work
 - Trust
 - Credit
 - Respect
@@ -14,3 +21,4 @@
 - People
 - Human
 - Game
+- Popular
