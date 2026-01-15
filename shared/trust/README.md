@@ -1,8 +1,16 @@
 # Trust
 
-相手の成功を期待する。
+頼りにすること。期待すること。
 
-## Reference
+## Keywords
+
+- 期待
+- 安心
+- 警戒
+- 実績
+  - 恩
+
+## References
 
 - Management
 - Business
