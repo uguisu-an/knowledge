@@ -12,9 +12,8 @@
 
 ## References
 
-- Management
-- Business
-- Interest
-
-- Talk
 - Hope
+- Care
+- Security
+- Assertion
+- Achievement

@@ -14,7 +14,8 @@
 - 賛同
 - 反対
 
-## Reference
+## References
 
 - Communication
 - Care
+- Trust
