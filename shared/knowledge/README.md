@@ -2,8 +2,10 @@
 
 知識。
 
-## Reference
+## References
 
+- Work
+- Structure
 - Logic
 - Thinking
 - Memory
