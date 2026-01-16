@@ -14,7 +14,7 @@
 - 友人
 - 恋人
 
-## Reference
+## References
 
 - Love
-- Marketing
+- Trust
