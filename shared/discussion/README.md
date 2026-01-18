@@ -2,7 +2,7 @@
 
 論理の是非を問う。
 
-## Reference
+## References
 
 - Communication
 - Decision
