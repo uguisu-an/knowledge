@@ -30,3 +30,4 @@
 - Communication
 - Productive
 - Creative
+- Aesthetics
