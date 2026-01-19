@@ -2,12 +2,7 @@
 
 言葉を使って情報を伝えること。
 
-## Reference
+## References
 
-- People
 - Communication
-- Conversation
-- Story Telling
-- Music
 - Language
-- Voice

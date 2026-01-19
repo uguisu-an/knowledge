@@ -13,7 +13,7 @@
 - 構想、プロット
 - 脚本、シナリオ
 
-## Reference
+## References
 
 - Art
 - Talk
