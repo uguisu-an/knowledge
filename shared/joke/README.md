@@ -1,7 +1,8 @@
 # Joke
 
-笑い
+笑わせるための話。
 
 ## References
 
+- Talk
 - Entertainment
