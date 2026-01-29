@@ -1,9 +1,9 @@
 # Humor
 
-物事を肯定的に捉えること。
+（とくにネガティブな）物事を肯定的に表現すること。
 
-## Reference
+## References
 
-- Trust
-- Perception
+- Love
+- Communication
 - Entertainment
