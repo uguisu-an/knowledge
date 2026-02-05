@@ -4,7 +4,7 @@
 
 事業を行うための組織。
 
-## Reference
+## References
 
 - Business
 - Organization
