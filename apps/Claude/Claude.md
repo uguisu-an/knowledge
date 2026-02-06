@@ -21,3 +21,5 @@ https://qiita.us5.list-manage.com/track/click?u=e220ac811523723b60d055c87&id=e1b
 
 Claude Codeを使うとローカルのファイルにもアクセスできる。
 ターミナルでClaudeを起動して、あとはチャットと同じように指示するだけ。
+
+Google検索とノートを使ってやるようなことは大体できる。
