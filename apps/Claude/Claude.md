@@ -13,3 +13,6 @@ ClaudeはAI本体とは別に、Web検索して調べた結果も出せる。
 
 https://x.com/masahirochaen/status/2017822734248751351
 https://qiita.us5.list-manage.com/track/click?u=e220ac811523723b60d055c87&id=e1bc932b81&e=a9919de28c
+
+何ができるか、アイデアを思いついたら、Claude自身に聞いてみよう。
+例えば「YouTubeの動画を要約できますか？」とか。
