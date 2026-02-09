@@ -1,8 +1,9 @@
 # Management
 
-経営。資源を活用する、うまく扱うこと。
+「なんとかする」こと。
 
-うまくやる、なんとかすること。成功させること。適応すること。
+経営。資源を活用する、うまく扱うこと。
+うまくやること。成功させること。適応すること。
 
 成功させるために学習は欠かせない。
 
@@ -14,7 +15,10 @@
 - 最適
 - 適応
 
-## Reference
+## References
+
+- Execution
+- Success
 
 - Care
 - Work
@@ -27,7 +31,5 @@
 - Achievement
 - Business
 - Finance
-- Execution
-- Success
 - Performance
 - Satisfaction

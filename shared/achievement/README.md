@@ -14,10 +14,12 @@
 - 問題
 - 対策
 
-## Reference
+## References
 
 - Work
 - Success
+- Execution
+
 - Management
 - Development
 - Satisfaction
