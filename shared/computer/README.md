@@ -48,10 +48,7 @@
     - Authorization
   - Performance
 
-## Reference
+## References
 
-- Product
-- Information
-- Communication
-- Technology
 - Machine
+- Information
