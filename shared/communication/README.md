@@ -4,14 +4,15 @@
 
 ## Keywords
 
-- メディア
-- チャネル
-- コンテンツ
-- コンテキスト
+- 媒体・メディア
+- 経路・チャネル
+- 内容・コンテンツ
+- 文脈・コンテキスト
 
-## Reference
+## References
 
 - Information
+
 - Expression
 - Presentation
 - Documentation
