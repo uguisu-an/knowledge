@@ -1,6 +1,6 @@
 # Discussion
 
-論理の是非を問う。
+会話による集団の判断。
 
 ## References
 
