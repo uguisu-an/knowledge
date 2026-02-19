@@ -2,7 +2,7 @@
 
 感情表現。
 
-## Reference
+## References
 
 - Communication
 - Expression
