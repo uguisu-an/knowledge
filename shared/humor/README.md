@@ -1,10 +1,12 @@
 # Humor
 
-（とくにネガティブな）物事を肯定的に表現すること。
+（とくにネガティブな）物事を笑いに変えること。
 
 ## References
 
 - Hope
+- Mood
 - Love
+- Emotion
 - Communication
 - Entertainment
