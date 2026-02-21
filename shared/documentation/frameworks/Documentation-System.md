@@ -2,12 +2,12 @@
 
 https://documentation.divio.com/
 
-書類を以下の 4 つに分類する。
+書類を以下の4つに分類する。
 
-1. Tutorials (learning-oriented)
-2. How-to Guides (problem-oriented)
-3. Explanation (understanding-oriented)
-4. Reference (information-oriented)
+1. Tutorials (learning-oriented): どうやって始めるか
+2. How-to Guides (problem-oriented): どうやって動かすか
+3. Explanation (understanding-oriented): どうやって動いているか、なんのためにあるか
+4. Reference (information-oriented): どんな概念が出てくるか
 
 ## 備考
 
