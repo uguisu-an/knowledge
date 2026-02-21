@@ -1,8 +1,8 @@
 # Ethics
 
-人と獣を区別する。
+他人の恨みを買わないこと。
 
-## Reference
+## References
 
 - Human
 - People

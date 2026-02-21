@@ -11,8 +11,9 @@
 - 権威
 - 紛争と平和
 - 緊張と緩和
+- 正当性
 
-## Reference
+## References
 
 - People
 - Society
