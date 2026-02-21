@@ -5,8 +5,8 @@ https://documentation.divio.com/
 書類を以下の4つに分類する。
 
 1. Tutorials (learning-oriented): どうやって始めるか
-2. How-to Guides (problem-oriented): どうやって動かすか
-3. Explanation (understanding-oriented): どうやって動いているか、なんのためにあるか
+2. How-to Guides (problem-oriented): どうやって動かすか、どう扱うか
+3. Explanation (understanding-oriented): どういうものか、どうやって動いているか、なんのためにあるか
 4. Reference (information-oriented): どんな概念が出てくるか
 
 ## 備考
@@ -26,3 +26,8 @@ Reference には What を書く。
 学びたくなるようなチュートリアルであるべき。
 
 あるものが「どういうものか」を正確に伝えるのがReferenceで、「どうしてこうなるか」を伝えるのが解説。
+
+How-to GuidesやExplanationを、
+Getting Started (基礎)
+Advanced (応用)
+に分けることもある。
