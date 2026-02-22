@@ -7,3 +7,5 @@
 [【検索力向上委員会】新人を自走できるエンジニアにした方法 - Qiita](https://qiita.com/RoboticsY/items/e082fa00fc33e2a2d603)
 
 https://qiita.com/Kei-dev-1213/items/be1cad8db7dc730c2cb6
+
+検索しても出てこないことは記事を書くチャンス。
