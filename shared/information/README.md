@@ -6,9 +6,9 @@
 
 - 情報
 
-## Reference
+## References
 
-- Risk
+- Decision
 
 その他:
 

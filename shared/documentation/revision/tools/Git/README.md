@@ -1,6 +1,6 @@
 # Git
 
-## Reference
+## References
 
 - Documentation
 - Version

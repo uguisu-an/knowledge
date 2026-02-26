@@ -1,3 +1,8 @@
-# Versioning
+# Revision
 
-改訂・履歴・変更管理。
+ドキュメントの改訂。
+
+## References
+
+- Documentation
+- History
