@@ -8,9 +8,9 @@
 
 ## References
 
-- Success
-  - Thinking
-  - Training
+- Information
+- Decision
+- Thinking
 
 その他:
 
