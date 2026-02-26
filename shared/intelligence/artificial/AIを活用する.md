@@ -1,7 +1,5 @@
 「委譲」あるいは「仕事を任せる」スキルが重要。
 
-## その他
-
 ChatGPT を使って仕様からテストケースやコードを出力する記事
 
 https://zenn.dev/fumi_sagawa/articles/932bcaafd28c53
