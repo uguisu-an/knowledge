@@ -2,7 +2,7 @@ ClaudeはAI本体とは別に、Web検索して調べた結果も出せる。
 
 - 並列で3-5個同時に回せ
 - 複雑タスクはプランモードから
-- CLAUDE. mdに全てを記録
+- CLAUDE.mdに全てを記録
 - スキルを自作してgit管理
 - バグ修正は丸投げでOK
 - プロンプトをレベルアップ
@@ -13,6 +13,7 @@ ClaudeはAI本体とは別に、Web検索して調べた結果も出せる。
 
 https://x.com/masahirochaen/status/2017822734248751351
 https://qiita.us5.list-manage.com/track/click?u=e220ac811523723b60d055c87&id=e1bc932b81&e=a9919de28c
+https://zenn.dev/explaza/articles/a387d2bf1cb448
 
 何ができるか、アイデアを思いついたら、Claude自身に聞いてみよう。
 例えば「YouTubeの動画を要約できますか？」とか。
@@ -23,3 +24,9 @@ Claude Codeを使うとローカルのファイルにもアクセスできる。
 ターミナルでClaudeを起動して、あとはチャットと同じように指示するだけ。
 
 Google検索とノートを使ってやるようなことは大体できる。
+
+Web版のデフォルトはSonnetだが、コーディングはOpus (thinking) が強い。
+
+Claudeが間違ったことをするたびに`CLAUDE.md`に追記する。
+
+Agent Teamは複数のエージェントが一気に動くので、トークンの消費量が多い。何にでも使っていい機能ではない。
