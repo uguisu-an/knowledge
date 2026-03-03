@@ -1,8 +1,8 @@
 # Sleep
 
-睡眠。
+睡眠
 
-## Reference
+## References
 
 - Health
 - Lifestyle
