@@ -4,5 +4,6 @@
 
 ## References
 
+- People
 - Trust
   - Intimacy
