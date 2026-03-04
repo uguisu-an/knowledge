@@ -4,7 +4,7 @@
 
 ## References
 
-- Society
+- People
+- Trust
 - Communication
 - Emotion
-- Entertainment
