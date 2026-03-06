@@ -4,8 +4,9 @@
 
 顧客を見つけること。売ること。
 
-## Reference
+## References
 
 - Economics
 - Engagement
 - Business
+- Communication

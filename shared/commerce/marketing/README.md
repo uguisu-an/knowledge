@@ -8,12 +8,12 @@
 - ターゲット
 - ポジション
 
-## Reference
+## References
 
-- Communication
+- Commerce
+- Popular
+
 - Engagement
 - Economics
 - War
 - Product Management
-- Commerce
-- Popular
