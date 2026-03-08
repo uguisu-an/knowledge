@@ -4,10 +4,10 @@
 
 ## Keywords
 
-- 成功
-- 失敗
 - 試行
 - 機会
+- 成功
+- 失敗
 
 ## References
 
