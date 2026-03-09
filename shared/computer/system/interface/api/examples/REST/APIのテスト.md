@@ -1,2 +1,5 @@
 APIのテストはデータベースを見るよりもリクエストとレスポンスだけで完結させた方がいい。ブラックボックスにする。
 APIのテストでデータベースを確認するのはホワイトボックス。
+
+JSONPlaceholderのサイトでダミーデータを返すAPIを公開してくれている。
+https://jsonplaceholder.typicode.com/
