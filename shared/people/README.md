@@ -6,3 +6,4 @@
 
 - Human
 - Trust
+- Communication
