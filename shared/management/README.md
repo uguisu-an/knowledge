@@ -19,10 +19,10 @@
 
 ## References
 
+- Care
 - Execution
 - Success
 
-- Care
 - Work
 - Learning
 - Training
