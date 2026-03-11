@@ -27,13 +27,12 @@
     - 顧客
     - ビジネスモデル
 
-## Reference
+## References
 
 - Work
 - People
 - Society
 - Gift
-
 - Love
 - Economics
 - Politics
