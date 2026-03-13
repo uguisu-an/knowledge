@@ -2,7 +2,6 @@
 
 余暇。Business でないこと。
 
-## Reference
+## References
 
 - Business
-- Entertainment

@@ -1,6 +1,6 @@
 # Business
 
-他人や社会に影響を与えること。
+なんらかの活動を続けるためのマネジメント。
 
 ## Keywords
 
@@ -28,6 +28,9 @@
     - ビジネスモデル
 
 ## References
+
+- Economics
+- Management
 
 - Work
 - People
