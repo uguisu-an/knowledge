@@ -33,3 +33,4 @@
 - Influence
 - Observation
 - Entertainment
+- Management
