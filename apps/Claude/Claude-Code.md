@@ -26,3 +26,5 @@ https://qiita.com/kyuko/items/77e9e022860b57e4bd4d
 `CLAUDE.md`を設定すると、Codeの実行時に毎回読み込まれる。
 ホームに置くと全てのプロジェクトに適用される。
 Rulesはパスで指定して同じことができる。
+
+CLAUDE.mdは使いたいプロジェクトのルートに置く。
