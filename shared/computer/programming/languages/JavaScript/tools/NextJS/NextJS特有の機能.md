@@ -7,6 +7,7 @@ Reactにない部分を活用することで、Nextを使いこなせる。
 - Server Componentは状態を持たない
   - `useState`や`useEffect`を使えない
 - Server ComponentはAPIを介さなくてもデータベースなどにアクセスできる
+- Client Componentは常に明示する
 - Client Componentはできるだけ末端にする (その下は全てClient Componentになる)
   - データはできるだけ上位のServer Componentで取得して渡す
 - Server Componentを明示する場合:
