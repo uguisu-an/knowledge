@@ -12,3 +12,5 @@ https://nextjs-ja-translation-docs.vercel.app/docs/getting-started
 
 開発中にメモリが足りないとコード 137 で落ちることがある。
 特にページを移動してリビルドがかかったときなどに落ちがち。
+
+2026年時点ではNextのUIはshadcn/uiがメジャーになってるみたい。Radix UI + Tailwind CSSらしいけどそもそもRadix UI知らないんだが。

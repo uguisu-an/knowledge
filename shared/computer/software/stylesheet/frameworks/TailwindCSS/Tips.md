@@ -23,3 +23,6 @@ tailwindcss では、line-height が leading, letter-spacing が tracking と呼
 
 tailwind 色々書いてるけど、bg, m, p, text, border のことがほとんど。
 あとは flex/grid/block/hidden みたいな display 系とか、state や breakpoint による拡張表記くらい。
+
+Tailwind CSSの公式も@applyはあまり使わずにコンポーネントのHTMLに直接書くのを推奨している。
+https://tailwindcss.com/docs/styling-with-utility-classes#managing-duplication
