@@ -1,0 +1,6 @@
+# testing-library
+
+testing-libraryでは、getByRoleやgetByTextを使って、ユーザー視点でテストする。
+
+testing-libraryを使う場合は主に複数のコンポーネントを統合したテストにするべき。ただし、バリデーションやカスタムフックなどの複雑なロジックをコンポーネントでテストしないといけない場合は単独でテストすることもある。
+バリデーション自体はロジックとして切り出してtesting-libraryとは別にテストする方法もあるが、表示まで含めて試したいならtesting-libraryでテストする。
