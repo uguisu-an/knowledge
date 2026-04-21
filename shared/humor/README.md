@@ -5,6 +5,7 @@
 ## References
 
 - Hope
+- Care
 - Mood
 - Love
 - Emotion
