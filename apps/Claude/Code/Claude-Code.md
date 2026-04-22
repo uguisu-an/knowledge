@@ -17,14 +17,17 @@ https://code.claude.com/docs/ja/costs#reduce-token-usage
 仕事でがっつり使う場合は月に100-200ドルかかると考えられる。
 これより多かったら何か変なことをしていると疑った方がいい。
 
-- Skills: よく使うプロトコルを定義する
-- Agents: メインのコンテキストとは分離されたコンテキストで実行する
-- Hooks: 特定のタイミングでコマンドを実行する
-
-https://qiita.com/kyuko/items/77e9e022860b57e4bd4d
-
 `CLAUDE.md`を設定すると、Codeの実行時に毎回読み込まれる。
 ホームに置くと全てのプロジェクトに適用される。
 Rulesはパスで指定して同じことができる。
 
 CLAUDE.mdは使いたいプロジェクトのルートに置く。
+
+発展の順序
+https://qiita.com/teppei19980914/items/8da88b33ffa8cf88dfa2
+
+1. 素の指示
+2. CLAUDE.md
+3. Skills
+4. Hooks
+5. Agents
