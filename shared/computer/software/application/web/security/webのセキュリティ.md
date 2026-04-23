@@ -10,7 +10,7 @@ https://cybersecurity-jp.com/column/102306
 ## 重要なセキュリティヘッダ
 
 - Content-Security-Policy: 実行できるスクリプトのホワイトリスト
-- Strict-Transport-Security: HTTPSを強制する
+- Strict-Transport-Security: HTTPSを強制する (HSTS)
 - X-Frame-Options: クリックジャッキング対策
 - X-Content-Type-Options: MIMEタイプスニッフィング対策
 - Referrer-Policy: URLに含まれる情報を外部に漏らさない
@@ -19,15 +19,20 @@ https://cybersecurity-jp.com/column/102306
 CSPは設定が難しく、間違えるとサイトが壊れる。まずは他のヘッダーから設定するといい。
 CSPはまず`Content-Security-Policy-Report-Only`で試して、問題がなければ本番のCSPとして有効化する。
 
+HSTS (HTTP Strict Transport Security) はブラウザに対して以降の通信を全てHTTPSにするよう強制する機能。
+一時的に設定しただけでも、決められた期間は常にHTTPSで通信するので、試しにつけたりするとアクセスできなくなる。
+証明書が切れたりしてもHTTPではアクセスできないのでミスが許されない。
+最初のアクセスだけはHTTPでもできる。
+
 https://zenn.dev/famaryllis/articles/e8193ebe5057c7
 
 ## セキュリティヘッダの設定例
 
 ```
-"Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'"
-"Strict-Transport-Security": "max-age=31536000; includeSubDomains"
 "X-Frame-Options": "DENY"
 "X-Content-Type-Options": "nosniff"
 "Referrer-Policy": "strict-origin-when-cross-origin"
 "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
 ```
+
+開発中に確認する場合、本番モードで起動して、ブラウザの開発ツールからレスポンスヘッダーを見ると確認できる。

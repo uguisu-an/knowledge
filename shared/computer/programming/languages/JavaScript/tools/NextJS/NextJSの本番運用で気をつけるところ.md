@@ -3,7 +3,7 @@
 - エラーハンドリングのためのページを作る
   - `app/not-found.tsx`
   - `app/error.tsx`
-  - `app/global-error.tsx`
+  - `app/global-error.tsx`: `layout.tsx`でエラーが出そうな時だけでいい
 - パフォーマンスを向上させる (基礎)
   - 画像には`next/image`を使う
   - フォントには`next/font`を使う
@@ -17,6 +17,7 @@
 
 ## Tier 2
 
+- Server Componentsで処理できる部分はできるだけServer側で処理してクライアントバンドルを減らす
 - `<metadata>`の設定、特にtitle, description, OGP (外部向けの場合)
 - SEO対策 (一般向けの場合)
   - `app/sitemap.ts`
@@ -28,7 +29,6 @@
   - Sentry, OpenTelemetry, などを導入する
   - Vercel Analyticsを有効にする
 - 重いライブラリは`dynamic()`で遅延インポートする
-- Server Componentsで処理できる部分はできるだけServer側で処理してクライアントバンドルを減らす
 
 ## メモ
 
