@@ -52,3 +52,9 @@ FormDataを受け取ってデータベースに書き込む処理などをServer
 `global-error.jsx`なしで`layouts.jsx`がエラーになったら画面が真っ白になるかブラウザのデフォルトエラー画面になる。`layouts.jsx`の代わりになるページを`<html>`から書く。
 
 まずは`error.jsx`と`not-found.jsx`を用意する。
+
+## HTTPヘッダーを設定する
+
+基本的には`next.config.js`に書いて、`async headers()`関数でヘッダーの設定条件のリストを返せばいい。
+ヘッダーの設定条件としては、どこのパスでそのヘッダーを返すか設定する`source`と、その内容を設定する`headers`が最低限。
+https://nextjs.org/docs/pages/api-reference/config/next-config-js/headers
