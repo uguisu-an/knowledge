@@ -7,10 +7,11 @@
 ## References
 
 - Fun
-- Engagement
+- Trust
 
 その他:
 
 - Mood
 - Influence People
 - Business
+- Engagement
