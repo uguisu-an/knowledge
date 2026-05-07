@@ -14,6 +14,7 @@
 
 ## Keywords
 
+- 面倒
 - 情
 - 利
 - 害
@@ -27,9 +28,14 @@
 ## References
 
 - Mind
+- Attention
+
+その他:
+
 - Doing
 - Work
 - Trust
+- Exchange
 - Influence
 - Observation
 - Entertainment
