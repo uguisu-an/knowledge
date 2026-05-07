@@ -5,11 +5,14 @@
 
 ## References
 
-- Love
+- People
+- Attention
+- Engagement
 
 その他:
 
-- People
+- Love
+- Care
 - Trust
 - Credit
 - Business
