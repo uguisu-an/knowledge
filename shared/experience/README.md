@@ -2,12 +2,14 @@
 
 体験。
 
-## Reference
+## References
+
+- Information
+- Feeling
 
 - Story
 - Perception
 - Devotion
 - Action
 - Love
-- Feeling
 - Memory
