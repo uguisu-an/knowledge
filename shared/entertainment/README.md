@@ -6,11 +6,12 @@
 
 ## References
 
+- Care
 - Fun
-- Trust
 
 その他:
 
+- Trust
 - Mood
 - Influence People
 - Business
