@@ -22,3 +22,4 @@
 - Assertion
 - Achievement
 - Communication
+- Exchange
