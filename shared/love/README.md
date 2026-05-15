@@ -16,10 +16,12 @@
 
 - Hope
 - Care
+- Favor
+- Trust
 
 - Choice
 - Popular
-- Trust
 - Respect
+- Interest
 - Engagement
 - Intimacy

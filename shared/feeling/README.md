@@ -2,6 +2,7 @@
 
 体験を得る。
 
-## Reference
+## References
 
 - Experience
+- Impression
