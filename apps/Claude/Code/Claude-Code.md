@@ -31,3 +31,10 @@ https://qiita.com/teppei19980914/items/8da88b33ffa8cf88dfa2
 3. Skills
 4. Hooks
 5. Agents
+
+Claude Codeを使える場所:
+
+- CLI
+- IDE連携
+- デスクトップアプリ
+- ブラウザ
