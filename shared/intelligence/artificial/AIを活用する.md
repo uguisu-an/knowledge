@@ -70,3 +70,8 @@ https://qiita.com/nogataka/items/43c01957fa1e54d9a079
 https://qiita.com/yamapiiii/items/cc2450f410b64329d275
 
 AIを活用するには、簡単な指示で複雑な作業ができるように洗練していくのが大事。エージェントを育てる。
+
+料理の画像を切り抜いて、
+綺麗に見えるように調整して、
+解像度を上げて、
+とか。
