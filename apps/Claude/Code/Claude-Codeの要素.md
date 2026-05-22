@@ -14,6 +14,9 @@ https://qiita.com/kyuko/items/77e9e022860b57e4bd4d
 全てのタスクに一貫した振る舞いを適用したいならルールを設定する。
 それぞれのタスクのコンテキストについてはスキルやサブエージェントとして定義する。
 
+巨大なルールはコンテキストウィンドウを圧迫しすぎる。
+最大でも100行程度に抑えて、Claudeが必要に応じて調べにいけるドキュメントやスキルを整備する。
+
 ## Skill
 
 指示の短縮形。
@@ -22,6 +25,9 @@ https://qiita.com/kyuko/items/77e9e022860b57e4bd4d
 Skillとして定義して、Slash Commandで呼び出す。
 
 https://code.claude.com/docs/ja/skills
+
+まずは公式のSkillを使えばいい。Pluginとして導入できる。
+https://github.com/anthropics/skills
 
 ## Hook
 
