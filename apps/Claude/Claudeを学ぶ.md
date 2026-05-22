@@ -11,3 +11,6 @@ https://github.com/luongnv89/claude-howto
 https://zenn.dev/heku/books/claude-code-guide
 
 https://www.nxcode.io/ja/resources/news/claude-code-tutorial-beginners-guide-2026
+https://uravation.com/media/claude-code-beginners-guide-2026/
+
+わからないことはClaude自身に聞く。
