@@ -4,10 +4,10 @@
 
 ## References
 
+- Story
 - Information
 - Feeling
 
-- Story
 - Perception
 - Devotion
 - Action
