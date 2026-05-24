@@ -4,9 +4,10 @@
 
 ## References
 
-- Hope
 - Care
 - Mood
+
+- Hope
 - Love
 - Emotion
 - Communication
