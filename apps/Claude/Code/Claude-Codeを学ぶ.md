@@ -14,3 +14,7 @@ Plan ModeのClaudeは、利用者が同意するまで何もしない。
 ## To Doアプリを作ってみる
 
 https://www.theaiventure.com/claude-code-how-to-use/#toc10
+
+## その他
+
+公式チュートリアルの`/powerup`もある。
