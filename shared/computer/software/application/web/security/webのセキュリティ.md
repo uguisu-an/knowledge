@@ -7,6 +7,8 @@ https://cybersecurity-jp.com/column/102306
 
 公開後に https://securityheaders.com でURLを入力するとヘッダーを評価してくれる。Aランク以上を目指したい。
 
+DDoS攻撃や踏み台の対策は小さなサイトでも必須。
+
 ## 重要なセキュリティヘッダ
 
 - Content-Security-Policy: 実行できるスクリプトのホワイトリスト
