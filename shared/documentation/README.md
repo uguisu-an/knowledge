@@ -12,9 +12,10 @@
 
 ## References
 
+- Communication
+
 - Design
 - Information
-- Communication
 - Presentation
 - Versioning
 - Knowledge
