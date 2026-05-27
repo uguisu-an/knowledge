@@ -1,19 +1,19 @@
 # Execution
 
-何らかの処理を行なって、結果を得ること。
+結果を得ること。
 
 ## Keywords
 
 - 実行
-- 計画
-- 作業・処理
 - 結果
-- 資源
+- 処理
 
 ## References
 
 - Work
 - Trial
+- Decision
+- Action
 
 - Achievement
 - Management
