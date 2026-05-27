@@ -1,9 +1,8 @@
 # Recruitment
 
-人員を採用すること。
+人を集めて、選ぶこと。
 
-組織のメンバーを獲得すること。
+## References
 
-## Reference
-
+- Delegation
 - Organization
