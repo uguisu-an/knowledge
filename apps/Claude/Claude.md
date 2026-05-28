@@ -12,7 +12,6 @@ ClaudeはAI本体とは別に、Web検索して調べた結果も出せる。
 - 学習ツールとして活用
 
 https://x.com/masahirochaen/status/2017822734248751351
-https://qiita.us5.list-manage.com/track/click?u=e220ac811523723b60d055c87&id=e1bc932b81&e=a9919de28c
 https://zenn.dev/explaza/articles/a387d2bf1cb448
 
 何ができるか、アイデアを思いついたら、Claude自身に聞いてみよう。
@@ -50,3 +49,7 @@ Claudeは「委譲」の感覚が大事。
 知識はあるけど指示しないと動かない部下として扱う。指示と確認が大事で、なんならClaude自身が成果物を確認できるならレビューも任せていい。むしろClaudeがレビューできる環境を作るのが大事。
 
 もうコードは読み書きできなくていいのかも。Claudeに目を与えて、指示と確認だけ。
+
+Opus 4.7でやめるべき6つのこと。
+https://note.com/hacklog_stealth/n/n7fcd72490dd6
+https://qiita.us5.list-manage.com/track/click?u=e220ac811523723b60d055c87&id=e1bc932b81&e=a9919de28c
