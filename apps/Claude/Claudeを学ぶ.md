@@ -1,3 +1,7 @@
+1. 曖昧な指示を試してみる
+2. まずは同期的に確認しながら仕事を任せる
+3. 複数のプロセスを回してみる
+
 ## 資料
 
 公式サイト:
@@ -14,3 +18,9 @@ https://www.nxcode.io/ja/resources/news/claude-code-tutorial-beginners-guide-202
 https://uravation.com/media/claude-code-beginners-guide-2026/
 
 わからないことはClaude自身に聞く。
+
+## その他
+
+- 何を聞いてくるか
+- 何を自分で決めるか
+- どんな順序で作業するか
