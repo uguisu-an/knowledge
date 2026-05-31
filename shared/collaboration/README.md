@@ -2,7 +2,10 @@
 
 一緒に何かする。
 
-## Reference
+## References
+
+- Execution
+- Communication
 
 - Work
 - People
