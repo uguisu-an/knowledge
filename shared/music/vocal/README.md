@@ -6,7 +6,7 @@
 
 - Music
 - Voice
-- Poem
+- Language
 
 ## その他の関連
 
