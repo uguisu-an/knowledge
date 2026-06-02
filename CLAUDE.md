@@ -21,7 +21,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `apps/` — 具体的なアプリケーション別のノート（`Claude/`, `Google/`, `Vercel/` など）
 - `games/` — ゲーム別のノート
 - `tutorial/` — 学習順序や全体像をまとめた入口ドキュメント
-- `assets/img/` — 画像
 - `docs/` — リポジトリ自体に関するドキュメント（構成・書き方・整理方針・ツール）
 
 `docs/structure.md` の概念ツリーと `docs/folder-index.md` がカテゴリ体系の全体像。
