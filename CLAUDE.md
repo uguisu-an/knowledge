@@ -17,13 +17,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 トップレベルはコンテキストで分かれている:
 
-- `shared/` — 中核。144 個のトピックフォルダ（`development/`, `business/`, `health/` など）。フラットな構造を優先
+- `shared/` — 中核。132 個のトピックフォルダ（`development/`, `business/`, `health/` など）。フラットな構造を優先
 - `apps/` — 具体的なアプリケーション別のノート（`Claude/`, `Google/`, `Vercel/` など）
 - `games/` — ゲーム別のノート
 - `tutorial/` — 学習順序や全体像をまとめた入口ドキュメント
 - `assets/img/` — 画像
+- `docs/` — リポジトリ自体に関するドキュメント（構成・書き方・整理方針・ツール）
 
-`README.md` のアウトラインと `shared/フォルダの整理.md` がカテゴリ体系の全体像。
+`docs/structure.md` の概念ツリーと `docs/folder-index.md` がカテゴリ体系の全体像。
 フォルダ名は英語（`time/management/` のように一貫した階層なら可）、ファイル名は日本語が中心。
 
 ## ノートの書き方（重要な慣習）
@@ -35,7 +36,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - ノート間は `[[...]]` や相対パスリンクで繋がず、各ノートは独立。外部参照は通常のリンク（Amazon など）で記す
 - フォルダ直下の `README.md` はそのフォルダの定義。`概要文 → ## Keywords → ## Reference` の構成（`shared/development/README.md` が見本）
 
-## 整理の方針（README「For developers」より）
+## 整理の方針（詳細は `docs/organization.md`）
 
 - 参照先として位置が変わりにくいよう、構造はできるだけフラットに保つ
 - ただしコンテキストは必ず分ける
