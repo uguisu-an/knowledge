@@ -20,12 +20,19 @@ Claude Codeは会話を終えるとメモリリセットされるので、常に
 
 https://qiita.com/nogataka/items/0cd0851556572b4758ba
 
+## Slash Command
+
+ユーザーが呼び出せる拡張コマンド。
+`/clear`や`/usage`のような機能を自分で作れる。
+
 ## Skill
 
 指示の短縮形。
 特定のスコープやワーフクローに制限されたルールのように機能する。
 
 Skillとして定義して、Slash Commandで呼び出す。
+ただし、Claudeが勝手に呼び出すことがあるので、常に明示的に呼び出したいならスキルにはせずにコマンドだけ作るといい。
+まずはコマンドを作って、Claude側でうまいこと使って欲しいならスキルにする、という段階的な発展がおすすめ。
 
 https://code.claude.com/docs/ja/skills
 

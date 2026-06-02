@@ -1,3 +1,29 @@
+## インフラの選択肢
+
+- IaaS: 仮想サーバー (自分で環境を作成する)
+  - Amazon EC2
+  - Google Compute Engine
+  - Azure
+  - など
+- CaaS: コンテナの実行環境 (自分で環境を作成する)
+  - Google Cloud Run
+  - AWS ECS/Fargate
+  - など
+- PaaS: 環境一式
+  - Vercel
+  - Heroku
+  - Render
+  - Railway
+  - など
+- BaaS: 環境の一部をAPIで公開 (いわゆるサーバーレスの一種)
+  - Firebase
+  - Supabase
+  - Neon
+  - など
+- FaaS: 関数だけを実行 (いわゆるサーバーレスの一種)
+  - AWS Lambda
+  - など
+
 ## 配信のレベル
 
 大きく分けて4つのレベルがある。
