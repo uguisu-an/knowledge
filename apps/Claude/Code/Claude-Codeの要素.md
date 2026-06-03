@@ -20,6 +20,8 @@ Claude Codeは会話を終えるとメモリリセットされるので、常に
 
 https://qiita.com/nogataka/items/0cd0851556572b4758ba
 
+「制約」が重要。
+
 ## Slash Command
 
 ユーザーが呼び出せる拡張コマンド。
@@ -38,6 +40,9 @@ https://code.claude.com/docs/ja/skills
 
 まずは公式のSkillを使えばいい。Pluginとして導入できる。
 https://github.com/anthropics/skills
+
+明示的に呼ばなくても、文脈として持っていて欲しいものをスキルにする。コマンドというよりもルールに近い。
+実行能力を補う。Claudeがどういう作業をするときに、どういう手順で進めるべきか、を考える。「手順」が重要。
 
 ## Hook
 
@@ -66,6 +71,8 @@ https://github.com/anthropics/skills
 サブエージェントはプロジェクトを跨いで作る。
 
 https://code.claude.com/docs/ja/agents
+
+メインラインとは異なるルールを書く。
 
 ## Agent Teams
 
