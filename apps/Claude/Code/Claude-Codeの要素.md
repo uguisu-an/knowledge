@@ -73,6 +73,7 @@ https://github.com/anthropics/skills
 https://code.claude.com/docs/ja/agents
 
 メインラインとは異なるルールを書く。
+コンテキストを「あえて」共有しない。第三者機関がサブエージェントと考えるべきかも。プロジェクトの都合だけで動かずに、法律とか、別のコンテキストで判断して正論を言う。
 
 ## Agent Teams
 
