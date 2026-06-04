@@ -53,3 +53,6 @@ Claudeは「委譲」の感覚が大事。
 Opus 4.7でやめるべき6つのこと。
 https://note.com/hacklog_stealth/n/n7fcd72490dd6
 https://qiita.us5.list-manage.com/track/click?u=e220ac811523723b60d055c87&id=e1bc932b81&e=a9919de28c
+
+Claudeは、文脈を共有していない専門家だと思えばいい。
+プロジェクト固有のルールやスキルを説明せずに任せると、文脈に沿わない自己判断と正論が返ってくる。
