@@ -1,3 +1,5 @@
 # Claude Design
 
-Claude Designってもう一般で使えるのか？ワイヤーフレーム作れるようにしたい。
+https://claude.ai/design
+
+Claudeのチャットを使ってワイヤーフレームを作れるサービス。
