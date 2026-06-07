@@ -31,17 +31,3 @@ https://marketplace.visualstudio.com/items?itemName=damianbal.vs-phpclassgen
 ### PHP Debug
 
 https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug
-
-## Laravel
-
-### Laravel Artisan
-
-https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan
-
-### Laravel goto view
-
-https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view
-
-### Laravel Blade formatter
-
-https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter
