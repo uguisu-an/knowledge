@@ -45,6 +45,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## ファイル操作
 
 - ファイルの移動・リネームには `mv` でなく `git mv` を使う
+- ファイルの削除には `rm` でなく `git rm` を使う
 
 ## 整形ルール（.editorconfig）
 
