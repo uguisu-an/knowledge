@@ -1,4 +1,4 @@
-# Computer Engineering
+# Engineering
 
-- Computer
-- Engineering
+- Computer Engineering
+- Software Engineering
