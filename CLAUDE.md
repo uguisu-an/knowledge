@@ -42,6 +42,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 関連する情報はできるだけ近くに置く
 - Obsidian などのツールに依存せず、フォルダでシンプルに整理する（ツールは補助的に使う程度）
 
+## ファイル操作
+
+- ファイルの移動・リネームには `mv` でなく `git mv` を使う
+
 ## 整形ルール（.editorconfig）
 
 - インデントはスペース、通常 4、Markdown は 2
