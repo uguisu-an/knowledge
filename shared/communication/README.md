@@ -15,5 +15,10 @@
 
 - Expression
 - Presentation
+- Explanation
 - Documentation
 - Perception
+
+- Conversation
+- Discussion
+- Negotiation
