@@ -17,7 +17,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 トップレベルはコンテキストで分かれている:
 
-- `shared/` — 中核。132 個のトピックフォルダ（`development/`, `business/`, `health/` など）。フラットな構造を優先
+- `shared/` — 中核。132 個のトピックフォルダ（`development/`, `business/`, `health/` など）
 - `apps/` — 具体的なアプリケーション別のノート（`Claude/`, `Google/`, `Vercel/` など）
 - `games/` — ゲーム別のノート
 - `tutorial/` — 学習順序や全体像をまとめた入口ドキュメント
@@ -30,15 +30,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 新規ノートや編集時は既存ファイルのスタイルに合わせる:
 
-- 見出しは `# 日本語 English`（例: `# イノベーション Innovation`）の形式
-- 本文は短い段落を空行で区切った散文。箇条書きや表は最小限
 - ノート間は `[[...]]` や相対パスリンクで繋がず、各ノートは独立。外部参照は通常のリンク（Amazon など）で記す
-- フォルダ直下の `README.md` はそのフォルダの定義。`概要文 → ## Keywords → ## Reference` の構成（`shared/development/README.md` が見本）
+- フォルダ直下の `README.md` はそのフォルダの定義。`概要文 → ## Keywords → ## References` の構成（`shared/development/README.md` が見本）
+- 整形ルールは`@.editorconfig`に従う
 
 ## 整理の方針（詳細は `docs/organization.md`）
 
-- 参照先として位置が変わりにくいよう、構造はできるだけフラットに保つ
-- ただしコンテキストは必ず分ける
+- コンテキストを分ける
+- コンテキストのコンセプトはREADMEに概要として短くまとめる
 - 関連する情報はできるだけ近くに置く
 - Obsidian などのツールに依存せず、フォルダでシンプルに整理する（ツールは補助的に使う程度）
 
@@ -46,8 +45,3 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - ファイルの移動・リネームには `mv` でなく `git mv` を使う
 - ファイルの削除には `rm` でなく `git rm` を使う
-
-## 整形ルール（.editorconfig）
-
-- インデントはスペース、通常 4、Markdown は 2
-- 改行は LF、文字コードは UTF-8、行末の空白は除去

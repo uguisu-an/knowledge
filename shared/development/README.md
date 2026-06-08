@@ -13,7 +13,7 @@
 - 可能性
 - 遊び
 
-## Reference
+## References
 
 - Work
 - Success
