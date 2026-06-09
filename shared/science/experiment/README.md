@@ -8,7 +8,7 @@
 - 原因と結果
 - 刺激と反応
 
-## Reference
+## References
 
 - Logic
 - Science

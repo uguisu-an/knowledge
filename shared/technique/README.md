@@ -12,7 +12,7 @@
 - 習得
 - 伝承
 
-## Reference
+## References
 
 - Work
 - Achievement

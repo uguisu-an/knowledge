@@ -4,6 +4,6 @@
 
 いわゆる管理会計のような損益を分析する部分は finance で。
 
-## Reference
+## References
 
 - Finance

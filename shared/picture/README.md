@@ -6,6 +6,6 @@
 
 芸術でなくてもいい。
 
-## Reference
+## References
 
 - Visual Art

@@ -8,7 +8,7 @@
 - 魂
 - 欲
 
-## Reference
+## References
 
 - Work
 - Love

@@ -1,6 +1,6 @@
 # Risk Management
 
-## Reference
+## References
 
 - Work
 - Information

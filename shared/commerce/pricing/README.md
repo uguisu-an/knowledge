@@ -2,6 +2,6 @@
 
 価格をつける。
 
-## Reference
+## References
 
 - Economics

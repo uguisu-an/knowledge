@@ -4,7 +4,7 @@
 
 家族を増やすことを価値とする。
 
-## Reference
+## References
 
 - Community
 - Education

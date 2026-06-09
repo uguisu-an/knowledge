@@ -2,7 +2,7 @@
 
 生きて、幸せを感じること。
 
-## Reference
+## References
 
 - Life
 - Love

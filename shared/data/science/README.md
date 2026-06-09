@@ -2,7 +2,7 @@
 
 解析や統計の応用分野。
 
-## Reference
+## References
 
 - Science
 - Statistics

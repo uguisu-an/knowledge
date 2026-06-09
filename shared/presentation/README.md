@@ -2,7 +2,7 @@
 
 形式化された表現方法。
 
-## Reference
+## References
 
 - Communication
 - Expression

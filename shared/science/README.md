@@ -2,7 +2,7 @@
 
 法則を発見する。
 
-## Reference
+## References
 
 - Logic
 - System

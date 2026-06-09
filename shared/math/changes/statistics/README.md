@@ -2,7 +2,7 @@
 
 データの数値的な特徴を理解すること。数理的に分析すること。
 
-## Reference
+## References
 
 - Math > Probability
 - Modeling

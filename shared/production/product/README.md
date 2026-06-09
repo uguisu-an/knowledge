@@ -2,7 +2,7 @@
 
 「製品」を成功させる。
 
-## Reference
+## References
 
 - Business
 - Marketing

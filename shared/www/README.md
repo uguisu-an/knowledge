@@ -4,7 +4,7 @@
 
 Web サービス、Web サイト、Web アプリなどの種類がある。
 
-## Reference
+## References
 
 - Software Development
 - Software Application Development

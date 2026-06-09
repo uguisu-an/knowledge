@@ -1,6 +1,6 @@
 # 正義 Justice
 
-## Reference
+## References
 
 - Engagement
 - Power

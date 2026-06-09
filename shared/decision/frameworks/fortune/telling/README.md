@@ -2,7 +2,7 @@
 
 占い
 
-## Reference
+## References
 
 - Decision
 - Story Telling

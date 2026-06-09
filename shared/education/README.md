@@ -11,7 +11,7 @@
 - 教育、教化
 - 教養
 
-## Reference
+## References
 
 - Culture
 - Communication

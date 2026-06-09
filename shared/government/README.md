@@ -4,7 +4,7 @@
 
 「他国」が存在する。
 
-## Reference
+## References
 
 - Community
 - Organization

@@ -2,7 +2,7 @@
 
 「モデル」を作る。
 
-## Reference
+## References
 
 - Perception
 - Thinking

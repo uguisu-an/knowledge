@@ -2,7 +2,7 @@
 
 仕事の実行単位。
 
-## Reference
+## References
 
 - Work
 - Community

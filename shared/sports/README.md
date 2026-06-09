@@ -2,7 +2,7 @@
 
 遊びや気晴らし。
 
-## Reference
+## References
 
 - Game
 - Entertainment

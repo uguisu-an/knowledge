@@ -2,7 +2,7 @@
 
 体系的な知識を伝えること。
 
-## Reference
+## References
 
 - Communication
 - Knowledge

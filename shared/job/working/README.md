@@ -1,6 +1,6 @@
 # Job Hunting
 
-## Reference
+## References
 
 - Corporation
 - Employment

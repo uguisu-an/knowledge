@@ -7,7 +7,7 @@
 - 経済
 - 景気
 
-## Reference
+## References
 
 - Science
 - Society

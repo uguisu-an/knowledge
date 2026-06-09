@@ -2,7 +2,7 @@
 
 ブランドを作る。
 
-## Reference
+## References
 
 - Love
 - Trust

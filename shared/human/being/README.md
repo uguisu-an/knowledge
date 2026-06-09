@@ -2,7 +2,7 @@
 
 存在、生存すること。
 
-## Reference
+## References
 
 - Luck
 - Care

@@ -2,7 +2,7 @@
 
 データベース
 
-## Reference
+## References
 
 - Computer
 - System

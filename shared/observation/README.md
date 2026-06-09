@@ -4,7 +4,7 @@
 
 変化を記録すること。
 
-## Reference
+## References
 
 - Change
 - Analytics

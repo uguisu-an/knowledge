@@ -2,6 +2,6 @@
 
 数学
 
-## Reference
+## References
 
 - Logic

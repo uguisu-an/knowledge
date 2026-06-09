@@ -2,6 +2,6 @@
 
 「機能させる」という意味。「手術」の意味もある。
 
-## Reference
+## References
 
 - Resource

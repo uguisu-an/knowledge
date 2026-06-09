@@ -11,7 +11,7 @@
 - 容量
 - 負荷
 
-## Reference
+## References
 
 - Work
 - Achievement

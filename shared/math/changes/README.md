@@ -9,7 +9,7 @@
 - 級数
 - 測度
 
-## Reference
+## References
 
 - 級数
 - ベクトル

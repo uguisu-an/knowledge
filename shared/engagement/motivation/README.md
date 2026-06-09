@@ -1,5 +1,5 @@
 # Freedom
 
-## Reference
+## References
 
 - Decision

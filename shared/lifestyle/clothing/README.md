@@ -1,5 +1,5 @@
 # Clothing
 
-## Reference
+## References
 
 - Color

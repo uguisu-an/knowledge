@@ -1,6 +1,6 @@
 # Color Scheme
 
-## Reference
+## References
 
 - Light
 - Color

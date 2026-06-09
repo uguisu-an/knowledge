@@ -30,7 +30,7 @@
         - Table
       - Symbol
 
-## Reference
+## References
 
 - System
 - Art

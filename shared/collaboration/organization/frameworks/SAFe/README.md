@@ -1,6 +1,6 @@
 # SAFe: Scaled Agile Framework
 
-## Reference
+## References
 
 - OKR
 - Lean Product Development

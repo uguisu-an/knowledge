@@ -2,6 +2,6 @@
 
 回顧によって意思決定を助ける。
 
-## Reference
+## References
 
 - Decision

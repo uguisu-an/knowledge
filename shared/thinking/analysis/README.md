@@ -2,7 +2,7 @@
 
 分析という行為。
 
-## Reference
+## References
 
 - Thinking
 - Feeling
