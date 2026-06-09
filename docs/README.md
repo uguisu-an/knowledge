@@ -9,6 +9,7 @@
 - [structure.md](structure.md) — ディレクトリ構成（トップレベルと `shared/` の役割、概念ツリー）
 - [conventions.md](conventions.md) — ノートの書き方の慣習
 - [organization.md](organization.md) — 整理の方針（フラット・文脈分離・統廃合）
+- [reorganization.md](reorganization.md) — 整理の進め方（retree / recat の役割分担と順番）
 - [folder-index.md](folder-index.md) — `shared/` 直下 132 フォルダの索引と一言定義
 - [tooling.md](tooling.md) — 整形・ツール（Prettier / Husky / EditorConfig）
 

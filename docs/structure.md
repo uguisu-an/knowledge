@@ -19,6 +19,11 @@
 フラットを優先するため、このツリーは「どう関連づけて考えているか」の参考であって、
 フォルダ階層と一対一に対応するわけではない。
 
+このツリーは各フォルダ README の `## References` を親子の手がかりに再構成する（手順は
+[reorganization.md](reorganization.md)）。References は親と関連が混在し方向も一定でないため、
+ツリーと食い違うことがある（例：下では `Talk > Conversation` だが、`talk` の README は
+`Conversation` を References しており親子が逆。こうした不整合は `/retree` で洗い出して直す）。
+
 - Being
   - Health
     - Diet
