@@ -2,7 +2,7 @@
 
 行動を選択すること。
 
-## References
+## Keywords
 
 - 判断、意思決定
 - 意識
