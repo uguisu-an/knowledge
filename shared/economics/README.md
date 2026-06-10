@@ -9,6 +9,8 @@
 
 ## References
 
-- Science
 - Society
-- Exchange
+
+- Trade
+- Commerce
+- Business

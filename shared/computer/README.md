@@ -1,6 +1,10 @@
 # Computer
 
-計算機
+## Keywords
+
+- コンピュータ
+- 計算機
+- 計算機科学
 
 ## Map
 
@@ -52,3 +56,4 @@
 
 - Machine
 - Information
+- Technology

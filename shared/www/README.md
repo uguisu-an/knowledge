@@ -1,10 +1,15 @@
-# Web Application Development
+# World Wide Web: WWW
 
-主にブラウザ向けの開発全般。
+## Keywords
 
-Web サービス、Web サイト、Web アプリなどの種類がある。
+- Web
+- Webサイト
+- Webサービス
+- Webアプリケーション
+- インターネット
+- ブラウザ
+- セッション
 
 ## References
 
-- Software Development
-- Software Application Development
+- Computer

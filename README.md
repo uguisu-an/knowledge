@@ -1,9 +1,12 @@
 # Knowledge
 
-日本語の個人ナレッジベース（約 9,000 個の Markdown ノート）。
+個人的なナレッジをまとめたもの。
 
-ノートは `shared/`（中核）・`apps/`・`games/`・`tutorial/` に置く。リポジトリ自体の
-構成・書き方・整理方針・ツールは [docs/](docs/) にまとめている。
+ナレッジそのものというよりも、領域の区分が特に重要。
+ネット上で検索できる細かい知識については検索方法やURLに譲っていい。
+
+ノートは `shared/`（中核）・`apps/`・`games/`・`tutorial/` に置く。
+リポジトリ自体の構成・書き方・整理方針・ツールは [docs/](docs/) にまとめている。
 
 - 構成 → [docs/structure.md](docs/structure.md)
 - ノートの書き方 → [docs/conventions.md](docs/conventions.md)

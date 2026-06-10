@@ -4,8 +4,7 @@
 
 ## References
 
-- Human Body
+- Body
+  - Throat
 - Sound
-- Breathing
-- Throat
-- Singing
+- Breath

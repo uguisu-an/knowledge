@@ -1,5 +1,0 @@
-## References
-
-- Health
-- Beauty
-- Lifestyle

@@ -8,3 +8,7 @@
 - 集中
 - 情熱
 - 忍耐
+
+## References
+
+- Attention

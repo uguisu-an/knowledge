@@ -8,3 +8,8 @@
 - シェア
 - 参入障壁
 - 独占
+
+## References
+
+- Commerce
+- Economy

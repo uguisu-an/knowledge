@@ -8,3 +8,7 @@
 - 想起
 - 短期記憶
 - 印象
+
+## References
+
+- Brain

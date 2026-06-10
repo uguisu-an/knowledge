@@ -7,7 +7,8 @@
 ## References
 
 - Trade
-- Economics
+- Economy
+
 - Engagement
 - Business
 - Communication
