@@ -5,6 +5,10 @@
 ## References
 
 - Logic
+
+その他:
+
 - System
 - Experience
+- Knowledge
 - Thinking

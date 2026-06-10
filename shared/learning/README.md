@@ -8,12 +8,13 @@
 
 ## References
 
+- Success
 - Information
 - Decision
-- Thinking
 
 その他:
 
+- Thinking
 - Work
 - Information
 - Perception

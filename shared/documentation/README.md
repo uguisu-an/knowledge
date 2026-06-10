@@ -8,11 +8,19 @@
 
 ## Keywords
 
-- 文書、書類
+- 文書・書類
+- 改訂
+- 版
+- 見出し
+- 章立て
+- 索引
+- 目次
 
 ## References
 
 - Communication
+
+その他:
 
 - Design
 - Information

@@ -1,0 +1,149 @@
+## 概念
+
+- System
+- Energy
+
+## 存在の軸
+
+- World
+  - Earth
+  - Nature
+    - Fauna
+    - Flora
+  - Technology
+    - Machine
+    - Computer
+      - WWW
+      - Development
+      - Engineering
+- Human
+  - Food
+    - Farming
+    - Cooking
+  - Life
+    - Health
+      - Diet
+      - Sleep
+      - Exercise
+      - Sex
+    - Wealth
+      - Home
+      - Money
+      - Community
+      - Security
+      - Possession
+  - Body
+    - Nerve
+      - Brain
+        - Memory
+    - Breath
+    - Voice
+    - Muscle
+    - Face
+    - Skin
+    - Mouth
+    - Teeth
+  - Mind
+    - Hope
+    - Love
+    - Duty
+    - Care
+    - Pain
+    - Mood
+      - Vibe
+    - Attention
+      - Devotion
+    - Intelligence
+- People
+  - Trust
+  - Respect
+  - Society
+    - Economy
+      - Market
+      - Gift
+      - Trade
+        - Service
+        - Business
+        - Commerce
+          - Sales
+          - Marketing
+            - Branding
+      - Production
+        - Engineering
+      - Consumption
+      - Entertainment
+        - Hobby
+        - Leisure
+          - Sports
+    - Community
+      - Family
+      - Team
+      - Organization
+        - Government
+          - Law
+        - Recruitment
+        - Employment
+      - Culture
+        - Education
+          - Religion
+        - Fashion
+      - Engagement
+
+## 認知と活動の軸
+
+- Perception
+  - Knowledge
+    - Information
+    - Communication
+      - Media
+        - Video
+        - Audio
+        - Picture
+        - Language
+    - Documentation
+  - Experience
+    - Feeling
+- Activity
+  - Success
+    - Trial
+      - Time
+    - Learning
+      - Observation
+      - Decition
+      - Action
+    - Training
+    - Coaching
+  - Work
+    - War
+    - Art
+    - Job
+    - Performance
+      - Speed
+      - Cost
+    - Finance
+    - Execution
+      - Estimating
+      - Programming
+    - Delegation
+      - Collaboration
+  - Test
+  - Achievement
+  - Management
+  - Development
+  - Transportation
+
+## 学問
+
+- Science: 科学
+  - Math
+  - Physics
+  - Biology
+  - Chemistry
+  - Philosophy
+    - Aesthetics
+    - Ethics
+    - Politics
+  - Linguistics
+  - Economics
+- Mystery (神秘)
+  - Theology (神学)

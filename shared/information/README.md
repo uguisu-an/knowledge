@@ -9,12 +9,12 @@
 ## References
 
 - Decision
+- Communication
+- Learning
 
 その他:
 
-- Decision
 - Observation
-- Communication
 - Documentation
 - Learning
 - Knowledge

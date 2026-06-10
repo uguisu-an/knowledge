@@ -11,7 +11,6 @@
 ## References
 
 - Work
-- Game
-  - Competitive
+- Game/Competitive
 - Business
 - Technique

@@ -1,15 +1,20 @@
 # Decision
 
-行動を選択すること。
+行動を決めること。
+行動の順序を決める領域は計画づくりに任せる。
 
 ## Keywords
 
-- 判断、意思決定
+- 判断
+- 意思決定
 - 意識
+- 意思・意志
+- 意図
+- 意欲
+- 覚悟
+- 気力
 
 ## References
-
-とくに大きな依存先
 
 - Action
 - Choice
@@ -21,3 +26,4 @@
 - Learning
 - Information
 - Communication
+- Planning

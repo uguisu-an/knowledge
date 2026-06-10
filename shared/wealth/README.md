@@ -6,9 +6,13 @@
 
 - 財産
 - 福祉
+- 社会的地位
+- 貧困
+- 富
 
 ## References
 
+- Human
 - Well-being
 
 その他:

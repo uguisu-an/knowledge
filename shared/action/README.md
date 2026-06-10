@@ -24,3 +24,5 @@
 - Decision
 - Story
 - Execution
+- Learning
+- Test
