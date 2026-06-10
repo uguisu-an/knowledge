@@ -1,3 +1,12 @@
+# 概念マップ
+
+ナレッジ全体の概念マップ。
+
+フォルダ構造とは一致しない。
+概念としての境界や親子関係、兄弟関係を重視する。
+
+複数のクラスタに跨って重複して存在する概念もありうる。
+
 ## 重要な抽象概念
 
 - System
@@ -7,24 +16,26 @@
   - Energy
     - Performance
       - Work
+        - Technique
       - Rest
     - Resource
-      - Ficnance
+      - Maintenance
+      - Finance
   - History
   - Influence
 
-## 存在の軸
+## Presence
 
 - Human
   - Life
     - War
     - Job
+  - Game
   - Body
-    - Nerve
-      - Brain
-        - Memory
+    - Brain
+    - Voice
+    - Breath
   - Mind
-    - Game
     - Hope
     - Love
     - Care
@@ -32,6 +43,8 @@
     - Pain
     - Mood
       - Vibe
+    - Choice
+    - Memory
     - Attention
       - Devotion
 - World
@@ -45,12 +58,13 @@
       - Community
         - Team
         - Family
+        - Friend
         - Organization
           - Corporation
         - Government
           - Law
 
-## Intelligence
+## Intelligence & Perception
 
 - Knowledge
   - Information
@@ -66,16 +80,16 @@
   - Documentation
 - Experience
   - Feeling
+    - Satisfaction
     - Perception
-    - Expression
-      - Emotion
-    - Impression
+      - Image
+        - Expression
+        - Impression
   - Thinking
-  - Learning
-    - Observation
-    - Decision
-    - Action
-  - Training
+    - Question
+    - Design
+      - Story
+      - Logic
 
 ## Success
 
@@ -94,7 +108,15 @@
   - Time
   - Finance
 - Development
-  - Network
+  - Learning
+    - Study
+    - Observation
+    - Decision
+      - Planning
+    - Action
+  - Training
+  - Coaching
+    - Teaching
 
 ## Well-being
 
@@ -105,17 +127,16 @@
     - Farming
     - Cooking
   - Exercise
+  - Satisfaction
 - Wealth
   - Money
-  - Beauty
-    - Cosmetics
   - Relations
     - Love
-    - Favor
-    - Trust
-    - Trick
+      - Favor
+      - Trust
     - Respect
     - Care
+    - Help
     - Mood
       - Peace
       - Humor
@@ -134,6 +155,7 @@
       - Pet
   - Sex
     - Dating
+  - Popular
 
 ## Lifestyle
 
@@ -144,6 +166,8 @@
   - Cleaning
   - Moving
 - Hobby
+- Beauty
+  - Cosmetics
 - Transportation
 
 ## Economy
@@ -201,9 +225,9 @@
 - Information
   - Data
   - Idea
-    - Thinking
 - Communication
   - Network
+    - Meeting
   - Media
     - Video
     - Audio
@@ -212,15 +236,15 @@
     - Body Language
     - Text
     - Emotion
-  - examples
-    - Conversation
-      - Talk
-    - Documentation
-    - Assertion
-    - Discussion
-    - Explanation
-    - Negotiation
-    - Presentation
+  - Trick
+  - Conversation
+    - Talk
+  - Documentation
+  - Assertion
+  - Discussion
+  - Explanation
+  - Negotiation
+  - Presentation
 
 ## Technology & Engineering
 
@@ -228,15 +252,15 @@
   - Machine
     - Computer
       - WWW
-      - Development
-      - Engineering
+      - AI
+      - Computer Engineering
+      - Software Development
 - Engineering
+  - Manufacturing
+    - Automation
 
 ## Art & Design
 
-- Image
-  - Expression
-  - Impression
 - Art
   - Music
     - Song

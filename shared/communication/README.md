@@ -4,8 +4,10 @@
 
 ## Keywords
 
-- 媒体・メディア
-- 経路・チャネル
+- ネットワーク
+- 接触
+- 接触経路
+- 媒体
 - 内容・コンテンツ
 - 文脈・コンテキスト
 
@@ -18,10 +20,8 @@
 - Explanation
 - Documentation
 - Perception
-
 - Conversation
 - Discussion
 - Negotiation
 - Meeting
-
 - Body Language
