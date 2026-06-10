@@ -4,5 +4,4 @@
 
 ## References
 
-- Change
 - Time

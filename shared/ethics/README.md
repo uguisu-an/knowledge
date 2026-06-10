@@ -7,4 +7,4 @@
 - Human
 - People
 - Society
-- Phylosophy
+- Philosophy

@@ -15,7 +15,6 @@
 - Communication
 - Language
 
-- Talk
 - Mood
 - Trust
 - Music

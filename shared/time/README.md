@@ -6,5 +6,4 @@
 
 - Success
 - Change
-- Time
 - Management
