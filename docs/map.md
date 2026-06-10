@@ -19,33 +19,30 @@
       - Engineering
 - Human
   - Life
+    - Home
+      - Dwelling
+        - Cleaning
+        - Moving
+      - Family
+        - Marriage
+        - Children
+        - Pet
     - Sleep
     - Food
       - Farming
       - Cooking
     - Sex
       - Dating
+    - Transportation
     - Health
       - Diet
       - Exercise
     - Wealth
-      - Home
       - Money
       - Community
       - Security
       - Possession
-      - Transportation
   - Body
-    - Nerve
-      - Brain
-        - Memory
-    - Breath
-    - Voice
-    - Muscle
-    - Face
-    - Skin
-    - Mouth
-    - Teeth
   - Mind
     - Hope
     - Love
@@ -135,6 +132,12 @@
 - Job
 - Achievement
 - Management
+  - Product
+  - Task
+  - Project
+  - Risk
+  - Time
+  - Finance
 - Development
 
 ## 学問
