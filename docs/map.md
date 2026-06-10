@@ -1,7 +1,8 @@
-## 概念
+## 重要な抽象概念
 
 - System
 - Energy
+  - Resource
 
 ## 存在の軸
 
@@ -17,21 +18,23 @@
       - Development
       - Engineering
 - Human
-  - Food
-    - Farming
-    - Cooking
   - Life
+    - Sleep
+    - Food
+      - Farming
+      - Cooking
+    - Sex
+      - Dating
     - Health
       - Diet
-      - Sleep
       - Exercise
-      - Sex
     - Wealth
       - Home
       - Money
       - Community
       - Security
       - Possession
+      - Transportation
   - Body
     - Nerve
       - Brain
@@ -60,6 +63,7 @@
   - Society
     - Economy
       - Market
+      - Money
       - Gift
       - Trade
         - Service
@@ -89,49 +93,49 @@
         - Fashion
       - Engagement
 
-## 認知と活動の軸
+## 認知 (Perception) の軸
 
-- Perception
-  - Knowledge
-    - Information
-    - Communication
-      - Media
-        - Video
-        - Audio
-        - Picture
-        - Language
-        - Text
-    - Documentation
-  - Experience
-    - Feeling
-- Activity
-  - Success
-    - Trial
-      - Time
-    - Learning
-      - Observation
-      - Decition
-      - Action
-    - Training
-    - Coaching
-  - Work
-    - War
-    - Art
-    - Job
-    - Performance
-      - Speed
-      - Cost
-    - Finance
-    - Execution
-      - Estimating
-      - Programming
-    - Delegation
-      - Collaboration
-  - Test
-  - Achievement
-  - Management
-  - Development
-  - Transportation
+- Knowledge
+  - Information
+  - Communication
+    - Media
+      - Video
+      - Audio
+      - Picture
+      - Language
+      - Text
+  - Documentation
+- Experience
+  - Feeling
+  - Thinking
+  - Learning
+    - Observation
+    - Decision
+    - Action
+  - Training
+
+## 活動 (Activity) の軸
+
+- Success
+  - Trial
+    - Time
+- Work
+  - Performance
+    - Speed
+    - Cost
+  - Finance
+  - Execution
+    - Estimating
+    - Programming
+  - Delegation
+    - Collaboration
+- Test
+- War
+- Art
+- Job
+- Achievement
+- Management
+- Development
 
 ## 学問
 
