@@ -1,9 +1,7 @@
 # Language
 
-言葉。
-
-メディアの一種。
+言葉。メディアの一種。
 
 ## References
 
-- Communication
+- Communication/Media

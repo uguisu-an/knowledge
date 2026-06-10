@@ -100,6 +100,7 @@
         - Audio
         - Picture
         - Language
+        - Text
     - Documentation
   - Experience
     - Feeling
