@@ -8,3 +8,9 @@
 - 知恵
 - 知覚
 - 無知
+
+## References
+
+- Mind
+- Knowledge
+- Experience

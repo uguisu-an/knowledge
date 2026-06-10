@@ -7,3 +7,7 @@
 - 痛み
 - 心の痛み
 - 同情
+
+## References
+
+- Mind
