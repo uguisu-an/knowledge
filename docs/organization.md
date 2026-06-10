@@ -14,15 +14,26 @@
 - 固有名詞（製品・作品など）は概念フォルダと分ける。`apps/`（製品）・`games/`（ゲーム）がその例
 - フォルダを追加・統廃合したら [folder-index.md](folder-index.md) も必ず更新する
 
-## 概念ツリーと References
+## 概念マップと References
 
-- 概念ツリー（[structure.md](structure.md)）はフォルダ階層と一対一ではない。**親子は
+- 概念マップ（[map.md](map.md)）はフォルダ階層と一対一ではない。手作業で保守する。**親子は
   フォルダのネストでなく README の `## References` で表す**。「A は B の一部」は、フォルダを
   入れ子にせず A の README が B を References して示す。例：`talk` は `conversation` の子だが、
   トップレベルの兄弟フォルダのまま References で親子を表現している。
 - `## References` は「親」だけでなく「関連」も混在しうる。方向が一定でなく循環もある
-  （`talk`↔`conversation`）。ツリーを読むときは親子（含意）と兄弟（関連）を区別する。
-- 整理スキル（`/retree`・`/recat`）の役割分担と使う順番は [reorganization.md](reorganization.md)。
+  （`talk`↔`conversation`）。マップを読むときは親子（含意）と兄弟（関連）を区別する。
+
+## 整理スキル `/recat`
+
+フォルダの区分（サブフォルダの分け方）を中身ベースで見直すスキル。`.claude/commands/recat.md`
+にあり `/recat <フォルダパス>` で呼ぶ。
+
+- **recat はノートの中身**を見る。フォルダ名の建前ではなく、実際に書かれている主題で
+  まとまりを作り直す。実際に `git mv` で動かすのは recat の承認フローだけ。
+- **提示で一度止まり、承認前に書き込まない**。`## References` の削除は追加と違い、
+  必ず Before → After に明示して承認を得る。
+- recat が作業中に見つけた「隣を排除する1行定義」などの一般則は、この organization.md に
+  追記して次回の再現性を上げる。
 
 ## 公開前提
 

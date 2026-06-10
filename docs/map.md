@@ -1,6 +1,6 @@
 # 概念マップ
 
-ナレッジ全体の概念マップ。
+ナレッジ全体の概念マップ。手作業で保守する。
 
 フォルダ構造とは一致しない。
 概念としての境界や親子関係、兄弟関係を重視する。
@@ -10,6 +10,7 @@
 ## 重要な抽象概念
 
 - System
+  - Game
 - Change
   - Risk
   - Time
@@ -28,9 +29,6 @@
 
 - Human
   - Life
-    - War
-    - Job
-  - Game
   - Body
     - Brain
     - Voice
@@ -38,11 +36,15 @@
   - Mind
     - Hope
     - Love
-    - Care
+      - Favor
+      - Trust
     - Duty
     - Pain
     - Mood
-      - Vibe
+      - Peace
+      - Humor
+        - Joke
+    - Vibe
     - Choice
     - Memory
     - Attention
@@ -54,6 +56,8 @@
     - Flora
   - People
     - Society
+      - War
+      - Job
       - Economy
       - Community
         - Team
@@ -69,14 +73,6 @@
 - Knowledge
   - Information
   - Communication
-    - Media
-      - Video
-      - Audio
-      - Picture
-      - Language
-      - Text
-    - Art
-    - Design
   - Documentation
 - Experience
   - Feeling
@@ -107,6 +103,8 @@
   - Risk
   - Time
   - Finance
+  - Logistics
+    - Delivery
 - Development
   - Learning
     - Study
@@ -131,16 +129,9 @@
 - Wealth
   - Money
   - Relations
-    - Love
-      - Favor
-      - Trust
     - Respect
     - Care
     - Help
-    - Mood
-      - Peace
-      - Humor
-        - Joke
   - Community
     - Family
   - Security
@@ -194,17 +185,6 @@
   - Leisure
     - Sports
 
-## Business & Management
-
-- Business
-  - Commerce
-    - Sales
-    - Marketing
-    - Branding
-- Management
-  - Logistics
-    - Delivery
-
 ## Community
 
 - Team
@@ -239,12 +219,14 @@
   - Trick
   - Conversation
     - Talk
-  - Documentation
   - Assertion
   - Discussion
   - Explanation
   - Negotiation
   - Presentation
+  - Art
+  - Design
+- Documentation
 
 ## Technology & Engineering
 

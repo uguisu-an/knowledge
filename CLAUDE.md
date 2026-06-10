@@ -23,7 +23,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `tutorial/` — 学習順序や全体像をまとめた入口ドキュメント
 - `docs/` — リポジトリ自体に関するドキュメント（構成・書き方・整理方針・ツール）
 
-`docs/structure.md` の概念ツリーと `docs/folder-index.md` がカテゴリ体系の全体像。
+`docs/map.md` の概念マップと `docs/folder-index.md` がカテゴリ体系の全体像。
 フォルダ名は英語（`time/management/` のように一貫した階層なら可）、ファイル名は日本語が中心。
 
 ## ノートの書き方（重要な慣習）

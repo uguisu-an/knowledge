@@ -57,8 +57,7 @@ argument-hint: 見直したいフォルダのパス（例 shared/computer/develo
    - 移動は `git mv`、削除は `git rm`（`mv`/`rm` は使わない）。
    - 空になったフォルダを片付ける。
    - 新フォルダ直下に README を用意する（`概要文 → ## Keywords → ## References` の構成）。
-   - `docs/folder-index.md` を更新する。トップレベル構成や概念ツリーに影響するなら
-     `docs/structure.md` も更新する。
+   - `docs/folder-index.md` を更新する。
    - **ノートの中身は断りなく書き換え・統合・削除しない**（移動と配置のみ）。
    - README の `## References` は追加がデフォルト。削除は手順7の提示に明示し承認を得る。
 9. **境界の決定を記録する**。今回引いた「隣を排除する1行定義」のうち、今後も迷いそうな
