@@ -6,3 +6,4 @@
 
 - Humor
 - Talk
+- Entertainment
