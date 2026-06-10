@@ -5,7 +5,11 @@
   - Risk
   - Time
   - Energy
+    - Performance
+      - Work
+      - Rest
     - Resource
+      - Ficnance
   - History
   - Influence
 
@@ -13,6 +17,8 @@
 
 - Human
   - Life
+    - War
+    - Job
   - Body
     - Nerve
       - Brain
@@ -55,6 +61,8 @@
       - Picture
       - Language
       - Text
+    - Art
+    - Design
   - Documentation
 - Experience
   - Feeling
@@ -69,30 +77,15 @@
     - Action
   - Training
 
-## 活動 (Activity) の軸
-
-- Success
-  - Trial
-    - Time
-- Work
-  - Performance
-    - Speed
-    - Cost
-  - Finance
-  - Execution
-    - Estimating
-    - Programming
-  - Delegation
-    - Collaboration
-- Rest
-- Test
-- War
-- Art
-- Job
-
 ## Success
 
 - Achievement
+  - Execution
+    - Estimating
+    - Programming
+    - Testing
+  - Delegation
+    - Collaboration
 - Management
   - Product
   - Task
@@ -101,22 +94,32 @@
   - Time
   - Finance
 - Development
-- Influence People
+  - Network
 
 ## Well-being
 
 - Health
   - Sleep
+  - Diet
   - Food
-    - Diet
     - Farming
     - Cooking
   - Exercise
-  - Clothing
 - Wealth
   - Money
   - Beauty
     - Cosmetics
+  - Relations
+    - Love
+    - Favor
+    - Trust
+    - Trick
+    - Respect
+    - Care
+    - Mood
+      - Peace
+      - Humor
+        - Joke
   - Community
     - Family
   - Security
@@ -132,18 +135,16 @@
   - Sex
     - Dating
 
-## Relations
+## Lifestyle
 
-- Love
-- Favor
-- Trust
-- Trick
-- Respect
-- Care
-- Mood
-  - Peace
-  - Humor
-    - Joke
+- Shopping
+- Clothing
+- Dining (Food)
+- Dwelling (Home)
+  - Cleaning
+  - Moving
+- Hobby
+- Transportation
 
 ## Economy
 
@@ -199,7 +200,10 @@
 
 - Information
   - Data
+  - Idea
+    - Thinking
 - Communication
+  - Network
   - Media
     - Video
     - Audio
@@ -218,28 +222,27 @@
     - Negotiation
     - Presentation
 
-## Technology
+## Technology & Engineering
 
 - Technology
   - Machine
-  - Computer
-    - WWW
-    - Development
-    - Engineering
-  - Transportation
+    - Computer
+      - WWW
+      - Development
+      - Engineering
 - Engineering
-
-## Work
-
-- War
-- Job
 
 ## Art & Design
 
+- Image
+  - Expression
+  - Impression
 - Art
   - Music
     - Song
     - Dance
+  - Movie
+  - Picture
 - Design
   - Modeling
     - Naming
@@ -247,7 +250,7 @@
 
 ## Study
 
-- Science: 科学
+- Science (科学)
   - Math
   - Physics
   - Biology
