@@ -19,7 +19,8 @@
 ## フォルダの統廃合
 
 - 中身が 0〜1 個のフォルダは作らない。意味の近いフォルダへ寄せる
-- フォルダを追加・統廃合したら [folder-index.md](folder-index.md) も必ず更新する
+- フォルダを追加・統廃合したら `/update-folder-index` を実行して [folder-index.md](folder-index.md) を再生成する
+- `folder-index.md` は手作業で編集しない（スキルで上書きされるため）
 - 概念マップ ([map.md](map.md)) とフォルダの構造は一対一にならない。手作業で保守する。
 
 ## フォルダの内容
@@ -27,6 +28,15 @@
 - `README.md` にそのフォルダに置かれる文脈の概要やキーワード、関連する概念を書く。
 - `## References` は「親」だけでなく「関連」も混在しうる。方向が一定でなく循環もある
   （`talk`↔`conversation`）。マップを読むときは親子（含意）と兄弟（関連）を区別する。
+
+## フォルダ索引の更新 `/update-folder-index`
+
+フォルダを追加・統廃合したあとに実行して `docs/folder-index.md` を再生成するスキル。
+`.claude/commands/update-folder-index.md` にあり `/update-folder-index` で呼ぶ。
+
+- `shared/`・`apps/`・`games/` の `README.md` を走査して説明を抽出し、索引を書き直す
+- `/keep` の実行時、配置先フォルダが存在しない場合は自動的に呼び出される
+- **`folder-index.md` は手作業で編集しない**。編集してもスキルの次回実行で上書きされる
 
 ## 整理スキル `/recat`
 

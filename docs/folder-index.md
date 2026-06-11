@@ -1,159 +1,335 @@
 # フォルダ索引
 
-ノートを配置するときの索引。トップレベルの構成と、`shared/` 直下に実在する 138
-フォルダの正規リスト（一言定義つき）をまとめる。フォルダを追加・統廃合したらこの
-一覧も更新する。概念のつながりは [map.md](map.md) を参照。
+ノートを置く場所を探すための索引。`README.md` があるフォルダを一行説明つきで列挙する。
+概念のつながりは [map.md](map.md) を参照。
 
-## トップレベル
+> **このファイルは手作業で編集しない。** フォルダを追加・統廃合したら `/update-folder-index` を実行して再生成する。
 
-コンテキストで分かれている。
+## トップレベルの使い分け
 
-- `shared/` — 中核。138 個のトピックフォルダ（`development/`, `business/`, `health/` など）。フラットな構造を優先。一覧は下の「shared 直下のフォルダ」
-- `apps/` — 具体的なアプリケーション別のノート（`Claude/`, `Google/`, `Vercel/` など）
-- `games/` — ゲーム別のノート
-- `tutorial/` — 学習順序や全体像をまとめた入口ドキュメント
-- `docs/` — リポジトリ自体に関するドキュメント（このフォルダ）
+- `shared/` — 汎用的な知識・概念。アプリやゲームに依存しない
+- `apps/` — 特定のアプリ・サービス固有のノート（使い方・設定・ワークフロー）
+- `games/` — 特定のゲーム固有のノート（攻略・戦略・ルール）
+- `tutorial/` — 学習の入口。全体像や学習順序をまとめたドキュメント
+- `docs/` — このリポジトリ自体に関するドキュメント（ここに一般ノートは追加しない）
 
-フォルダ名は英語（`time/management/` のように一貫した階層なら可）、ファイル名は日本語が
-中心。多くのフォルダには実践的なやり方をまとめた `tips/` がある。
+**apps/ と games/ の注意点**
 
-## shared 直下のフォルダ
+アプリ・ゲームに関する**汎用的な知識**（例：Git のバージョン管理の考え方、ゲームの心理学）は `shared/` へ。
+アプリ・ゲーム**固有**の情報（例：GitHub の PR 機能の使い方、SF6 のキャラ対策）は `apps/` または `games/` へ。
 
-- achievement — 実績を重ねる
-- action — 検証する
-- aesthetics — 美学
-- art — 工夫する
-- assertion — 自己開示する
-- attention — 注意を向ける
-- audio — 音声を扱う
-- biology — 生物
-- body-language — 身体を使った非言語コミュニケーション
-- breath — 呼吸する
-- business — 価値を提供する
-- care — 関心を持つ
-- change — 変化
-- chemistry — 化学
-- choice — 選ぶ
-- coaching — 成功させる
-- collaboration — 協力する（organization / team を含む）
-- commerce — 需要と供給を調整する、商売する
-- communication — 通信する
-- community — 共存する
-- computer — コンピュータ（software / programming / system / operation / science / engineering）
-- conversation — 会話する
-- cooking — 料理する
-- culture — 文化
-- dance — 踊る
-- data — データ
-- decision — 判断する
-- delegation — 任せる、委譲する
-- design — 境界を考える
-- development — 発達させる
-- devotion — 没頭する
-- discussion — 議論する
-- documentation — 記録を残す（revision を含む）
-- duty — 責務・義務
-- earth — 地球
-- economics — 経済
-- education — 文化を守る
-- emotion — 感情を表現する
-- employment — 従業員を雇う
-- engagement — パートナーになる
-- entertainment — 楽しませる
-- ethics — 倫理
-- exchange — 交換する
-- execution — 実行する
-- exercise — 運動する
-- explanation — 説明すること
-- experience — 体験
-- family — 家族
-- farming — 農業
-- fashion — 文化を作る
-- favor — 好意を示す、頼む
-- feeling — 感じる
-- finance — 収支を調整する
-- friend — 友人と仲良くする
-- game — 対戦する
-- gift — 贈り物をする
-- going — 出かける
-- government — 政府
-- health — 健康を保つ
-- help — 助ける
-- hobby — 趣味
-- home — 家庭
-- hope — 望む
-- human — 人間
-- humor — 笑わせる
-- influence — 影響を与える、説得する
-- information — 情報
-- intelligence — 知能、情報を扱う
-- job — 稼ぐ
-- joke — 冗談を言う
-- knowledge — 知識
-- learning — 学ぶ
-- language — 言葉
-- leisure — 義務から離れる
-- life — 命、生死
-- lifestyle — 生活
-- linguistics — 言語学
-- logic — 論理
-- logistics — 兵站
-- love — 愛する
-- management — 実現させる
-- market — 市場
-- math — 数学
-- meeting — 言葉やジェスチャーを使った直接的なコミュニケーション
-- memory — 記憶する
-- mood — 空気
-- music — 音楽する
-- negotiation — 利害が異なる相手と合意を形成すること
-- observation — 観察する
-- pain — 痛み
-- peace — 平和
-- people — 人々
-- perception — 認識する
-- philosophy — 哲学
-- physics — 物理
-- picture — 絵を描く
-- politics — 政治
-- popular — 人気を得る、流行
-- possession — 所有する
-- presentation — 形式化された表現方法
-- production — 生産する
-- question — 問う
-- recruitment — 採用する
-- religion — 信仰する
-- respect — 尊重する
-- rest — 休む
-- risk — 未知
-- satisfaction — 満足
-- science — 科学
-- security — 身を守る
-- service — もてなす、奉仕する
-- sex — セックスする
-- sleep — 眠る
-- society — 社会
-- sports — スポーツ
-- story — 体験を語る、物語
-- study — 学問を修める
-- success — 成功する
-- system — システム
-- talk — 話す
-- technique — 技術
-- technology — 科学技術
-- test — 合否を取る
-- text — 文章を書く・読む（reading / writing）
-- thinking — 考える
-- time — 時間
-- training — 訓練する
-- transportation — 運ぶ、移動する
-- trick — 騙す
-- trust — 信頼する
-- value — 価値
-- video — 映像
-- voice — 発声する
-- war — 戦う、敵対する
-- wealth — 福祉
-- work — 作用する
-- world — 世界
-- www — Web
+## apps/
+
+- `apps/Amazon/`
+- `apps/Apple/`
+- `apps/Attlasian/`
+- `apps/Blender/`
+- `apps/Canva/`
+- `apps/ChatGPT/` — ChatGPT
+- `apps/Claude/` — Claude AI
+- `apps/Clip-Studio/`
+- `apps/Coder/`
+- `apps/Codex/`
+- `apps/Figma/`
+- `apps/Git/` — Git バージョン管理
+- `apps/Git/tools/` — Git 関連ツール
+- `apps/GitHub/` — GitHub
+- `apps/GitHub/Actions/` — CI/CD サービス
+- `apps/GitLab/`
+- `apps/Google/`
+- `apps/Microsoft/`
+- `apps/Microsoft/Bing/AI/` — Bing AI
+- `apps/Microsoft/Copilot/` — GitHub Copilot
+- `apps/Midjourney/`
+- `apps/Notion/`
+- `apps/Photoshop/`
+- `apps/Selenium/`
+- `apps/Shopify/`
+- `apps/Slack/`
+- `apps/Twitter/`
+- `apps/Vercel/`
+- `apps/Visual-Studio-Code/` — Visual Studio Code
+- `apps/WordPress/`
+
+## games/
+
+情報量が少ないゲームは単一の `.md` ファイルで管理。サブフォルダがあるのは情報量が多いゲームのみ。
+
+- `games/Street-Fighter/` — ストリートファイター
+- `games/Street-Fighter/Six/` — SF6
+
+## shared/
+
+以下はすべて `shared/` からの相対パス。
+
+- `achievement/` — 成果と実績を積み重ねること
+- `achievement/growth/` — 良い方に変化すること
+- `achievement/problem/solving/` — 問題解決
+- `action/` — 状態を確定させること、検証すること、結果を得ること
+- `action/vibe/` — ノリや勢い
+- `aesthetics/` — 美学
+- `art/` — 表現のための探究
+- `assertion/` — 自分を知ってもらうこと
+- `attention/` — 注意を向けること。自分の注意の使い方と、他者の注意をひく・避けること
+- `audio/` — 録音した音
+- `beauty/` — 美容。自分を美しくすること
+- `biology/` — 生物。生存競争・生態・多様性・自然史など
+- `body-language/` — 身体を使った非言語コミュニケーション
+- `breath/` — 呼吸すること。呼吸法・深さ・息継ぎなど
+- `business/` — なんらかの活動を続けるためのマネジメント
+- `business/examples/` — スキルベースのビジネス
+- `care/` — 思いやり、情け
+- `change/` — 変化。物事が変わること、可塑性や変化への抵抗
+- `chemistry/` — 化学。化合物や化学式など、物質とその反応
+- `choice/` — 選ぶこと。選択肢の絞り方や選択のコスト・進め方
+- `coaching/` — 相手を成功させること
+- `collaboration/` — 一緒に何かする
+- `collaboration/organization/` — ある目的を達成するために集団を運営する
+- `collaboration/organization/frameworks/OKR/` — OKR フレームワーク
+- `collaboration/organization/frameworks/SAFe/` — SAFe フレームワーク
+- `collaboration/organization/hierarchy/` — 組織階層
+- `collaboration/team/` — 仕事の実行単位
+- `collaboration/team/frameworks/Scrum/artifacts/` — スクラムの成果物
+- `collaboration/team/frameworks/Scrum/events/` — スクラムイベント（スプリントなど）
+- `collaboration/team/frameworks/Scrum/roles/` — スクラムチームのロール
+- `commerce/` — 売買。需要と供給を結びつけること
+- `commerce/branding/` — ブランドを作る
+- `commerce/marketing/` — 需要を獲得・維持すること
+- `commerce/marketing/channels/` — 広告・SNS・検索などの流入経路
+- `commerce/marketing/research/frameworks/` — マーケティングリサーチのフレームワーク
+- `commerce/pricing/` — 価格をつける
+- `commerce/sales/` — 購買。売り込み。店と客の関係
+- `communication/` — 情報をやりとりすること
+- `community/` — 公共の利益を追求する共同体
+- `computer/` — コンピュータ全般
+- `computer/development/` — ソフトウェア製品を開発すること
+- `computer/development/application/` — アプリケーション開発
+- `computer/development/coding/` — コーディングの実践。命名・整形・品質・コードの整理
+- `computer/development/data/` — データの扱い方。値・日時・数値・永続化・削除
+- `computer/development/frameworks/Laravel/` — Laravel フレームワーク
+- `computer/development/frameworks/NextJS/` — Next.js フレームワーク
+- `computer/development/markup/languages/Markdown/` — Markdown
+- `computer/development/process/` — ソフトウェアをどう開発するか。プロセス・チーム・管理・環境
+- `computer/development/programming/` — プログラミング
+- `computer/development/programming/languages/` — プログラミング言語全般
+- `computer/development/programming/languages/Golang/` — Go 言語
+- `computer/development/programming/languages/Java/tools/` — Java ツール
+- `computer/development/programming/languages/JavaScript/` — JavaScript
+- `computer/development/programming/languages/JavaScript/tools/React/` — React
+- `computer/development/programming/languages/PHP/` — PHP
+- `computer/development/software/` — ソフトウェアとは何か。概念・特性・種類・構造
+- `computer/development/stylesheet/frameworks/TailwindCSS/` — Tailwind CSS
+- `computer/development/testing/` — ソフトウェアテスト
+- `computer/development/testing/tools/Postman/` — Postman
+- `computer/engineering/` — コンピュータエンジニアリング
+- `computer/engineering/quality/` — ソフトウェアの品質。不具合・障害・デグレの管理
+- `computer/engineering/requirements/` — 要件定義
+- `computer/infrastructure/` — コンピュータインフラ。サーバー・ネットワーク・構成管理・運用管理
+- `computer/infrastructure/configuration/tools/Ansible/` — Ansible
+- `computer/infrastructure/configuration/tools/Terraform/` — Terraform
+- `computer/infrastructure/tools/Node/` — Node.js
+- `computer/operation/` — コンピュータの操作。OS・ターミナル・周辺機器
+- `computer/science/` — 計算機科学・情報科学
+- `computer/science/paradigms/` — プログラミングパラダイム
+- `computer/system/` — コンピュータシステム
+- `computer/system/interface/api/GraphQL/` — GraphQL
+- `computer/system/interface/api/GraphQL/tools/Mesh/` — GraphQL Mesh
+- `conversation/` — 言葉を使ったコミュニケーション
+- `conversation/topics/` — 会話のトピック
+- `cooking/` — 料理すること。素材・道具・レシピと調理の要素
+- `cooking/recipes/meat/` — 肉料理レシピ
+- `cooking/recipes/staple/` — 主食レシピ
+- `corporation/` — 企業
+- `cosmetics/` — 化粧や化粧品
+- `culture/` — 文化。伝統と流行、人々が共有する様式
+- `dance/` — 踊ること。ジャンルや基本ステップ、身体による表現
+- `data/` — データそのものの性質と扱い方。構造設計・収集・加工・解析・永続化
+- `data/database/` — データベース
+- `data/database/engines/TinkerPop/` — Apache TinkerPop（グラフDB抽象レイヤー）
+- `data/science/` — 解析や統計の応用分野
+- `decision/` — 行動を決めること
+- `decision/frameworks/fortune/telling/` — 占い
+- `delegation/` — 委譲。実行を誰かに任せること
+- `delegation/monitoring/` — 監視や経過観察
+- `design/` — 設計。境界（インタフェース）を考えること
+- `design/visual/color/` — カラースキーム
+- `development/` — できなかったことをできるようにすること。発達させること
+- `devotion/` — 没頭すること。情熱・集中・忍耐と、それを支える環境
+- `diet/` — 食事療法
+- `discussion/` — 会話による集団の判断
+- `documentation/` — 情報を記録する
+- `documentation/revision/` — ドキュメントの改訂
+- `duty/` — 責務・義務
+- `dwelling/` — 住居
+- `economics/` — 消費と生産を調整する活動。経済
+- `education/` — 文化を伝えること
+- `education/mentoring/` — 手本を見せること
+- `emotion/` — 感情表現。感情と、客観的に観測できる感情表現の扱い
+- `emotion/examples/` — 感情の具体例
+- `emotion/examples/fun/` — 楽しみ・喜びの例
+- `employment/` — 従業員を雇うこと。給与・勤務時間・雇用主と従業員の関係
+- `engagement/` — 士気
+- `engagement/motivation/` — モチベーション
+- `entertainment/` — 娯楽、接待
+- `estimating/` — 目的達成に必要な手間・時間・費用を予測すること
+- `ethics/` — 倫理。他人の恨みを買わないこと
+- `execution/` — 結果を確定させること
+- `execution/project/` — プロジェクト実行
+- `exercise/` — 運動
+- `experience/` — 体験
+- `experience/topics/` — 体験のトピック
+- `explanation/` — 説明すること。説明の基礎・順序や説明資料の作り方
+- `expression/` — 表現やその技法
+- `family/` — 子育てのための共同体
+- `family/marriage/` — 結婚
+- `farming/` — 農業。作物・農地・収穫・害獣など
+- `fashion/` — 新しい文化やそれを作ること、育むこと
+- `favor/` — 好感、好意、恩恵
+- `feeling/` — 体験を得る
+- `finance/` — 財務
+- `finance/accounting/` — 会計（記録としての会計）
+- `finance/accounting/legal/tax/` — 税
+- `food/` — 食
+- `friend/` — 友人
+- `game/` — 複数の人間が参加する活動
+- `gift/` — 贈り物をすること。贈与の意味・機会・価値
+- `government/` — 国民の利益のための組織
+- `health/` — 健康
+- `help/` — 助けること。助けを求めない人への向き合い方も含む
+- `hobby/` — 趣味
+- `home/` — 家庭。安息が得られる場所としての概念的な部分
+- `hope/` — 欲。願い。希望
+- `human/` — 人類
+- `human/being/` — 存在、生存すること
+- `human/being/well/` — 生きて、幸せを感じること
+- `human/body/` — 人体。体を動かしたり鍛えたりすること
+- `human/body/brain/` — 脳。神経系の一部
+- `human/doing/` — 人間の行動全般
+- `human/mind/` — 心、精神
+- `humor/` — （とくにネガティブな）物事を笑いに変えること
+- `image/` — 想像、イメージ。心の中で思い描いたもの
+- `influence/` — 影響
+- `influence/people/` — 人を動かす
+- `information/` — 情報
+- `information/gathering/` — 情報収集
+- `intelligence/` — 知性。知ること・知恵・無知など
+- `intelligence/artificial/` — 人工知能（AI）
+- `job/` — 技術を用いる。稼ぐ
+- `job/working/` — 就職活動
+- `joke/` — 笑わせるための話
+- `knowledge/` — 知識
+- `knowledge/sharing/` — 知識共有
+- `language/` — 言葉。メディアの一種
+- `learning/` — 情報を得ること
+- `leisure/` — 余暇。Business でないこと
+- `leisure/examples/travel/` — 旅
+- `life/` — 命、生と死。生の意味・老い・死との向き合い方
+- `lifestyle/` — 食事・健康・睡眠・家屋などを総合的に扱うアプリケーション層
+- `lifestyle/clothing/` — 衣服
+- `lifestyle/shopping/` — 買い物
+- `linguistics/` — 言語学。音声・音韻・語用など、言語そのものを分析的に扱う
+- `logic/` — 物事の筋道や法則
+- `logistics/` — 兵站。必要な物資を必要な場所へ届ける流通の仕組み
+- `love/` — 対象の好きなところを探すこと。好きになろうとすること
+- `love/interesting/` — 関心を引くもの・こと
+- `management/` — 「なんとかする」こと
+- `management/maintenance/` — 維持・保守
+- `management/resources/` — 資源管理
+- `math/` — 数学
+- `math/changes/` — 解析学
+- `math/changes/probability/` — 確率論
+- `math/changes/statistics/` — データの数値的な特徴を理解すること
+- `math/changes/statistics/descriptive/` — 記述統計。標本の特徴を捉える
+- `math/changes/statistics/inferential/` — 推測統計。標本から全体の特徴を推定する
+- `meeting/` — 言葉やジェスチャーを使った直接的なコミュニケーション
+- `memory/` — 記憶すること。記憶を強める・思い出す方法
+- `money/` — 金。信頼の代わり。金融や通貨
+- `mood/` — 場の空気、機嫌、気分
+- `mood/making/` — ムード作り
+- `music/` — 音楽
+- `music/theory/` — 音楽理論
+- `music/vocal/` — 声楽、歌
+- `music/vocal/training/` — 歌の練習
+- `nature/` — 自然。人間以外の動植物
+- `nature/earth/` — 地球。自然や天気など、地球環境に関すること
+- `negotiation/` — 利害が異なる相手と合意を形成すること
+- `observation/` — 事象や現象から情報を得て、注意深く分析すること
+- `observation/framworks/retrospective/` — 振り返り（レトロスペクティブ）
+- `pain/` — 痛み。身体や心の痛みと、それへの同情や救い
+- `peace/` — 平和
+- `people/` — 個人の集まり
+- `people/bonding/` — 関係構築
+- `perception/` — 認識すること。知覚・認知の仕組みと、バイアスや視点・解像度
+- `perception/modeling/` — モデルを作る
+- `perception/modeling/languages/UML/` — UML
+- `philosophy/` — 哲学。根源的な問いについて考え、本質や意味を見つけようとすること
+- `physics/` — 物理。音・光・形・味などの物理的な側面と法則
+- `picture/` — 視覚芸術の表現方法
+- `planning/` — 行動の順序を決めること
+- `politics/` — 人々の間の利害を調整すること
+- `politics/authority/` — 正義・権威
+- `popular/` — 人気
+- `possession/` — 所有すること。所有・占有・共有の違い
+- `presentation/` — 形式化された表現方法
+- `production/` — 価値を生み出す
+- `production/product/` — 製品を成功させる
+- `programming/` — 実行できる計画（プログラム）を作ること
+- `question/` — 疑問を投げかける
+- `recruitment/` — 人を集めて、選ぶこと
+- `recruitment/interview/topics/` — 採用面接のトピック
+- `religion/` — 宗教。信仰と布教
+- `respect/` — 尊重すること。敬意・面子・侮辱
+- `rest/` — 休息
+- `risk/` — 未知。リスクや危機への備えと、成功確率・期待値・賭け
+- `risk/lucky/` — ラッキー・運
+- `risk/management/` — リスク管理
+- `satisfaction/` — 満足。満足と欠乏・不足・妥協
+- `science/` — 法則を発見する
+- `science/experiment/` — 因果関係を探る
+- `security/` — 危険や脅威から解放された状態を守り維持すること。認証・認可・防犯・災害対策
+- `service/` — サービスを提供・運営すること。もてなしから SRE / SLO まで
+- `sex/` — 生殖行為であり、身体的なコミュニケーションの一つ
+- `sex/dating/` — 恋愛
+- `sleep/` — 睡眠の質・量・環境・入眠など
+- `society/` — 社会、社交
+- `society/leadership/` — リーダーシップ
+- `sports/` — 遊びや気晴らし
+- `story/` — 物語
+- `story/telling/` — 物語を表現する方法論。物語の構造
+- `study/` — 学問を修めること。勉強・受験・大学・論文
+- `study/teaching/` — 体系的な知識を伝えること
+- `success/` — 試行によって目的の事象を得ること
+- `success/trial/` — 結果を得ること
+- `system/` — システム。仕組みのモデリングと、構築・運用・移行
+- `system/administration/` — システム管理
+- `system/operation/` — 機能させる
+- `talk/` — 言葉を使って情報を伝えること
+- `technique/` — 技術・技能。技術の習得・巧拙・伝承
+- `technology/` — 科学技術。IT などの技術製品や、科学を応用した技術
+- `technology/engineering/` — 科学技術を工業製品に応用する
+- `test/` — 合否を取ること。検定・試験・合格と失格
+- `text/` — 文章を書く・読むこと。文章の構成やリズム、文学
+- `text/writing/` — ライティング
+- `thinking/` — 推測によって情報を作る
+- `thinking/analysis/` — 分析という行為
+- `thinking/research/` — 新たな知識を発見するための活動
+- `time/` — 時間。時間の使い方や速度、過去・未来との向き合い方
+- `time/management/` — 限られた時間を有意義に過ごすこと
+- `trade/` — 価値の交換
+- `trade/market/` — 市場。シェア・参入障壁・独占・新規開拓
+- `training/` — 慣れること
+- `transportation/` — 運ぶ・移動すること。交通手段や乗り物
+- `trick/` — 誤った情報を与えることで、誤った判断をさせること
+- `trust/` — 頼りにすること。期待すること
+- `trust/intimacy/` — 親近感
+- `value/` — 価値。価値の根拠・基準・測り方と自己評価
+- `video/` — 映像。動画制作や映画など映像作品
+- `voice/` — 声
+- `voice/training/` — ボイストレーニング
+- `voice/training/issues/` — 避けるべき声の出し方
+- `war/` — 戦うこと、敵対。争い・戦争と、敵を作らない工夫
+- `wealth/` — 幸福を支える外的な部分
+- `work/` — 作用、機能
+- `work/performance/` — 仕事を進める、終わらせる
+- `world/` — 世界。主観的に認知する世界と、ただそこにある世界
+- `www/` — World Wide Web
