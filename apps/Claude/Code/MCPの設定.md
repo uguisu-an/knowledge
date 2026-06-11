@@ -13,8 +13,8 @@
 Claude CodeのプラグインやMCPサーバー
 https://qiita.com/shatolin/items/ca1810e419fee5fd963b
 
-Context7: 各種ライブラリやフレームワークの最新情報
-Playwright MCP: ブラウザの操作
-GitHub MCP: GitHubの操作
-Claude-Mem: セッション間のコンテキストを圧縮して維持してくれるプラグイン
-Superpowers: 厳密な開発プロセスを組み込むプラグイン
+- Context7 MCP: 各種ライブラリやフレームワークの最新情報
+- Playwright MCP: ブラウザの操作
+- GitHub MCP: GitHubの操作
+- Slack MCP: Slackの操作
+- Gmail: Gmailの操作
