@@ -23,6 +23,8 @@
 - Work
 - Success
 - Execution
+- Trust
+- Credit
 
 - Management
 - Development
