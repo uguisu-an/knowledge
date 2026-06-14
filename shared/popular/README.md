@@ -19,3 +19,4 @@
 - Value
 - Society
 - Achievement
+- Game/Competitive
