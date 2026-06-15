@@ -54,3 +54,6 @@ AIでできることはあなたが思っているよりも広い。
 
 AIは人間のTaskを奪うがJobを奪うわけではない、とMicrosoftのAIトップが話していた。
 https://xenospectrum.com/microsoft-ai-suleyman-tasks-jobs-strategy/
+
+AIを使うことでそれまでやっていたことができなくなっても、頭が悪くなっているわけではない。
+できるために必要な工程が省略されて、情報が足りてない。
