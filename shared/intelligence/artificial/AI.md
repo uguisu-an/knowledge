@@ -51,3 +51,6 @@ AIで頭が悪くなるなら、同様に委譲を使っている管理職はみ
 
 AIでできることはあなたが思っているよりも広い。
 ただ、あなたの知識が足りないと使えない。あなた自身が試されている。
+
+AIは人間のTaskを奪うがJobを奪うわけではない、とMicrosoftのAIトップが話していた。
+https://xenospectrum.com/microsoft-ai-suleyman-tasks-jobs-strategy/
