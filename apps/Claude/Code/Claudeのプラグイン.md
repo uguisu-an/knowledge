@@ -2,7 +2,8 @@
 特にフック入りのプラグインは勝手に反応するので、導入するだけでセッションが重くなることもある。
 
 公式のプラグインとコミュニティのプラグインがある。
-まずは `claude-plugins-official` の中だけで探すといい。
+まずは `anthropics/claude-plugins-official` の中だけで探すといい。
+`anthropics/claude-plugins-community`のプラグインもプラグインを作る勉強にはなる。
 
 - まずは公式から
 - 自分の役に立つか
