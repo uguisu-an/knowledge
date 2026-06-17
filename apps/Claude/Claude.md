@@ -1,3 +1,9 @@
+# Claude
+
+https://claude.ai/
+
+Anthropic製のAIアシスタント。
+
 ClaudeはAI本体とは別に、Web検索して調べた結果も出せる。
 
 - 並列で3-5個同時に回せ
