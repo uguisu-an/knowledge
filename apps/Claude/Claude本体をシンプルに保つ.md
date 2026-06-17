@@ -16,6 +16,9 @@
   - 権限リクエスト自体をClaudeに検証させて自動承認させる
   - PreToolUseフックでスキルの使用回数を計測して動いてないスキルを見つける
 
+`settings.json`で設定できることはよく知っておく必要がある。都度Claudeに確認した方が簡単かも。
+https://code.claude.com/docs/ja/settings#when-edits-take-effect
+
 ## `CLAUDE.md`に残すもの
 
 - プロジェクトの概要 (1-2行程度)

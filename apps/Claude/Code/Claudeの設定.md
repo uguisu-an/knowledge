@@ -1,3 +1,5 @@
+https://code.claude.com/docs/ja/settings
+
 - Claude自体の設定ファイル
   - `.claude/settings.json`
   - `~/.claude/settings.json`
@@ -48,3 +50,13 @@ path-scoped rulesは必要に応じてそのパスだけで使われるという
 フックは`disableStopHook: boolean`や`disableAllHooks: boolean`などを設定すると後から無効にもできる。
 
 フックはagentごとに設定することもできる。agent definitionのhooksで設定する。
+
+`settings.json`に以下を追加すると、バリデーションが効く。
+
+```json
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json"
+}
+```
+
+最新リリースが含まれていない場合もあるので、バリデーションに失敗しても無効とは限らない。
