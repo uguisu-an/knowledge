@@ -44,3 +44,7 @@ path-scoped rulesは必要に応じてそのパスだけで使われるという
 スキルを使う場合は明示的にスラッシュコマンドで呼び出すのが確実。
 `/commit`, `/merge`, `/review`のようなスラッシュコマンドを用意しておく。
 ただ、"Stripeの決済機能実装"のようなスキルはプロンプトの中で使ってこそ意味がある。Claudeが使うかどうかを判断しやすいdescriptionを持たせるのが大事。トリガーのスコープを絞る。「Stripeの決済機能」ならトリガーがはっきりしてるけど、「コーディング全般」みたいなスコープになると見落としが多くなる。
+
+フックは`disableStopHook: boolean`や`disableAllHooks: boolean`などを設定すると後から無効にもできる。
+
+フックはagentごとに設定することもできる。agent definitionのhooksで設定する。

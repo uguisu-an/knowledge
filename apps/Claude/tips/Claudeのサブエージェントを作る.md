@@ -1,0 +1,1 @@
+- agent definitionのskillsにスキルを指定すると確実にプリロードされる。
