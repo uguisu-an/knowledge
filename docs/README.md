@@ -11,9 +11,3 @@
 - [organization.md](organization.md) — 整理の方針と進め方（フラット・文脈分離・統廃合・`/recat`）
 - [folder-index.md](folder-index.md) — トップレベル構成と `shared/` 直下 138 フォルダの索引
 - [tooling.md](tooling.md) — 整形・ツール（Prettier / Husky / EditorConfig）
-
-## このリポジトリの性質
-
-ソフトウェアプロジェクトではなく、日本語の個人ナレッジベース（約 9,000 個の Markdown
-ノート）。ビルドやテストは存在せず、ツールは Prettier による整形と Husky の pre-commit
-のみ。作業の中心は「ノートを書く・整理する」こと。
