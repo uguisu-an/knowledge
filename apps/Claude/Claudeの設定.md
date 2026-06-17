@@ -1,8 +1,18 @@
 https://code.claude.com/docs/ja/settings
 
+## 設定のスコープ
+
+- user: 全てのプロジェクトで共通の設定 (`~/.claude`)
+- project: 現在のプロジェクトでチームが使う設定 (`./.claude`)
+- local: 現在のプロジェクトで自分だけが使う設定 (`./.claude/settings.local.json`)
+- session: そのセッションだけ
+
+## その他
+
 - Claude自体の設定ファイル
   - `.claude/settings.json`
   - `~/.claude/settings.json`
+  - `~/.claude/settings.local.json`
 - ルール
   - `CLAUDE.md`: セッション開始時にコンテキストウィンドウに読み込まれる
   - `.claude/rules/*.md`: 指定したパスを読み込んだ時にコンテキストウィンドウに読み込まれる
@@ -13,6 +23,8 @@ https://code.claude.com/docs/ja/settings
 
 現在の権限設定は`/permissions`で確認できる。
 
+`/permissions`で設定した場合は`local`に置かれる。
+
 `CLAUDE.md`に書くべき情報:
 
 - プロジェクトの概要
@@ -21,11 +33,7 @@ https://code.claude.com/docs/ja/settings
 
 設定変更後はclaudeの再起動が必要。
 
-Claude Codeの設定のスコープにはuser, local, projectがある。ルール、スキル、プラグイン、MCPサーバー、などに影響する。
-
-- user: `~/.claude`
-- local: 現在のフォルダで自分だけが使う設定
-- project: 現在のフォルダでチームが使う設定
+Claude Codeの設定のスコープにはuser, local, project, sessionがある。ルール、スキル、プラグイン、MCPサーバー、などに影響する。
 
 `settings.json`とHooksだけは強制されるので、最も信頼できる。ルールやスキルはClaudeが無視する場合もある。
 

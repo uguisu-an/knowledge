@@ -22,3 +22,13 @@ claudeスキルを増やすと、使わないスキルでもdescriptionなどの
 公開されているスキルを導入するには、
 配布元をマーケットプレイスに登録してプラグイン機能で導入するか、
 単にローカルの.claude/skillsにファイルを置く。
+
+おすすめ:
+
+```
+/plugin install claude-code-setup@claude-plugins-official
+/plugin install claude-md-management@claude-plugins-official
+/plugin install skill-creator@claude-plugins-official
+/plugin install commit-commands@claude-plugins-official
+/plugin install frontend-design@claude-plugins-official
+```
