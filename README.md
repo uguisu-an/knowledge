@@ -13,3 +13,11 @@
 - 整理の方針 → [docs/organization.md](docs/organization.md)
 - 構成・フォルダ索引 → [docs/folder-index.md](docs/folder-index.md)
 - 整形・ツール → [docs/tooling.md](docs/tooling.md)
+
+## セットアップ
+
+```
+npm install
+```
+
+`npm install` 時に Husky が有効化され、コミット時に変更ファイルへ Prettier が自動で適用される。
