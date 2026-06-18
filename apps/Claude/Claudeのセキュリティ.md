@@ -49,6 +49,37 @@
 - `Bash(: > *)`
 - `Bash(mkfs *)`
 
+## Sandbox
+
+基本的にいつもサンドボックスで作業した方がいい。
+Claude Codeだとデフォルトで有効になっている。
+有効になってないなら`/sandbox`を使う。
+
+フォルダ内しか触らなくなるので、確認自体もオートモードでいい。
+
+サンドボックスの中でも、Claudeが外に出ようとすることがある。
+いちいち拒否するのは面倒なので、`settings.json`の`sandbox.allowUnsandboxedCommands`をfalseにするといい。
+
+接続先を`sandbox.network.allowedDomains`に設定する。
+
+サンドボックスをそもそも使えない環境ではClaude Code自体を起動しないようにするなら、`sandbox.failIfUnavailable`を`true`にする。
+
+`sandbox.filesystem`系の設定はプロジェクトの`settings.json`に置いた方がいい。
+
+```json
+{
+  "sandbox": {
+    "enabled": true,
+    "filesystem": {
+      "denyRead": ["~/"],
+      "allowRead": ["."]
+    }
+  }
+}
+```
+
+`kubectl`, `terraform`, `npm`などはフォルダ外に書き込む必要があるので個別に`allowWrite`で許可する。
+
 ## 資料
 
 https://zenn.dev/solvio/articles/27c06e4802aa45
