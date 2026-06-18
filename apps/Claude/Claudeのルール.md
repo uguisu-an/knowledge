@@ -20,3 +20,5 @@ https://code.claude.com/docs/ja/best-practices#効果的な-claude-md-を書く
 全てを明文化する必要がある。
 
 path-scoped rulesがいつ適用されているかは`/memory`で読み込まれているファイル一覧を見ると確認できる。
+
+余計なルールは削除しないと邪魔になる。
