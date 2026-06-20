@@ -9,6 +9,7 @@
 - インターネット
 - ブラウザ
 - セッション
+- URI/URL
 
 ## References
 
