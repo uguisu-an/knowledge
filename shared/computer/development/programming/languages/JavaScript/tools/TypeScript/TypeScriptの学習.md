@@ -18,3 +18,9 @@ TypeScript は JavaScript に静的な型を付けるもので、構文もほぼ
 [仕事ですぐに使える TypeScript](https://future-architect.github.io/typescript-guide/index.html)
 
 Utility Typeを使いこなすとTypeScript使いっぽいけど、いらないとこにも使いがち。
+
+遊びとして型を学ぶ型パズルというジャンルもある。
+https://zenn.dev/kagan/articles/typescript-practice
+https://github.com/type-challenges/type-challenges/blob/main/README.ja.md
+https://qiita.com/kkgwshm/items/eb1874cbdd19fed2d2f2
+https://mosya.dev/type-challenges
