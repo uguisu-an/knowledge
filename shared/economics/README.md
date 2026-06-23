@@ -9,8 +9,8 @@
 
 ## References
 
+- Trade
 - Society
 
-- Trade
 - Commerce
 - Business
