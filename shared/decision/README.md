@@ -22,6 +22,7 @@
 その他
 
 - Risk
+- Trust
 - Thinking
 - Learning
 - Information

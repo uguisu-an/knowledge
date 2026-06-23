@@ -12,3 +12,5 @@
 ## References
 
 - Decision
+- Trust
+- Favor
