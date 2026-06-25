@@ -11,6 +11,7 @@ Mac/iOS向けの画像生成ツール。
 
 App Storeからインストールできる。無料。
 
-1. アプリをインストールする
-2. モデルをダウンロードする
-3.
+## References
+
+- AI
+- Image Generation
