@@ -14,6 +14,7 @@
 - Love
 - Care
 - Trust
+- Favor
 - Credit
 - Business
 - Value
