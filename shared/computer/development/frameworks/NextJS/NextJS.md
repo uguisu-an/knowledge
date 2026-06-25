@@ -14,3 +14,5 @@ https://nextjs-ja-translation-docs.vercel.app/docs/getting-started
 特にページを移動してリビルドがかかったときなどに落ちがち。
 
 2026年時点ではNextのUIはshadcn/uiがメジャーになってるみたい。Radix UI + Tailwind CSSらしいけどそもそもRadix UI知らないんだが。
+
+2026-06時点の最新安定版は16.2。内部的にReactのバージョンは19.2。
