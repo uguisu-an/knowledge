@@ -5,6 +5,7 @@
 ## References
 
 - Care
+- Value
 - Trust
 - Image
 - Feeling
