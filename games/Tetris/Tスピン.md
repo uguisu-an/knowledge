@@ -1,0 +1,47 @@
+## シングル (TSS) の基本形
+
+```
+XXX__XXXXXX
+XXX___XXXXX
+```
+
+## ダブル (TSD) の基本形
+
+```
+XXX__XXXXXX
+XXX___XXXXX
+XXXX_XXXXXX
+```
+
+## トリプル (TST) の基本形
+
+```
+XXX__XXXXXX
+XXX___XXXXX
+XXXXX_XXXXX
+XXXX__XXXXX
+XXXXX_XXXXX
+```
+
+## ダブル・トリプル (DT) の基本形
+
+```
+__XXXXXXXX
+___XXXXXXX
+XX_XXXXXXX
+X__XXXXXXX
+X___XXXXXX
+XX_XXXXXXX
+XX_XXXXXXX
+```
+
+## トリプル・ダブル (TD) の基本形
+
+```
+XXXX__XXXX
+XXX___XXXX
+XXX_XXXXXX
+XXX__XXXXX
+XXX_XXXXXX
+XXXX_XXXXX
+```
