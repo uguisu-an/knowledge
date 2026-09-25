@@ -4,4 +4,8 @@
 
 ## References
 
+- Meaning
+- Naming
+- Modeling
 - Analytics
+
