@@ -6,3 +6,4 @@
 
 - Culture
 - Communication
+- Humor
